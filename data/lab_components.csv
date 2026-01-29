@@ -1,0 +1,2045 @@
+ingredient_code,component_order,inci_name_en,inci_name_kr,cas_number,composition_ratio,function,country_of_origin
+MAA-0001,1,Allantoin,알란토인,97-59-6,100,Skin Protectant,영국
+MAA-0002,1,Water,정제수,7732-18-5,59,Skin Conditioning Agent,
+MAA-0002,2,Butylene Glycol,부틸렌글라이콜,107-88-0,40,Skin Conditioning Agent,
+MAA-0002,3,Aloe Barbadensis Extract,알로에베라추출물,85507-69-3,1,Skin Conditioning Agent,
+MAA-0016,1,Chlorella Vulgaris Extract,클로렐라 불가리스추출물,-,0,Skin Conditioning Agent,일본
+MAA-0016,2,Paeonia Suffruticosa Root Extract,모란뿌리추출물,-,0,Skin Conditioning Agent,일본
+MAA-0016,3,Allium Sativum (Garlic) Bulb Extract,마늘추출물,8008-99-9,0,Skin Conditioning Agent,일본
+MAA-0016,4,Disodium Adenosine Triphosphate,다이소듐아데노신트라이포스페이트,987-65-5,0,Skin Conditioning Agent,일본
+MAA-0017,1,Arbutin,알부틴,497-76-7,100,Skin Conditioning Agent,대한민국
+MAA-0018,1,Angelica Keiskei Leaf/Stem Extract,신선초잎/줄기추출물,-,100,Skin Conditioning Agent,대한민국
+MAA-0020,1,Alpinia Katsumadae Fruit Extract,초두구열매추출물,-,100,Skin Conditioning Agent,대한민국
+MAA-0021,1,Adenosine,아데노신,58-61-7,100,Skin Conditioning Agent,중국
+MAA-0022,1,Hydrogenated Lecithin,하이드로제네이티드레시틴,92128-87-5,0,Skin Conditioning Agent,대한민국
+MAA-0022,2,Water,정제수,7732-18-5,0,Skin Conditioning Agent,대한민국
+MAA-0022,3,Glycerin,글리세린,56-81-5,0,Skin Conditioning Agent,대한민국
+MAA-0022,4,Dimethicone,다이메티콘,9006-65-9,0,Skin Conditioning Agent,대한민국
+MAA-0022,5,Sucrose Distearate,수크로오스다이스테아레이트,27195-16-0,0,Skin Conditioning Agent,대한민국
+MAA-0022,6,PEG-2M,피이지-2M,25322-68-3,0,Skin Conditioning Agent,대한민국
+MAA-0024,1,Water,정제수,7732-18-5,59.5,Skin Conditioning Agent,대한민국
+MAA-0024,2,Butylene Glycol,부틸렌글라이콜,107-88-0,30,Skin Conditioning Agent,대한민국
+MAA-0024,3,Glycerin,글리세린,56-81-5,5,Skin Conditioning Agent,대한민국
+MAA-0024,4,Robinia Pseudoacacia Flower Extract,아까시나무꽃추출물,-,5.5,Skin Conditioning Agent,대한민국
+MAA-0025,1,Water,,7732-18-5,55,Skin Conditioning Agent,대한민국
+MAA-0025,2,Butylene Glycol,,107-88-0,40,Skin Conditioning Agent,대한민국
+MAA-0025,3,Ginkgo Biloba Leaf Extract,은행나무잎추출물,90045-36-6,5,Skin Conditioning Agent,대한민국
+MAA-0026,1,Melissa Officinalis Leaf Extract,레몬밤잎추출물,7732-18-5,10,Skin Conditioning Agent,대한민국
+MAA-0026,2,Butylene Glycol,부틸렌글라이콜,107-88-0,40,Skin Conditioning Agent,대한민국
+MAA-0026,3,Water,정제수,84082-61-1,50,Skin Conditioning Agent,대한민국
+MAA-0027,1,Water,정제수,7732-18-5,90,Skin Conditioning Agent,대한민국
+MAA-0027,2,Butylene Glycol(40±4). Persea Gratissima (Avocado) Fruit Extract,,107-88-0,10,Skin Conditioning Agent,대한민국
+MAA-0028,1,Water,정제수,7732-18-5,50,Skin Conditioning Agent,대한민국
+MAA-0028,2,Butylene Glycol,부틸렌글라이콜,107-88-0,40,Skin Conditioning Agent,대한민국
+MAA-0028,3,Chamaecyparis Obtusa Leaf Extract,편백잎추출물,91745-97-0,3.5,Skin Conditioning Agent,대한민국
+MAA-0028,4,Pinus Densiflora Leaf Extract,소나무잎추출물,92202-05-6,3.5,Skin Conditioning Agent,대한민국
+MAA-0028,5,Pinus Sylvestris Bud Extract,구주소나무싹추출물,ㅡ,3,Skin Conditioning Agent,대한민국
+MAA-0029,1,Aloe vera ext.,,85507-69-3,95,Skin Conditioning Agent,대한민국
+MAA-0029,2,MALTO-DEXTRIN,,,5,Skin Conditioning Agent,대한민국
+MAA-0030,1,Water,정제수,84775-41-7,55,Skin Conditioning Agent,대한민국
+MAA-0030,2,Butylene Glycol,부틸렌글라이콜,,40,Skin Conditioning Agent,대한민국
+MAA-0030,3,Angelica Archangelica Root Extract,안젤리카뿌리추출물,,5,Skin Conditioning Agent,대한민국
+MAA-0031,1,Water,정제수,89957-48-2,57,Skin Conditioning Agent,대한민국
+MAA-0031,2,Butylene Glycol,부틸렌글라이콜,,40,Skin Conditioning Agent,대한민국
+MAA-0031,3,Pyrus Malus (Apple) Fruit Extract,사과추출물,,3,Skin Conditioning Agent,대한민국
+MAA-0032,1,Water,정제수,7732-18-5,84,Skin Conditioning Agent,대한민국
+MAA-0032,2,Butylene Glycol,부틸렌글라이콜,-,10,Skin Conditioning Agent,대한민국
+MAA-0032,3,Aronia Melanocarpa Fruit Extract,아로니아열매추출물,107-88-0,4,Skin Conditioning Agent,대한민국
+MAA-0032,4,"1,2-Hexanediol","1,2-헥산다이올",6920-22-5,2,Skin Conditioning Agent,대한민국
+MAA-0033,1,Water,정제수,7732-18-5,57,Skin Conditioning Agent,대한민국
+MAA-0033,2,Butylene Glycol,부틸렌글라이콜,107-88-0,40,Skin Conditioning Agent,대한민국
+MAA-0033,3,Harpagophytum Procumbens Root Extract,악마의발톱뿌리추출물,84988-65-8,3,Skin Conditioning Agent,대한민국
+MAA-0034,1,Water,정제수,7732-18-5,55,Skin Conditioning Agent,대한민국
+MAA-0034,2,Butylene Glycol,부틸렌글라이콜,107-88-0,40,Skin Conditioning Agent,대한민국
+MAA-0034,3,Ginkgo Biloba Leaf Extract,은행나무잎추출물,90045-36-6,5,Skin Conditioning Agent,대한민국
+MAA-0035,1,Water,정제수,7732-18-5,64.83,Skin Conditioning Agent,대한민국
+MAA-0035,2,Butylene Glycol,부틸렌글라이콜,107-88-0,30,Skin Conditioning Agent,대한민국
+MAA-0035,3,Glycerin,글리세린,56-81-5,5,Skin Conditioning Agent,대한민국
+MAA-0035,4,Lysine,라이신,56-87-1(L-),0.01,Skin Conditioning Agent,대한민국
+MAA-0035,5,Histidine,히스티딘,4998-57-6,0.01,Skin Conditioning Agent,대한민국
+MAA-0035,6,Arginine,알지닌,74-79-3(L-Form),0.01,Skin Conditioning Agent,대한민국
+MAA-0035,7,Aspartic Acid,아스파틱애씨드,56-84-8(L-Form),0.01,Skin Conditioning Agent,대한민국
+MAA-0035,8,Threonine,트레오닌,72-19-5(L-Form),0.01,Skin Conditioning Agent,대한민국
+MAA-0035,9,Serine,세린,56-45-1(L-Form),0.01,Skin Conditioning Agent,대한민국
+MAA-0035,10,Glutamic Acid,글루타믹애씨드,56-86-0 (L-),0.01,Skin Conditioning Agent,대한민국
+MAA-0035,11,Proline,프롤린,147-85-3(L-Form),0.01,Skin Conditioning Agent,대한민국
+MAA-0035,12,Glycine,글라이신,56-40-6,0.01,Skin Conditioning Agent,대한민국
+MAA-0035,13,Alanine,알라닌,56-41-7(L-Form),0.01,Skin Conditioning Agent,대한민국
+MAA-0035,14,Valine,발린,516-06-3 (DL-),0.01,Skin Conditioning Agent,대한민국
+MAA-0035,15,Methionine,메티오닌,63-68-3,0.01,Skin Conditioning Agent,대한민국
+MAA-0035,16,Isoleucine,아이소류신,443-79-8(DL-),0.01,Skin Conditioning Agent,대한민국
+MAA-0035,17,Leucine,류신,328-39-2(DL-),0.01,Skin Conditioning Agent,대한민국
+MAA-0035,18,Tyrosine,타이로신,60-18-4(L-Form),0.01,Skin Conditioning Agent,대한민국
+MAA-0035,19,Phenylalanine,페닐알라닌,63-91-2(L-Form),0.01,Skin Conditioning Agent,대한민국
+MAA-0035,20,Cysteine,시스테인,52-90-4(L-Form),0.01,Skin Conditioning Agent,대한민국
+MAA-0036,1,Ascorbic Acid,아스코빅애씨드,50-81-7,100,Skin Conditioning Agent,
+MAA-0037,1,Water,정제수,7732-18-5,50,Skin Conditioning Agent,대한민국
+MAA-0037,2,Butylene Glycol,부틸렌글라이콜,107-88-0,40,Skin Conditioning Agent,대한민국
+MAA-0037,3,Cynara Scolymus (Artichoke) Leaf Extract,아티초크잎추출물,84012-14-6,10,Skin Conditioning Agent,대한민국
+MAA-0038,1,water,정제수,7732-18-5,96,Skin Conditioning Agent,대한민국
+MAA-0038,2,"1,2-Hexanediol","1,2-헥산다이올",6920-22-5,3,Skin Conditioning Agent,대한민국
+MAA-0038,3,Houttuynia Cordata Extract,약모밀추출물,164288-50-0,1,Skin Conditioning Agent,대한민국
+MAA-0039,1,Water,정제수,7732-18-5,59.9,Skin Conditioning Agent,대한민국
+MAA-0039,2,Butylene Glycol,부틸렌글라이콜,107-88-0  55963-88-7,40,Skin Conditioning Agent,대한민국
+MAA-0039,3,Atelocollagen,아텔로콜라겐,,0.1,Skin Conditioning Agent,대한민국
+MAB-0004,1,Lactic Acid,락틱애씨드,50-21-5,100,Skin Conditioning Agent,
+MAB-0009,1,Water,정제수,7732-18-5,55,Skin Conditioning Agent,대한민국
+MAB-0009,2,Butylene Glycol,부틸렌글라이콜,107-88-0,40,Skin Conditioning Agent,대한민국
+MAB-0009,3,Nigella Sativa Seed Extract,블랙커민씨추출물,90064-32-7,5,Skin Conditioning Agent,대한민국
+MAB-0010,1,Water,정제수,7732-18-5,55,Skin Conditioning Agent,대한민국
+MAB-0010,2,Butylene Glycol,부틸렌글라이콜,107-88-0,40,Skin Conditioning Agent,대한민국
+MAB-0010,3,Adansonia Digitata Leaf Extract,바오밥나무잎추출물,91745-12-9,5,Skin Conditioning Agent,대한민국
+MAB-0011,1,Centella Asiatica Extract,병풀추출물,"84696-21-9
+107-88-0
+6920-22-5
+70445-33-9",87.9,Skin Conditioning Agent,대한민국
+MAB-0011,2,Butylene Glycol,부틸렌글라이콜,,10,Skin Conditioning Agent,대한민국
+MAB-0011,3,"1,2-Hexanediol","1,2-헥산다이올",,2,Skin Conditioning Agent,대한민국
+MAB-0011,4,Ethylhexylglycerin,에틸헥실글리세린,,0.1,Skin Conditioning Agent,대한민국
+MAB-0012,1,Water,정제수,84696-21-9,80,Skin Conditioning Agent,대한민국
+MAB-0012,2,Glycerin,,,8,Skin Conditioning Agent,대한민국
+MAB-0012,3,Butylene Glycol,부틸렌글라이콜,,7,Skin Conditioning Agent,대한민국
+MAB-0012,4,Centella Asiatica Extract,병풀추출물,,5,Skin Conditioning Agent,대한민국
+MAB-0013,1,Water,,7732-18-5,58,Skin Conditioning Agent,대한민국
+MAB-0013,2,Butylene Glycol,,107-88-0,37,Skin Conditioning Agent,대한민국
+MAB-0013,3,Centella Asiatica Extract,정제수,84696-21-9,5,Skin Conditioning Agent,대한민국
+MAB-0014,1,Water,정제수,7732-18-5,84.9,Skin Conditioning Agent,대한민국
+MAB-0014,2,Lavandula Angustifolia (Lavender) Flower Water,라벤더꽃수,-,0.5,Skin Conditioning Agent,대한민국
+MAB-0014,3,Salvia Sclarea (Clary) Extract,클레리추출물,84775-83-7,0.5,Skin Conditioning Agent,대한민국
+MAB-0014,4,Hyacinthus Orientalis (Hyacinth) Extract,히아신스전초추출물,-,0.5,Skin Conditioning Agent,대한민국
+MAB-0014,5,"Chamomilla Recutita (Matricaria)
+Flower/Leaf Extract(0.5)",,-,0,Skin Conditioning Agent,대한민국
+MAB-0014,6,Borago Officinalis Extract,보리지추출물,84012-16-8,0.5,Skin Conditioning Agent,대한민국
+MAB-0014,7,Centaurea Cyanus Flower Extract,수레국화꽃추출물,84012-18-0,0.5,Skin Conditioning Agent,대한민국
+MAB-0014,8,Butylene Glycol,부틸렌글라이콜,107-88-0,10,Skin Conditioning Agent,대한민국
+MAB-0014,9,"1,2-Hexanediol","1,2-헥산다이올",6920-22-5,2,Skin Conditioning Agent,대한민국
+MAB-0014,10,Ethylhexylglycerin,에틸헥실글리세린,70445-33-9,0.1,Skin Conditioning Agent,대한민국
+MAB-0015,1,Water,정제수,7732-18-5,58.5,Skin Conditioning Agent,대한민국
+MAB-0015,2,Butylene Glycol,부틸렌글라이콜,107-88-0,40,Skin Conditioning Agent,대한민국
+MAB-0015,3,Nymphaea Caerulea Flower Extract,푸른연꽃추출물,ㅡ,1.5,Skin Conditioning Agent,대한민국
+MAB-0016,1,Water,정제수,7732-18-5,77,Skin Conditioning Agent,대한민국
+MAB-0016,2,Bifida Ferment Extract,비피다발효추출물,-,20,Skin Conditioning Agent,대한민국
+MAB-0016,3,"1,2-Hexanediol","1,2-헥산다이올",6920-22-5,3,Skin Conditioning Agent,대한민국
+MAB-0017,1,Biotin,바이오틴,58-85-5,100,Skin Conditioning Agent,중국
+MAB-0018,1,Propanediol,프로판다이올,504-63-2,97,Skin Conditioning Agent,대한민국
+MAB-0018,2,Aloe Barbadensis Leaf Extract,알로에베라잎추출물,85507-69-3,2.4,Skin Conditioning Agent,대한민국
+MAB-0018,3,Bioflavonoids,바이오플라보노이드,61788-55-4,0.5,Skin Conditioning Agent,대한민국
+MAB-0018,4,Brassica Oleracea Italica (Broccoli) Extract,브로콜리추출물,223749-36-8,0.1,Skin Conditioning Agent,대한민국
+MAB-0019,1,Kojic Acid,코직애씨드,501-30-4,100,Skin Conditioning Agent,중국
+MAC-0001,1,Water,정제수,7732-18-5,57,Skin Conditioning Agent,대한민국
+MAC-0001,2,Butylene Glycol,부틸렌글라이콜,107-88-0,40,Skin Conditioning Agent,대한민국
+MAC-0001,3,Chamomilla Recutita (Matricaria) Flower Extract,마트리카리아꽃추출물,84649-86-5,3,Skin Conditioning Agent,대한민국
+MAC-0016,1,Sodium Carboxymethyl Beta-Glucan,소듐카복시메틸베타-글루칸,9050-93-5,100,Skin Conditioning Agent,대한민국
+MAC-0018,1,Ceramide NP,세라마이드엔피,100403-19-8,100,Skin Conditioning Agent,대한민국
+MAC-0021,1,Caffeine,카페인,58-08-2,100,Skin Conditioning Agent,Germany
+MAC-0025,1,Cucumis Sativus (Cucumber) Fruuit Extract,오이열매추출물,,100,Skin Conditioning Agent,대한민국
+MAC-0026,1,숯가루,,16291-96-6,100,Absorbent,대한민국
+MAC-0031,1,Daucus Carota Sativa (Carrot) Root Extract,당근추출물,`,100,Skin Conditioning Agent,
+MAC-0032,1,Water,정제수,7732-18-5,75,Skin Conditioning Agent,대한민국
+MAC-0032,2,Sodium Hyaluronate,,107-88-0,25,Skin Conditioning Agent,대한민국
+MAC-0033,1,Water,,-,30,Skin Conditioning Agent,대한민국
+MAC-0033,2,Butylene Glycol,,,25,Skin Conditioning Agent,대한민국
+MAC-0033,3,Glycerin,,,15,Skin Conditioning Agent,대한민국
+MAC-0033,4,Propanediol,,,15,Skin Conditioning Agent,대한민국
+MAC-0033,5,Sodium Hyaluronate,,,8,Skin Conditioning Agent,대한민국
+MAC-0033,6,Hydrolyzed Hyaluronic Acid,,,5,Skin Conditioning Agent,대한민국
+MAC-0033,7,Sodium Hyaluronate Crosspolymer,,,2,Skin Conditioning Agent,대한민국
+MAC-0034,1,Theobroma Cacao (Cocoa) Seed Powder,카카오씨가루,-,100,Scrubs,
+MAC-0035,1,Water,정제수,7732-18-5,60,Skin Conditioning Agent,대한민국
+MAC-0035,2,Butylene Glycol,부틸렌글라이콜,107-88-0,30,Skin Conditioning Agent,대한민국
+MAC-0035,3,Prunus Avium (Sweet Cherry) Fruit Extract,양벚나무열매추출물,85566-22-9,10,Skin Conditioning Agent,대한민국
+MAC-0036,1,Acorus Calamus Root Extract,창포뿌리추출물,84775-39-3,100,Skin Conditioning Agent,
+MAC-0037,1,Water,정제수,7732-18-5,0,Skin Conditioning Agent,대한민국
+MAC-0037,2,Butylene Glycol,부틸렌글라이콜,107-88-0,0,Skin Conditioning Agent,대한민국
+MAC-0037,3,Theobroma Cacao (Cocoa) Seed Extract,,-,0,Skin Conditioning Agent,대한민국
+MAC-0037,4,Cocos Nucifera (Coconut) Fruit Extract,코코넛야자열매추출물,84649-99-0,0,Skin Conditioning Agent,대한민국
+MAC-0037,5,Phenoxyethanol,,,0,Skin Conditioning Agent,대한민국
+MAC-0037,6,Methylparaben,,,0,Skin Conditioning Agent,대한민국
+MAC-0037,7,Ethylparaben,,,0,Skin Conditioning Agent,대한민국
+MAC-0037,8,Butylparaben,,,0,Skin Conditioning Agent,대한민국
+MAC-0037,9,"Propylparaben
+Isobutylparaben",,,0,Skin Conditioning Agent,대한민국
+MAC-0038,1,Water,정제수,7732-18-5,55,Skin Conditioning Agent,대한민국
+MAC-0038,2,Butylene Glycol,부틸렌글라이콜,107-88-0,40,Skin Conditioning Agent,대한민국
+MAC-0038,3,Vaccinium Macrocarpon (Cranberry) Fruit Extract,크랜베리추출물,91770-88-6,5,Skin Conditioning Agent,대한민국
+MAC-0039,1,Water,정제수,7732-18-5,55,Skin Conditioning Agent,대한민국
+MAC-0039,2,Alcohol,에탄올,64-17-5,40,Skin Conditioning Agent,대한민국
+MAC-0039,3,Symphytum Officinale Leaf Extract,컴프리잎추출물,84696-05-9,5,Skin Conditioning Agent,대한민국
+MAC-0040,1,Asiaticoside,아시아티코사이드,16830-15-2,15,Skin Conditioning Agent,중국
+MAC-0040,2,Madecassoside,덱스트린,34540-22-2,65,Skin Conditioning Agent,중국
+MAC-0040,3,Centella Asiatica Leaf Extract,병풀잎추출물,84696-21-9,20,Skin Conditioning Agent,중국
+MAC-0041,1,Water,정제수,7732-18-5,60,Skin Conditioning Agent,덴마크
+MAC-0041,2,Acacia Senegal Gum,아라비아고무나무검,9000-01-5,30,Skin Conditioning Agent,덴마크
+MAC-0041,3,Peat Water,토탄수,-,5,Skin Conditioning Agent,덴마크
+MAC-0041,4,Glycerin,글리세린,56-81-5,2.9,Skin Conditioning Agent,덴마크
+MAC-0041,5,Hydroxypropyl Methylcellulose,하이드록시프로필메틸셀룰로오스,9004-65-3,2,Skin Conditioning Agent,덴마크
+MAC-0041,6,Citric Acid,시트릭애씨드,77-92-9,0.1,Skin Conditioning Agent,덴마크
+MAC-0042,1,Water,정제수,7732-18-5,96.95,Skin Conditioning Agent,
+MAC-0042,2,"1,2-Hexanediol","1,2-헥산다이올",-,2,Skin Conditioning Agent,
+MAC-0042,3,Glacier Water,빙하수,6920-22-5,1,Skin Conditioning Agent,
+MAC-0042,4,Caprylyl Glycol,카프릴릴글라이콜,1117-86-8,0.05,Skin Conditioning Agent,
+MAC-0043,1,Collagen Extract,콜라겐추출물,-,97.4,Skin Conditioning Agent,대한민국
+MAC-0043,2,Collagen,콜라겐,9007-34-5,0.1,Skin Conditioning Agent,대한민국
+MAC-0043,3,Soluble Collagen,수용성콜라겐,-,0.1,Skin Conditioning Agent,대한민국
+MAC-0043,4,Hydrolyzed Collagen,하이드롤라이즈드콜라겐,73049-73-7,0.1,Skin Conditioning Agent,대한민국
+MAC-0043,5,Collagen Amino Acids,콜라겐 아미노산,-,0.1,Skin Conditioning Agent,대한민국
+MAC-0043,6,Sodium Soy Hydrolyzed Collagen,소듐소이하이드롤라이즈드콜라겐,68188-31-8,0.1,Skin Conditioning Agent,대한민국
+MAC-0043,7,Zinc Hydrolyzed Collagen,징크하이드롤라이즈드콜라겐,-,0.1,Skin Conditioning Agent,대한민국
+MAC-0043,8,"1,2-Hexanediol","1,2-헥산다이올",6920-22-5,2,Skin Conditioning Agent,대한민국
+MAC-0044,1,Zinc oxide,징크옥사이드,1314-13-2,99.5,Skin Conditioning Agent,중국
+MAC-0044,2,Ferric oxide,적색산화철,1309-37-1,0.5,Skin Conditioning Agent,중국
+MAC-0045,1,Cholesterol,콜레스테롤,57-88-5,100,Skin Conditioning Agent,일본
+MAD-0002,1,Dipotassium Glycyrrhizate,다이포타슘글리시리제이트,68797-35-3,100,Skin Conditioning Agent,
+MAD-0006,1,Sea Water,해수,-,100,Humectants,
+MAD-0008,1,Rosa Canina Flower,로즈힙꽃,-,100,Skin Conditioning Agent,
+MAD-0009,1,Clay,점토,-,100,Skin Conditioning Agent,
+MAD-0010,1,Sea Silt Extract,씨실트추출물,-,100,Skin Conditioning Agent,
+MAD-0011,1,Water,정제수,7732-18-5,57,Skin Conditioning Agent,대한민국
+MAD-0011,2,Butylene Glycol,부틸렌글라이콜,107-88-0,40,Skin Conditioning Agent,대한민국
+MAD-0011,3,Diospyros Kaki Leaf Extract,감나무잎추출물,ㅡ,3,Skin Conditioning Agent,대한민국
+MAD-0012,1,Water,정제수,7732-18-5,55,Skin Conditioning Agent,대한민국
+MAD-0012,2,Butylene Glycol,부틸렌글라이콜,107-88-0,40,Skin Conditioning Agent,대한민국
+MAD-0012,3,Cucurbita Pepo (Pumpkin) Fruit Extract,당호박추출물,89998-03-8,5,Skin Conditioning Agent,대한민국
+MAD-0013,1,Water,정제수,7732-18-5,55,Skin Conditioning Agent,대한민국
+MAD-0013,2,Butylene Glycol,부틸렌글라이콜,107-88-0,40,Skin Conditioning Agent,대한민국
+MAD-0013,3,Juniperus Communis Fruit Extract,두송열매추출물,84603-69-0,5,Skin Conditioning Agent,대한민국
+MAD-0014,1,Water,정제수,7732-18-5,53,Skin Conditioning Agent,대한민국
+MAD-0014,2,Butylene Glycol,부틸렌글라이콜,107-88-0,40,Skin Conditioning Agent,대한민국
+MAD-0014,3,Caulerpa Lentillifera Extract,바다포도추출물,ㅡ,7,Skin Conditioning Agent,대한민국
+MAD-0015,1,Dextrose anhydrous,,50-99-7,100,Skin Conditioning Agent,대한민국
+MAE-0009,1,PEG-40 Hydrogenated Castor Oil,피이지-40하이드로제네이티드캐스터오일,61788-85-0,0,Skin Conditioning Agent,
+MAE-0009,2,PPG-2-Ceteareth-9,피피지-2-세테아레스-9,-,0,Skin Conditioning Agent,
+MAE-0009,3,Pyrus Malus (Apple) Seed Extract,사과씨추출물,-,0,Skin Conditioning Agent,
+MAE-0011,1,Enantia Chlorantha Bark Extract,에난티아 클로란타껍질추출물,-,0,Skin Conditioning Agent,
+MAE-0011,2,Oleanolic Acid,올레아놀릭애씨드,508-02-1,0,Skin Conditioning Agent,
+MAE-0012,1,Tripeptide-2,트라이펩타이드-2,-,0,Skin Conditioning Agent,
+MAE-0012,2,Dextran,덱스트란,9004-54-0,0,Skin Conditioning Agent,
+MAE-0013,1,Water,정제수,7732-18-5,64.5,Skin Conditioning Agent,대한민국
+MAE-0013,2,Butylene Glycol,부틸렌글라이콜,107-88-0,30,Skin Conditioning Agent,대한민국
+MAE-0013,3,"1,2-Hexanediol","1,2-헥산다이올",6920-22-5,3,Skin Conditioning Agent,대한민국
+MAE-0013,4,Aspalathus Linearis Extract,루이보스추출물,ㅡ,0.23,Skin Conditioning Agent,대한민국
+MAE-0013,5,Calendula Officinalis Flower Extract,포트마리골드꽃추출물,84776-23-8,0.23,Skin Conditioning Agent,대한민국
+MAE-0013,6,Chamomilla Recutita (Matricaria)Flower Extract,마트리카리아꽃추출물,84082-60-0,0.23,Skin Conditioning Agent,대한민국
+MAE-0013,7,Eucalyptus Globulus Leaf Extract,유칼립투스잎추출물,84625-32-1,0.23,Skin Conditioning Agent,대한민국
+MAE-0013,8,"Hamamelis Virginiana (Witch Hazel)
+Bark/Leaf/Twig Extract",버지니아풍년화껍질/잎/잔가지추출물,84696-19-5,0.23,Skin Conditioning Agent,대한민국
+MAE-0013,9,Jasminum Officinale (Jasmine)Flower/Leaf Extract,커먼자스민꽃/잎추출물,90045-94-6,0.23,Skin Conditioning Agent,대한민국
+MAE-0013,10,Lavandula Angustifolia (Lavender)Flower/Leaf/Stem Extract,라벤더꽃/잎/줄기추출물,84776-65-8,0.23,Skin Conditioning Agent,대한민국
+MAE-0013,11,"Mentha Piperita (Peppermint) Leaf
+Extract",페퍼민트잎추출물,84082-70-2,0.23,Skin Conditioning Agent,대한민국
+MAE-0013,12,"Rosmarinus Officinalis (Rosemary) Leaf
+Extract",로즈마리잎추출물,84604-14-8,0.23,Skin Conditioning Agent,대한민국
+MAE-0013,13,Verbena Officinalis Leaf Extract,마편초잎추출물,84961-67-1,0.23,Skin Conditioning Agent,대한민국
+MAE-0013,14,Centella Asiatica Extract,병풀추출물,84696-21-9,0.2,Skin Conditioning Agent,대한민국
+MAE-0014,1,97.899,,7732-18-5,0,Skin Conditioning Agent,대한민국
+MAE-0014,2,2,,6920-22-5,0,Skin Conditioning Agent,대한민국
+MAE-0014,3,0.1,,70445-33-9,0,Skin Conditioning Agent,대한민국
+MAE-0014,4,0.001,,ㅡ,0,Skin Conditioning Agent,대한민국
+MAE-0015,1,Water,정제수,7732-18-5,55,Skin Conditioning Agent,대한민국
+MAE-0015,2,Butylene Glycol,부틸렌글라이콜,107-88-0,40,Skin Conditioning Agent,대한민국
+MAE-0015,3,Royal Jelly extract,로얄젤리추출물,91081-56-0,2.5,Skin Conditioning Agent,대한민국
+MAE-0015,4,Propolis Extract,프로폴리스추출물,85665-41-4,2.5,Skin Conditioning Agent,대한민국
+MAE-0016,1,Water,정제수,7732-18-5,55,Skin Conditioning Agent,대한민국
+MAE-0016,2,Butylene Glycol,부틸렌글라이콜,107-88-0,40,Skin Conditioning Agent,대한민국
+MAE-0016,3,Eucalyptus Globulus Leaf Extract,유칼립투스잎추출물,84625-32-1,5,Skin Conditioning Agent,대한민국
+MAE-0017,1,Water,정제수,7732-18-5,55,Skin Conditioning Agent,대한민국
+MAE-0017,2,Alcohol,에탄올,64-17-5,40,Skin Conditioning Agent,대한민국
+MAE-0017,3,Leontopodium Alpinum Extract,에델바이스추출물,391900-47-3,5,Skin Conditioning Agent,대한민국
+MAE-0018,1,Water,정제수,7732-18-5,96.5,Skin Conditioning Agent,대한민국
+MAE-0018,2,"1,2-Hexanediol","1,2-헥산다이올",6920-22-5,3,Skin Conditioning Agent,대한민국
+MAE-0018,3,Hydrolyzed Elastin,하이드롤라이즈드엘라스틴,100085-10-7,0.5,Skin Conditioning Agent,대한민국
+MAE-0019,1,Ectoin,엑토인,96702-03-3,100,Skin Conditioning Agent,중국
+MAE-0020,1,Water,정제수,7732-18-5,85,Skin Conditioning Agent,대한민국
+MAE-0020,2,"1,2-Hexanediol","1,2-헥산다이올",6920-22-5,3,Skin Conditioning Agent,대한민국
+MAE-0020,3,Schisandra Chinensis Fruit Extract,오미자추출물,223748-53-6,2,Skin Conditioning Agent,대한민국
+MAE-0020,4,Camellia Sinensis Leaf Extract,녹차추출물,84650-60-2,2,Skin Conditioning Agent,대한민국
+MAE-0020,5,Perilla Ocymoides Leaf Extract,들깨잎추출물,90082-61-4,2,Skin Conditioning Agent,대한민국
+MAE-0020,6,Prunus Mume Fruit Extract,매실추출물,ㅡ,2,Skin Conditioning Agent,대한민국
+MAE-0020,7,Scutellaria Baicalensis Root Extract,황금추출물,94279-99-9,2,Skin Conditioning Agent,대한민국
+MAE-0020,8,Honey Extract,꿀추출물,91052-92-5,2,Skin Conditioning Agent,대한민국
+MAF-0006,1,Fragrance,,7732-18-5,100,Skin Conditioning Agent,대한민국
+MAF-0007,1,Padina Pavonica Thallus Extract,파디나 파보니카엽상체추출물,-,100,Skin Conditioning Agent,
+MAF-0008,1,Water,정제수,7732-18-5,60,Skin Conditioning Agent,덴마크
+MAF-0008,2,Malt Extract,맥아추출물,8002-48-0,40,Skin Conditioning Agent,덴마크
+MAG-0002,1,Oryzanol,오리자놀,11042-64-1,100,Skin Conditioning Agent,
+MAG-0003,1,Butylene Glycol,,,60,Skin Conditioning Agent,대한민국
+MAG-0003,2,Water,,,30,Skin Conditioning Agent,대한민국
+MAG-0003,3,Glutathione,,,10,Skin Conditioning Agent,대한민국
+MAG-0004,1,Butylene Glycol,,85251-65-6,55,Skin Conditioning Agent,
+MAG-0004,2,Water,,,35,Skin Conditioning Agent,
+MAG-0004,3,"1,2-Hexanediol",,,5,Skin Conditioning Agent,
+MAG-0004,4,Glycyrrhiza Glabra Root Extract,,,5,Skin Conditioning Agent,
+MAG-0007,1,Glycerin,,7732-18-5,85,Skin Conditioning Agent,대한민국
+MAG-0007,2,Water,정제수,57-55-6,15,Skin Conditioning Agent,대한민국
+MAG-0009,1,Butylene Glycol,부틸렌글라이콜,7732-18-5,55,Skin Conditioning Agent,대한민국
+MAG-0009,2,Water,정제수,107-88-0,40,Skin Conditioning Agent,대한민국
+MAG-0009,3,Glycyrrhiza Glabra Root Extract,,84650-60-2,5,Skin Conditioning Agent,대한민국
+MAG-0012,1,Water,정제수,7732-18-5,57,Skin Conditioning Agent,대한민국
+MAG-0012,2,Butylene Glycol,부틸렌글라이콜,107-88-0,40,Skin Conditioning Agent,대한민국
+MAG-0012,3,Citrus Paradisi (Grapefruit) Fruit Extract,자몽추출물,90045-43-5,3,Skin Conditioning Agent,대한민국
+MAG-0021,1,Galactomyces Ferment Filtrate,갈락토미세스발효여과물,-,100,Skin Conditioning Agent,대한민국
+MAG-0022,1,Water,정제수,7732-18-5,50,Skin Conditioning Agent,대한민국
+MAG-0022,2,Butylene Glycol,부틸렌글라이콜,107-88-0,40,Skin Conditioning Agent,대한민국
+MAG-0022,3,Vitis Vinifera (Grape) Fruit Extract,포도추출물,84929-27-1,10,Skin Conditioning Agent,대한민국
+MAG-0023,1,Guaiazulene,구아이아줄렌,489-84-9,100,Skin Conditioning Agent,
+MAG-0024,1,Water,정제수,,55,Skin Conditioning Agent,대한민국
+MAG-0024,2,Butylene Glycol,부틸렌글라이콜,,40,Skin Conditioning Agent,대한민국
+MAG-0024,3,Citrus Tangerina (Tangerine) Extract,탄제린추출물,,5,Skin Conditioning Agent,대한민국
+MAG-0025,1,Water,정제수,7732-18-5,59,Skin Conditioning Agent,대한민국
+MAG-0025,2,Butylene Glycol,부틸렌글라이콜,107-88-0,40,Skin Conditioning Agent,대한민국
+MAG-0025,3,Coriandrum Sativum (Coriander) Extract,고수추출물,-,1,Skin Conditioning Agent,대한민국
+MAG-0026,1,Water,정제수,7732-18-5,56,Skin conditioning,대한민국
+MAG-0026,2,Butylene Glycol,부틸렌글라이콜,107-88-0,40,Skin conditioning,대한민국
+MAG-0026,3,Glycine Max (Soybean) Seed Extract,검정콩추출물,-,4,Skin conditioning,대한민국
+MAG-0027,1,Glutathione,글루타티온,70-18-8,100,Skin conditioning,일본
+MAG-0028,1,Camellia Sinensis Leaf Powder,녹차가루,-,100,Skin conditioning,대한민국
+MAG-0029,1,Water,정제수,7732-18-5,59,Skin conditioning,대한민국
+MAG-0029,2,Butylene Glycol,부틸렌글라이콜,107-88-0,40,Skin conditioning,대한민국
+MAG-0029,3,Garcinia Cambogia Fruit Extract,가르시니아열매추출물,90045-23-1,1,Skin conditioning,대한민국
+MAG-0030,1,Water,정제수,7732-18-5,59.6,Skin conditioning,대한민국
+MAG-0030,2,Butylene Glycol,부틸렌글라이콜,107-88-0,40,Skin conditioning,대한민국
+MAG-0030,3,Swiftlet Nest Extract,금사연둥지추출물,-,0.4,Skin conditioning,대한민국
+MAG-0031,1,Maltodextrin,말토덱스트린,9050-36-6,15,Skin conditioning,프랑스
+MAG-0031,2,Chlorophylls,클로로필,11006-34-1,85,Skin conditioning,프랑스
+MAG-0032,1,Water,정제수,7732-18-5,69.9,Skin Conditioning Agent,대한민국
+MAG-0032,2,Butylene Glycol,부틸렌글라이콜,107-88-0,30,Skin Conditioning Agent,대한민국
+MAG-0032,3,Ginsenosides,진세노사이드,62025-49-4,0.1,Skin Conditioning Agent,대한민국
+MAG-0033,1,Water,정제수,7732-18-5,69.9,Skin Conditioning Agent,대한민국
+MAG-0033,2,Butylene Glycol,부틸렌글라이콜,107-88-0,30,Skin Conditioning Agent,대한민국
+MAG-0033,3,Panax Ginseng Vesicles,인삼소포,ㅡ,0.1,Skin Conditioning Agent,대한민국
+MAH-0001,1,Honey,,7732-18-5,100,Skin Conditioning Agent,대한민국
+MAH-0006,1,Water,정제수,7732-18-5,54,Skin Conditioning Agent,대한민국
+MAH-0006,2,Butylene Glycol,부틸렌글라이콜,107-88-0,40,Skin Conditioning Agent,대한민국
+MAH-0006,3,Rosmarinus Officinalis (Rosemary) Extract,,84604-14-8,6,Skin Conditioning Agent,대한민국
+MAH-0007,1,Water,,-,99,Skin Conditioning Agent,
+MAH-0007,2,Sodium Hyaluronate,,,1,Skin Conditioning Agent,
+MAH-0008,1,Water,,8028-66-8,50,"Humectants, Flavoring Agents",
+MAH-0008,2,Butylene Glycol,,,40,"Humectants, Flavoring Agents",
+MAH-0008,3,"1,2-Hexanediol",,,5,"Humectants, Flavoring Agents",
+MAH-0008,4,Hydrolyzed Collagen,,,5,"Humectants, Flavoring Agents",
+MAH-0011,1,Water,정제수,7732-18-5,63,Skin Conditioning Agent,대한민국
+MAH-0011,2,Butylene Glycol,부틸렌글라이콜,107-88-0,25,Skin Conditioning Agent,대한민국
+MAH-0011,3,Hedera Helix (Ivy) Leaf/Stem Extract,서양송악잎/줄기추출물,-,10,Skin Conditioning Agent,대한민국
+MAH-0011,4,"1,2-Hexanediol","1,2-헥산다이올",6920-22-584082-54-2,2,Skin Conditioning Agent,대한민국
+MAH-0018,1,Water,정제수,7732-18-5,59,Skin Conditioning Agent,대한민국
+MAH-0018,2,Butylene Glycol,부틸렌글라이콜,107-88-0,40,Skin Conditioning Agent,대한민국
+MAH-0018,3,Honey Extract,꿀추출물,91052-92-5,1,Skin Conditioning Agent,대한민국
+MAH-0019,1,Loess Yellow Ocher,황토,-,100,"Scrubs, Absorbents, Colorants",
+MAH-0020,1,Water,정제수,7732-18-5,50,Skin Conditioning Agent,대한민국
+MAH-0020,2,Butylene Glycol,부틸렌글라이콜,107-88-0,40,Skin Conditioning Agent,대한민국
+MAH-0020,3,Rosa Rugosa Root Extract,해당화뿌리추출물,92347-25-6,10,Skin Conditioning Agent,대한민국
+MAH-0021,1,Water,정제수,84650-60-2,65,Skin Conditioning Agent,대한민국
+MAH-0021,2,Butylene Glycol,부틸렌글라이콜,107-88-0,28,Skin Conditioning Agent,대한민국
+MAH-0021,3,"1,2-Hexanediol","1,2-헥산다이올",7732-18-5,3,Skin Conditioning Agent,대한민국
+MAH-0021,4,Camellia Sinensis Leaf Extract,홍차추출물,6920-22-5,3.95,Skin Conditioning Agent,대한민국
+MAH-0021,5,Ethylhexylglycerin,에틸헥실글리세린,70445-33-9,0.05,Skin Conditioning Agent,대한민국
+MAH-0022,1,Water,정제수,7732-18-5,55,Skin Conditioning Agent,대한민국
+MAH-0022,2,Butylene Glycol,부틸렌글라이콜,107-88-0,40,Skin Conditioning Agent,대한민국
+MAH-0022,3,Hibiscus Sabdariffa Flower Extract,히비스커스꽃추출물,84775-87-1,5,Skin Conditioning Agent,대한민국
+MAH-0023,1,Houttuynia Cordata Powder,약모밀가루,164288-50-0,100,Skin Conditioning Agent,대한민국
+MAH-0024,1,Panax Ginseng Root Water,홍삼수,72480-62-7,97,Skin Conditioning Agent,대한민국
+MAH-0024,2,"1,2-Hexanediol","1,2-헥산다이올",6920-22-5,3,Skin Conditioning Agent,대한민국
+MAH-0025,1,Water,정제수,7732-18-5,97.086,Skin Conditioning Agent,대한민국
+MAH-0025,2,"1,2-Hexanediol","1,2-헥산다이올",6920-22-5,2.5,Skin Conditioning Agent,대한민국
+MAH-0025,3,Hydroxypropyltrimonium Hyaluronate,하이드록시프로필트라이모늄하이알루로네이트,ㅡ,0.001,Skin Conditioning Agent,대한민국
+MAH-0025,4,Dimethylsilanol Hyaluronate,다이메틸실란올하이알루로네이트,135507-00-5,0.001,Skin Conditioning Agent,대한민국
+MAH-0025,5,Sodium Acetylated Hyaluronate,소듐아세틸레이티드하이알루로네이트,ㅡ,0.001,Skin Conditioning Agent,대한민국
+MAH-0025,6,Hydrolyzed Hyaluronic Acid,하이드롤라이즈드하이알루로닉애씨드,ㅡ,0.05,Skin Conditioning Agent,대한민국
+MAH-0025,7,Hydrolyzed Sodium Hyaluronate,하이드롤라이즈드소듐하이알루로네이트,ㅡ,0.05,Skin Conditioning Agent,대한민국
+MAH-0025,8,Hydrolyzed Glycosaminoglycans,하이드롤라이즈드글라이코사미노글리칸,156715-51-4,0.01,Skin Conditioning Agent,대한민국
+MAH-0025,9,Sodium Hyaluronate Crosspolymer,소듐하이알루로네이트크로스폴리머,105524-32-1,0.001,Skin Conditioning Agent,대한민국
+MAH-0025,10,Hyaluronic Acid,하이알루로닉애씨드,9004-61-9,0.1,Skin Conditioning Agent,대한민국
+MAH-0025,11,Sodium Hyaluronate,소듐하이알루로네이트,9067-32-7,0.2,Skin Conditioning Agent,대한민국
+MAI-0003,1,Water,정제수,7732-18-5,84,Skin Conditioning Agent,대한민국
+MAI-0003,2,Glycyrrhiza Glabra (Licorice) Root Extract,감초뿌리추출물,84775-66-6,1,Skin Conditioning Agent,대한민국
+MAI-0003,3,Diospyros Kaki Leaf Extract,감나무잎추출물,-,1,Skin Conditioning Agent,대한민국
+MAI-0003,4,Morus Alba Bark Extract,뽕나무껍질추출물,94167-05-2,1,Skin Conditioning Agent,대한민국
+MAI-0003,5,Opuntia Coccinellifera Fruit Extract,코치닐선인장열매추출물,-,1,Skin Conditioning Agent,대한민국
+MAI-0003,6,Butylene Glycol,부틸렌글라이콜,107-88-0,10,Skin Conditioning Agent,대한민국
+MAI-0003,7,"1,2-Hexanediol","1,2-헥산다이올",6920-22-5,2,Skin Conditioning Agent,대한민국
+MAI-0004,1,Water,정제수,7732-18-5,55,Skin Conditioning Agent,대한민국
+MAI-0004,2,Butylene Glycol,부틸렌글라이콜,107-88-0,40,Skin Conditioning Agent,대한민국
+MAI-0004,3,Iris Ensata Extract,꽃창포추출물,-,5,Skin Conditioning Agent,대한민국
+MAI-0005,1,Bifida/Panax Ginseng Root Ferment Filtrate,비피다/인삼뿌리발효여과물,-,97,Skin Conditioning Agent,대한민국
+MAI-0005,2,"1,2-Hexanediol","1,2-헥산다이올",6920-22-5,3,Skin Conditioning Agent,대한민국
+MAI-0006,1,Water,정제수,7732-18-5,57,Skin Conditioning Agent,대한민국
+MAI-0006,2,Butylene Glycol,부틸렌글라이콜,107-88-0,40,Skin Conditioning Agent,대한민국
+MAI-0006,3,Cetraria Islandica Extract,아이슬란드이끼추출물,84776-25-0,3,Skin Conditioning Agent,대한민국
+MAJ-0001,1,Water,정제수,7732-18-5,55,Skin Conditioning Agent,대한민국
+MAJ-0001,2,Butylene Glycol,부틸렌글라이콜,107-88-0,40,Skin Conditioning Agent,대한민국
+MAJ-0001,3,Jasminum Officinale (Jasmine) Extract,커먼자스민추출물,90045-94-6,5,Skin Conditioning Agent,대한민국
+MAJ-0002,1,Water,정제수,7732-18-5,55,Skin Conditioning Agent,대한민국
+MAJ-0002,2,Butylene Glycol,부틸렌글라이콜,107-88-0,40,Skin Conditioning Agent,대한민국
+MAJ-0002,3,Plantago Asiatica Extract,질경이추출물,-,5,Skin Conditioning Agent,대한민국
+MAJ-0003,1,Water,정제수,7732-18-5,55,Skin Conditioning Agent,대한민국
+MAJ-0003,2,Propanediol,프로판다이올,504-63-2,40,Skin Conditioning Agent,대한민국
+MAJ-0003,3,Prunus Yedoensis Flower Extract,왕벚나무꽃추출물,-,5,Skin Conditioning Agent,대한민국
+MAJ-0004,1,Water,정제수,7732-18-5,60,Skin Conditioning Agent,대한민국
+MAJ-0004,2,Butylene Glycol,부틸렌글라이콜,107-88-0,30,Skin Conditioning Agent,대한민국
+MAJ-0004,3,Glycerin,글리세린,56-81-5,5,Skin Conditioning Agent,대한민국
+MAJ-0004,4,Viola Mandshurica Flower Extract,제비꽃꽃추출물,-,5,Skin Conditioning Agent,대한민국
+MAJ-0005,1,Water,정제수,7732-18-5,55,Skin Conditioning Agent,대한민국
+MAJ-0005,2,Butylene Glycol,부틸렌글라이콜,107-88-0,40,Skin Conditioning Agent,대한민국
+MAJ-0005,3,Pearl Extract,진주추출물,-,5,Skin Conditioning Agent,대한민국
+MAJ-0006,1,Water,정제수,7732-18-5,57,Skin Conditioning Agent,대한민국
+MAJ-0006,2,Butylene Glycol,부틸렌글라이콜,107-88-0,40,Skin Conditioning Agent,대한민국
+MAJ-0006,3,Paeonia Albiflora Flower Extract,작약꽃추출물,-,3,Skin Conditioning Agent,대한민국
+MAK-0001,1,Water,정제수,7732-18-5,95,Skin Conditioning Agent,대한민국
+MAK-0001,2,"1,2-Hexanediol","1,2-헥산다이올",6920-22-5,3,Skin Conditioning Agent,대한민국
+MAK-0001,3,Hydrolyzed Keratin,하이드롤라이즈드케라틴,69430-36-0,2,Skin Conditioning Agent,대한민국
+MAL-0001,1,Arginine,알지닌,7200-25-1,100,Skin Conditioning Agent,대한민국
+MAL-0013,1,Water,정제수,7732-18-5,57,Skin Conditioning Agent,대한민국
+MAL-0013,2,Butylene Glycol,부틸렌글라이콜,107-88-0,40,Skin Conditioning Agent,대한민국
+MAL-0013,3,Laminaria Japonica Extract,다시마추출물,90046-12-1,3,Skin Conditioning Agent,대한민국
+MAL-0014,1,Water,정제수,-,55,Skin Conditioning Agent,대한민국
+MAL-0014,2,Butylene Glycol,부틸렌글라이콜,,40,Skin Conditioning Agent,대한민국
+MAL-0014,3,Lilium Tigrinum Extract,참나리추출물,,5,Skin Conditioning Agent,대한민국
+MAL-0015,1,Lactoglobulin,락토글로불린,-,100,"Skin Conditioning Agent, Hair Conditioning Agent",프랑스
+MAL-0016,1,Water,정제수,7732-18-5,50,Skin Conditioning Agent,대한민국
+MAL-0016,2,Propanediol,프로판다이올,504-63-2,40,Skin Conditioning Agent,대한민국
+MAL-0016,3,Lavandula Angustifolia (Lavender) Flower Extract,,84776-65-8,10,Skin Conditioning Agent,대한민국
+MAL-0017,1,Melissa Officinalis Flower/Leaf/Stem Water,레몬밤꽃/잎/줄기수,7732-18-5,99.395,Skin Conditioning Agent,대한민국
+MAL-0017,2,Sodium Benzoate,소듐벤조에이트,107-88-0,0.27,Skin Conditioning Agent,대한민국
+MAL-0017,3,Potassium Sorbate,포타슘솔베이트,84082-61-1,0.135,Skin Conditioning Agent,대한민국
+MAL-0017,4,Citric Acid,시트릭애씨드,,0.2,Skin Conditioning Agent,대한민국
+MAL-0018,1,Water,정제수,7732-18-5,50,Skin Conditioning Agent,대한민국
+MAL-0018,2,Butylene Glycol,부틸렌글라이콜,107-88-0,40,Skin Conditioning Agent,대한민국
+MAL-0018,3,Citrus Limon (Lemon) Fruit Extract,레몬추출물,84929-31-7,10,Skin Conditioning Agent,대한민국
+MAL-0019,1,Water,,7732-18-5,50,Skin Conditioning Agent,대한민국
+MAL-0019,2,Butylene Glycol,,107-88-0 84787-69-9,40,Skin Conditioning Agent,대한민국
+MAL-0019,3,Rubus Fruticosus (Blackberry) Fruit Extract,서양산딸기추출물,-,2.5,Skin Conditioning Agent,대한민국
+MAL-0019,4,Vaccinium Angustifolium (Blueberry) Fruit Extract,로우스위트블루베리추출물,84929-76-0,2.5,Skin Conditioning Agent,대한민국
+MAL-0019,5,Rubus Idaeus (Raspberry) Fruit Extract,라즈베리추출물,-,2.5,Skin Conditioning Agent,대한민국
+MAL-0019,6,Euterpe Oleracea Fruit Extract,아사이팜열매추출물,,2.5,Skin Conditioning Agent,대한민국
+MAL-0020,1,Water,정제수,7732-18-5,55,Skin Conditioning Agent,대한민국
+MAL-0020,2,Butylene Glycol,부틸렌글라이콜,107-88-0,40,Skin Conditioning Agent,대한민국
+MAL-0020,3,Citrus Aurantifolia (Lime) Fruit Extract,라임추출물,90063-52-8,5,Skin Conditioning Agent,대한민국
+MAL-0021,1,Water,정제수,7732-18-5,50,Skin Conditioning Agent,대한민국
+MAL-0021,2,Propanediol,프로판다이올,504-63-2,40,Skin Conditioning Agent,대한민국
+MAL-0021,3,Lavandula Angustifolia (Lavender) Flower Extract,라벤더꽃추출물,-,10,Skin Conditioning Agent,대한민국
+MAL-0022,1,to,,-,100,Skin Conditioning Agent,대한민국
+MAL-0022,2,3,,6920-22-5,0,Skin Conditioning Agent,대한민국
+MAL-0023,1,Water,정제수,7732-18-5,57,Skin Conditioning Agent,대한민국
+MAL-0023,2,Butylene Glycol,부틸렌글라이콜,107-88-0,40,Skin Conditioning Agent,대한민국
+MAL-0023,3,Litchi Chinensis Fruit Extract,리치추출물,-,3,Skin Conditioning Agent,대한민국
+MAL-0024,1,Lactobacillus/Portulaca Oleracea Ferment Extract,락토바실러스/쇠비름발효추출물,-,90,Skin Conditioning Agent,대한민국
+MAL-0024,2,Lactobacillus/Licorice Root Extract Ferment Filtrate,락토바실러스/감초뿌리추출물발효여과물,,2,Skin Conditioning Agent,대한민국
+MAL-0024,3,Lactobacillus/Lycium Chinense Fruit Extract Ferment Filtrate,락토바실러스/구기자추출물발효여과물,,1,Skin Conditioning Agent,대한민국
+MAL-0024,4,Lactobacillus/Houttuynia Cordata Leaf Extract Ferment Filtrate,락토바실러스/약모밀잎추출발효여과물,,1,Skin Conditioning Agent,대한민국
+MAL-0024,5,Lactobacillus/Panax Ginseng Root Extract Ferment Filtrate,락토바실러스/인삼추출물발효여과물,,1,Skin Conditioning Agent,대한민국
+MAL-0024,6,Lactobacillus/Astragalus Membranaceus Root Extract Ferment Filtrate,락토바실러스/황기뿌리추출발효여과물,,1,Skin Conditioning Agent,대한민국
+MAL-0024,7,Lactobacillus/Scutellaria Baicalensis Root Extract Ferment Filtrate,락토바실러스/황금추출발효여과물,,1,Skin Conditioning Agent,대한민국
+MAL-0024,8,Lactobacillus/Pueraria Lobata Root Extract Ferment Filtrate,락토바실러스/칡뿌리추출물발효여과물,,1,Skin Conditioning Agent,대한민국
+MAL-0024,9,Lactobacillus/Angelica Keiskei Leaf/Stem Extract Ferment Filtrate,락토바실러스/신선초잎/줄기추출물발효여과물,,1,Skin Conditioning Agent,대한민국
+MAL-0024,10,Saccharomyces/Camellia Sinensis Extract Ferment Filtrate,효모/녹차추출발효여과물,,1,Skin Conditioning Agent,대한민국
+MAM-0001,1,Water,정제수,7732-18-5,73,Skin Conditioning Agent,대한민국
+MAM-0001,2,Butylene Glycol,부틸렌글라이콜,107-88-0,20,Skin Conditioning Agent,대한민국
+MAM-0001,3,Calendula Officinalis Flower Extract,포트마리골드꽃추출물,84776-23-8,5,Skin Conditioning Agent,대한민국
+MAM-0001,4,"1,2-Hexanediol","1,2-헥산다이올",6920-22-5,2,Skin Conditioning Agent,대한민국
+MAM-0003,1,Morus Bombycis Root Extract,산뽕나무뿌리추출물,-,100,Skin Conditioning Agent,
+MAM-0011,1,Water,정제수,7732-16-5,79.1,Skin Conditioning Agent,대한민국
+MAM-0011,2,Butylene Glycol,부틸렌글라이콜,107-88-0,20,Skin Conditioning Agent,대한민국
+MAM-0011,3,Hydrolyzed Collagen,하이드롤라이즈드콜라겐,73049-73-7,0.5,Skin Conditioning Agent,대한민국
+MAM-0011,4,Phenoxyethanol,페녹시에탄올,122-99-6,0.4,Skin Conditioning Agent,대한민국
+MAM-0015,1,Morus Alba Root Extract,뽕나무뿌리추출물,94167-05-2,0,Skin Conditioning Agent,대한민국
+MAM-0015,2,Camellia Sinensis Leaf Extract,녹차추출물,84650-60-2,0,Skin Conditioning Agent,대한민국
+MAM-0015,3,Diospyros Kaki Leaf Extract,감나무잎추출물,-,0,Skin Conditioning Agent,대한민국
+MAM-0015,4,Aloe Barbadensis Leaf Extract,알로에베라잎추출물,85507-69-3,0,Skin Conditioning Agent,대한민국
+MAM-0016,1,Potassium Hydroxide,포타슘하이드록사이드,1310-58-3,0,Opacifying Agents,
+MAM-0016,2,Sodium Oxide,소듐옥사이드,1313-59-3,0,Opacifying Agents,
+MAM-0016,3,Magnesium Oxide,마그네슘옥사이드,1309-48-4,0,Opacifying Agents,
+MAM-0016,4,Calcium Oxide,칼슘옥사이드,1305-78-8,0,Opacifying Agents,
+MAM-0016,5,Aluminum Hydroxide,루미늄하이드록사이드,1333-84-2,0,Opacifying Agents,
+MAM-0016,6,Silica,실리카,7631-86-9,0,Opacifying Agents,
+MAM-0017,1,Milk Protein,우유단백질,91053-68-8,100,Skin Conditioning Agent,
+MAM-0019,1,Coffea Arabica (Coffee) Seed Powder,커피콩가루,-,100,Scrubs,
+MAM-0025,1,Dimethicone Crosspolymer,다이메티콘크로스폴리머,-,0,Skin Conditioning Agent,대한민국
+MAM-0025,2,Polyglycerin-3,폴리글리세린-3,25618-55-7,0,Skin Conditioning Agent,대한민국
+MAM-0025,3,Dimethicone,다이메티콘,9006-65-9,0,Skin Conditioning Agent,대한민국
+MAM-0025,4,Cyclopentasiloxane,사이클로펜타실록세인,541-02-6,0,Skin Conditioning Agent,대한민국
+MAM-0026,1,Water,정제수,7732-18-5,50,Skin Conditioning Agent,대한민국
+MAM-0026,2,Butylene Glycol,부틸렌글라이콜,107-88-0,40,Skin Conditioning Agent,대한민국
+MAM-0026,3,Moringa Oleifera Leaf Extract,드럼스틱잎추출물,93165-54-9,10,Skin Conditioning Agent,대한민국
+MAM-0027,1,Water,정제수,7732-18-5,55,Skin Conditioning Agent,대한민국
+MAM-0027,2,Butylene Glycol,부틸렌글라이콜,107-88-0,40,Skin Conditioning Agent,대한민국
+MAM-0027,3,Milk Protein Extract,우유단백질추출물,-,5,Skin Conditioning Agent,대한민국
+MAM-0028,1,Water,정제수,7732-18-5,50,Skin Conditioning Agent,대한민국
+MAM-0028,2,Butylene Glycol,부틸렌글라이콜,107-88-0,40,Skin Conditioning Agent,대한민국
+MAM-0028,3,Mangifera Indica (Mango) Fruit Extract,망고추출물,90063-86-8,10,Skin Conditioning Agent,대한민국
+MAM-0029,1,Water,정제수,7732-18-5,77,Skin Conditioning Agent,대한민국
+MAM-0029,2,Butylene Glycol,부틸렌글라이콜,107-88-0,20,Skin Conditioning Agent,대한민국
+MAM-0029,3,Hydrolyzed collagen,하이드롤라이즈드콜라겐,73049-73-7,1,Skin Conditioning Agent,대한민국
+MAM-0029,4,"1,2-Hexanediol","1,2-헥산다이올",6920-22-5,2,Skin Conditioning Agent,대한민국
+MAM-0030,1,Methyl Sulfonyl Methane,,67-71-0,100,Skin Conditioning Agent,중국
+MAM-0031,1,Water,정제수,7732-18-5,55,Skin Conditioning Agent,대한민국
+MAM-0031,2,Butylene Glycol,부틸렌글라이콜,107-88-0,40,Skin Conditioning Agent,대한민국
+MAM-0031,3,Lepidium Meyenii Root Extract,마카뿌리추출물,-,5,Skin Conditioning Agent,대한민국
+MAM-0032,1,Butylene Glycol,부틸렌글라이콜,107-88-0,50,Skin Conditioning Agent,대한민국
+MAM-0032,2,Water,정제수,7732-18-5,38,Skin Conditioning Agent,대한민국
+MAM-0032,3,Centella Asiatica Extract,병풀추출물,84696-21-9,5,Skin Conditioning Agent,대한민국
+MAM-0032,4,Polygonum Cuspidatum Root Extract,호장근뿌리추출물,-,2,Skin Conditioning Agent,대한민국
+MAM-0032,5,Scutellaria Baicalensis Root Extract,황금추출물,94279-99-9,2,Skin Conditioning Agent,대한민국
+MAM-0032,6,Camellia Sinensis Leaf Extract,녹차추출물,84650-60-2,1,Skin Conditioning Agent,대한민국
+MAM-0032,7,Glycyrrhiza Glabra (Licorice) Root Extract,스페인감초뿌리추출물,84775-66-6,1,Skin Conditioning Agent,대한민국
+MAM-0032,8,"Chamomilla Recutita (Matricaria) Flower
+Extract",마트리카리아꽃추출물,84082-60-0,0.5,Skin Conditioning Agent,대한민국
+MAM-0032,9,"Rosmarinus Officinalis (Rosemary) Leaf
+Extract",로즈마리잎추출물,84604-14-8,0.5,Skin Conditioning Agent,대한민국
+MAM-0033,1,4-Terpineol,4-터피네올,562-74-3,100,Skin Conditioning Agent,호주
+MAM-0034,1,Zea Mays (Corn) Starch,옥수수전분,9005-25-8,94.99,Skin Conditioning Agent,대한민국
+MAM-0034,2,Chromium Oxide Greens (CI 77288),크로뮴옥사이드그린,1308-38-9,3,Skin Conditioning Agent,대한민국
+MAM-0034,3,Hydroxypropyl Methylcellulose,하이드록시프로필메틸셀룰로오스,9004-65-3,1,Skin Conditioning Agent,대한민국
+MAM-0034,4,Carbomer,카보머,9003-01-4,1,Skin Conditioning Agent,대한민국
+MAM-0034,5,Water,정제수,7732-18-5,0.0068,Skin Conditioning Agent,대한민국
+MAM-0034,6,Butylene Glycol,부틸렌글라이콜,107-88-0,0.002,Skin Conditioning Agent,대한민국
+MAM-0034,7,Camellia Sinensis Leaf Extract,"녹차추출물1,2-헥산다이올",84650-60-2,0.001,Skin Conditioning Agent,대한민국
+MAM-0034,8,"1,2-Hexanediol",,6920-22-5,0.0002,Skin Conditioning Agent,대한민국
+MAM-0035,1,Madecassoside,마데카소사이드,34540-22-2,90,Skin Conditioning Agent,중국
+MAM-0035,2,Centella Asiatica Extract,병풀추출물,84696-21-9,10,Skin Conditioning Agent,중국
+MAM-0036,1,Chamomilla Recutita (Matricaria) Flower Water,마트리카리아꽃수,-,97,Skin Conditioning Agent,대한민국
+MAM-0036,2,"1,2-Hexanediol","1,2-헥산다이올",6920-22-5,3,Skin Conditioning Agent,대한민국
+MAN-0001,1,Water,,98-92-0,99.9,Skin Conditioning Agent,중국
+MAN-0001,2,Sodium Chloride,,,0.1,Skin Conditioning Agent,중국
+MAN-0003,1,Hydrolyzed Collagen,하이드롤라이즈드콜라겐,73049-73-7,100,Skin Conditioning Agent,
+MAN-0005,1,Yeast Extract,효모추출물,8013-01-02,0,Skin Conditioning Agent,
+MAN-0005,2,Glycerin,글리세린,56-81-5,0,Skin Conditioning Agent,
+MAN-0008,1,Glycerin,글리세린,92128-87-5,49,Skin Conditioning Agent,
+MAN-0008,2,Caprylic/Capric Triglyceride,카프릴릭/카프릭트라이글리세라이드,7732-18-5,20,Skin Conditioning Agent,
+MAN-0008,3,Water,정제수,56-81-5,10,Skin Conditioning Agent,
+MAN-0008,4,Hydrogenated Lecithin,하이드로제네이티드레시틴,-,5,Skin Conditioning Agent,
+MAN-0008,5,Ceramide NP,세라마이드엔피,65381-09-1,5,Skin Conditioning Agent,
+MAN-0008,6,TEA-Cocoyl Glutamate,,,5,Skin Conditioning Agent,
+MAN-0008,7,Linoleic Acid,,,1,Skin Conditioning Agent,
+MAN-0008,8,Other,,,5,Skin Conditioning Agent,
+MAN-0009,1,Water,하이드록라이즈드옥수수전분,8029-45-4,2,Skin Conditioning Agent,
+MAN-0009,2,Butylene Glycol,부틸렌글라이콜,107-88-0,10,Skin Conditioning Agent,
+MAN-0009,3,Dioscorea Japonica Root Extract,수크로오스,57-50-1,0.5,Skin Conditioning Agent,
+MAN-0009,4,"1,2-Hexanediol","1,2-헥산다이올",6920-22-5,2.5,Skin Conditioning Agent,
+MAN-0009,5,Hydrolyzed Corn Starch,정제수,7732-18-5,79,Skin Conditioning Agent,
+MAN-0009,6,Beta-Glucan,베타글루칸,53238-80-5,1,Skin Conditioning Agent,
+MAN-0009,7,Sucrose,참마뿌리추출물,,5,Skin Conditioning Agent,
+MAN-0010,1,Butylene Glycol,부틸렌글라이콜,91080-17-0,50,Skin Conditioning Agent,대한민국
+MAN-0010,2,Water,정제수,,30,Skin Conditioning Agent,대한민국
+MAN-0010,3,Niacinamide,,,20,Skin Conditioning Agent,대한민국
+MAN-0011,1,Retinal,레틴알,116-31-4,0,Skin Conditioning Agent,중국
+MAN-0011,2,Lecithin,레시틴,8030-76-0,0,Skin Conditioning Agent,중국
+MAN-0011,3,Caprylic/Capric Triglyceride,카프릴릭/카프릭트라이글리세라이드,65381-09-1,0,Skin Conditioning Agent,중국
+MAN-0011,4,Ascorbic Acid,아스코빅애씨드,50-81-7,0,Skin Conditioning Agent,중국
+MAN-0011,5,Glycerin,글리세린,56-81-5,0,Skin Conditioning Agent,중국
+MAN-0011,6,Water,정제수,7732-18-5,0,Skin Conditioning Agent,중국
+MAO-0006,1,Water,정제수,7732-18-5,55,Skin Conditioning Agent,대한민국
+MAO-0006,2,Butylene Glycol,부틸렌글라이콜,107-88-0,40,Skin Conditioning Agent,대한민국
+MAO-0006,3,Citrus Aurantium Dulcis (Orange) Fruit Extract,오렌지추출물,84012-28-2,5,Skin Conditioning Agent,대한민국
+MAO-0007,1,Avena Sativa (Oat) Kernel Extract,귀리커넬추출물,84012-26-0,100,Skin Conditioning Agent,대한민국
+MAO-0008,1,Water,온천수,"7732-18-5
+107-88-0
+5343-92-0
+6920-22-5
+1117-86-8",94,Skin Conditioning Agent,대한민국
+MAO-0008,2,Butylene Glycol,부틸렌글라이콜,,5,Skin Conditioning Agent,대한민국
+MAO-0008,3,Pentylene Glycol,펜틸렌글라이콜,,0.5,Skin Conditioning Agent,대한민국
+MAO-0008,4,"1,2-Hexanediol","1,2-헥산다이올",,0.25,Skin Conditioning Agent,대한민국
+MAO-0008,5,Caprylyl Glycol,카프릴릴글라이콜,,0.25,Skin Conditioning Agent,대한민국
+MAO-0009,1,Water,정제수,7732-18-5,60,Skin Conditioning Agent,대한민국
+MAO-0009,2,Butylene Glycol,부틸렌글라이콜,107-88-0,40,Skin Conditioning Agent,대한민국
+MAO-0009,3,"Cucumis Sativus (Cucumber)
+Extract(5)",,-,0,Skin Conditioning Agent,대한민국
+MAP-0011,1,Water,정제수,7732-18-5,90.5,Skin Conditioning Agent,대한민국
+MAP-0011,2,"1,2-Hexanediol","1,2-헥산다이올",6920-22-5,3,Skin Conditioning Agent,대한민국
+MAP-0011,3,Hydrolyzed Silk,하이드롤라이즈드실크,73049-73-7,6.5,Skin Conditioning Agent,대한민국
+MAP-0015,1,Hydrolyzed Soy Protein,하이드롤라이즈드콩단백질,68607-88-5,100,Skin Conditioning Agent,
+MAP-0016,1,Water,정제수,7732-18-5,0,Skin Conditioning Agent,
+MAP-0016,2,Glycolic Acid,글라이콜릭애씨드,79-14-1,0,Skin Conditioning Agent,
+MAP-0016,3,Prunus Persica (Peach) Fruit Extract,락틱애씨드,84012-34-0,0,Skin Conditioning Agent,
+MAP-0016,4,Fragaria Vesca (Strawberry) Fruit Extract,시트릭애씨드,84929-78-2,0,Skin Conditioning Agent,
+MAP-0016,5,Mangifera Indica (Mango) Fruit Extract,만델릭애씨드,90063-86-8,0,Skin Conditioning Agent,
+MAP-0016,6,Psidium Guajava Fruit Extract,복숭아추출물,90045-46-8,0,Skin Conditioning Agent,
+MAP-0016,7,Prunus Armeniaca (Apricot) Fruit Extract,야생딸기추출물,68650-44-2,0,Skin Conditioning Agent,
+MAP-0016,8,Rubus Idaeus (Raspberry) Fruit Extract,망고추출물,84929-76-0,0,Skin Conditioning Agent,
+MAP-0016,9,Citrus Grandis (Grapefruit) Fruit Extract,구아바열매추출물,90045-43-5,0,Skin Conditioning Agent,
+MAP-0016,10,Passiflora Incarnata Flower Extract,살구추출물,84012-31-7,0,Skin Conditioning Agent,
+MAP-0016,11,Lactic Acid,라즈베리추출물,50-21-5,0,Skin Conditioning Agent,
+MAP-0016,12,Citric Acid,왕귤추출물,77-92-9,0,Skin Conditioning Agent,
+MAP-0016,13,Mandelic Acid,인카르나타시계꽃추출물,90-64-2,0,Skin Conditioning Agent,
+MAP-0018,1,Hydrolyzed Lupine Protein,하이드롤라이즈드루핀단백질,73049-73-7,100,Skin Conditioning Agent,프랑스
+MAP-0019,1,Water,정제수,7732-18-5,78,Skin Conditioning Agent,
+MAP-0019,2,Butylene Glycol,부틸렌글라이콜,107-88-0,20,Skin Conditioning Agent,
+MAP-0019,3,Portulaca Oleracea Extract,쇠비름추출물,90083-07-1,1,Skin Conditioning Agent,
+MAP-0019,4,"1,2-Hexanediol","1,2-헥산다이올",6920-22-5,1,Skin Conditioning Agent,
+MAP-0020,1,water,정제수,7732-18-5,58.5,Skin Conditioning Agent,대한민국
+MAP-0020,2,Butylene Glycol,부틸렌글라이콜,107-88-0,40,Skin Conditioning Agent,대한민국
+MAP-0020,3,Hydrolyzed Corn Protein,하이드롤라이즈드옥수수단백질,100209-41-4,0.5,Skin Conditioning Agent,대한민국
+MAP-0020,4,Hydrolyzed Soy Protein,하이드롤라이즈드콩단백질,70084-87-6,0.5,Skin Conditioning Agent,대한민국
+MAP-0020,5,Hydrolyzed Wheat Protein,하이드롤라이즈드밀단백질,68607-88-5,0.5,Skin Conditioning Agent,대한민국
+MAP-0021,1,Pinus Sylvestris Bud Extract,구주소나무싹추출물,-,100,Skin Conditioning Agent,대한민국
+MAP-0022,1,Water,정제수,77332-18-5,50,Skin Conditioning Agent,대한민국
+MAP-0022,2,Butylene Glycol,부틸렌글라이콜,107-88-0,40,Skin Conditioning Agent,대한민국
+MAP-0022,3,Punica Granatum Fruit Extract,석류추출물,84961-57-9,10,Skin Conditioning Agent,대한민국
+MAP-0027,1,Cucurbita Pepo (Pumpkin) Powder,당호박가루,-,100,Skin Conditioning Agent,
+MAP-0028,1,Althaea Rosea Flower Extract,접시꽃추출물,85507-69-3,0,Skin Conditioning Agent,대한민국
+MAP-0028,2,Aloe Barbadensis Leaf Extract,알로에베라잎추출물,,0,Skin Conditioning Agent,대한민국
+MAP-0029,1,Zingiber Officinale (Ginger) Root Extract,생강추출물,84696-15-1,100,Skin Conditioning Agent,대한민국
+MAP-0030,1,Water,정제수,7732-18-5,96,Skin Conditioning Agent,대한민국
+MAP-0030,2,Butylene Glycol,부틸렌글라이콜,107-88-0,3,Skin Conditioning Agent,대한민국
+MAP-0030,3,1,,6920-22-5,0,Skin Conditioning Agent,대한민국
+MAP-0030,4,2Hexandiol,,-,0.25,Skin Conditioning Agent,대한민국
+MAP-0030,5,Tremella Fuciformis Polysaccharide,흰목이버섯폴리사카라이드,1117-86-8,0,Skin Conditioning Agent,대한민국
+MAP-0030,6,Caprylyl Glycol,카프릴릴글라이콜,533-75-5,0.25,Skin Conditioning Agent,대한민국
+MAP-0030,7,Tropolone,트로폴론,,0.25,Skin Conditioning Agent,대한민국
+MAP-0031,1,Water,정제수,7732-18-5,55,Skin Conditioning Agent,대한민국
+MAP-0031,2,Butylene Glycol,부틸렌글라이콜,107-88-0,40,Skin Conditioning Agent,대한민국
+MAP-0031,3,Chamaecyparis Obtusa Leaf Extract,편백잎추출물,91745-97-0,5,Skin Conditioning Agent,대한민국
+MAP-0032,1,Water,정제수,7732-18-5,55,Skin Conditioning Agent,대한민국
+MAP-0032,2,Propanediol,프로판다이올,504-63-2,40,Skin Conditioning Agent,대한민국
+MAP-0032,3,Fraxinus Rhynchophylla Leaf Extract,물푸레나무잎추출물,-,5,Skin Conditioning Agent,대한민국
+MAP-0033,1,Water,정제수,7732-18-5,53,Skin Conditioning Agent,대한민국
+MAP-0033,2,Butylene Glycol,부틸렌글라이콜,107-88-0,45,Skin Conditioning Agent,대한민국
+MAP-0033,3,Propolis Extract,프로폴리스추출물,85665-41-4,2,Skin Conditioning Agent,대한민국
+MAP-0034,1,Water,정제수,7732-18-5,50,Flavoring Agents,대한민국
+MAP-0034,2,Butylene Glycol,부틸렌글라이콜,107-88-0,40,Flavoring Agents,대한민국
+MAP-0034,3,Prunus Persica (Peach) Fruit Extract,복숭아추출물,84012-34-0,10,Flavoring Agents,대한민국
+MAP-0035,1,Water,정제수,7732-18-5,87.859,Skin Conditioning Agent,대한민국
+MAP-0035,2,Butylene Glycol,부틸렌글라이콜,107-88-0,10,Skin Conditioning Agent,대한민국
+MAP-0035,3,"1,2-Hexanediol","1,2-헥산다이올",6920-22-5,2,Skin Conditioning Agent,대한민국
+MAP-0035,4,Ethylhexylglycerin,에틸헥실글리세린,70445-33-9,0.1,Skin Conditioning Agent,대한민국
+MAP-0035,5,Acetyl Hexapeptide-8,아세틸헥사펩타이드-8,616204-22-9,0.005,Skin Conditioning Agent,대한민국
+MAP-0035,6,Copper Tripeptide-1,카퍼트라이펩타이드-1,-,0.005,Skin Conditioning Agent,대한민국
+MAP-0035,7,Palmitoyl Pentapeptide-4,팔미토일펜타펩타이드-4,214047-00-4,0.001,Skin Conditioning Agent,대한민국
+MAP-0035,8,Acetyl Tetrapeptide-5,아세틸테트라펩타이드-5,-,0.005,Skin Conditioning Agent,대한민국
+MAP-0035,9,Palmitoyl Tripeptide-1,팔미토일트라이펩타이드-1,-,0.005,Skin Conditioning Agent,대한민국
+MAP-0035,10,Nonapeptide-1,노나펩타이드-1,-,0.005,Skin Conditioning Agent,대한민국
+MAP-0035,11,Dipeptide-2,다이펩타이드-2,-,0.005,Skin Conditioning Agent,대한민국
+MAP-0035,12,Tripeptide-1,트라이펩타이드-1,-,0.005,Skin Conditioning Agent,대한민국
+MAP-0035,13,Hexapeptide-9,헥사펩타이드-9,-,0.005,Skin Conditioning Agent,대한민국
+MAP-0036,1,Water,정제수,7732-18-5,96.9,Skin Conditioning Agent,대한민국
+MAP-0036,2,"1,2-Hexanediol","1,2-헥산다이올",6920-22-5,3,Skin Conditioning Agent,대한민국
+MAP-0036,3,Propolis Extract,프로폴리스추출물,85665-41-4,0.1,Skin Conditioning Agent,대한민국
+MAP-0037,1,Water,정제수,7732-18-5,58,Skin Conditioning Agent,대한민국
+MAP-0037,2,Butylene Glycol,부틸렌글라이콜,107-88-0,40,Skin Conditioning Agent,대한민국
+MAP-0037,3,Passiflora Edulis Fruit Extract,패션프룻열매추출물,-,2,Skin Conditioning Agent,대한민국
+MAP-0038,1,Lactose,락토오스,63-42-3,60,Skin Conditioning Agent,중국
+MAP-0038,2,Cellulose,셀룰로오스,9004-34-6,36,Skin Conditioning Agent,중국
+MAP-0038,3,Hydroxypropyl Methylcellulose,하이드록시프로필메틸셀룰로오스,9004-65-3,2,Skin Conditioning Agent,중국
+MAP-0038,4,Jojoba Esters,호호바에스터,61789-91-1,1,Skin Conditioning Agent,중국
+MAP-0038,5,CI 77492,황색산화철,51274-00-1,0.8,Skin Conditioning Agent,중국
+MAP-0038,6,Tocopheryl Acetate,토코페릴아세테이트,7695-91-2,0.1,Skin Conditioning Agent,중국
+MAP-0038,7,Ascorbyl Palmitate,아스코빌팔미테이트,137-66-6,0.1,Skin Conditioning Agent,중국
+MAP-0039,1,Sodium DNA,소듐디엔에이,9007-49-2,0.005,Skin Conditioning Agent,대한민국
+MAP-0039,2,Water,정제수,7732-18-5,98.495,Skin Conditioning Agent,대한민국
+MAP-0039,3,"1,2-Hexanediol","1,2-헥산다이올",6920-22-5,1.5,Skin Conditioning Agent,대한민국
+MAP-0040,1,Beta-sitosterol,베타-시토스테롤,83-46-5,100,Skin Conditioning Agent,이탈리아
+MAR-0006,1,Rosa Centifolia Flower Water,프로방스장미꽃수,-,99.5,Skin Conditioning Agent,프랑스
+MAR-0006,2,Phenoxyethanol,페녹시에탄올,122-99-6,0.5,Skin Conditioning Agent,프랑스
+MAR-0010,1,Water,정제수,57-88-5,31.24,Skin Conditioning Agent,
+MAR-0010,2,Macadamia Ternifolia Seed Oil,,83-46-5,15,Skin Conditioning Agent,
+MAR-0010,3,Caprylic/Capric Triglyceride,카프릴릭/카프릭트라이글리세라이드,56-81-5,12,Skin Conditioning Agent,
+MAR-0010,4,Retinol,레티놀,57-55-6,10,Skin Conditioning Agent,
+MAR-0010,5,Hydrogenated Phosphatidylcholine,,9005-00-9,10,Skin Conditioning Agent,
+MAR-0010,6,Alcohol,에탄올,64-17-5,5,Skin Conditioning Agent,
+MAR-0010,7,Propylene Glycol,프로필렌글라이콜,139-33-3,5,Skin Conditioning Agent,
+MAR-0010,8,Glycerin,글리세린,99-76-3,5,Skin Conditioning Agent,
+MAR-0010,9,Other,,7732-18-5,6.76,Skin Conditioning Agent,
+MAR-0011,1,Wine Extract,포도주추출물,-,100,Skin Coditioning Agent,대한민국
+MAR-0012,1,Water,정제수,7732-18-5,57.5,Skin Conditioning Agent,대한민국
+MAR-0012,2,Butylene Glycol,부틸렌글라이콜,107-88-0,40,Skin Conditioning Agent,대한민국
+MAR-0012,3,Red Ginseng Extract,,90045-38-8,2.5,Skin Conditioning Agent,대한민국
+MAR-0013,1,Water,정제수,7732-18-5,50,Skin Conditioning Agent,대한민국
+MAR-0013,2,Butylene Glycol,부틸렌글라이콜,107-88-0,40,Skin Conditioning Agent,대한민국
+MAR-0013,3,Aspalathus Linearis Extract,루이보스추출물,776295-36-4,10,Skin Conditioning Agent,대한민국
+MAR-0014,1,Water,정제수,"7732-18-5
+107-88-0
+-",55,Skin Conditioning Agent,대한민국
+MAR-0014,2,Butylene Glycol,부틸렌글라이콜,,40,Skin Conditioning Agent,대한민국
+MAR-0014,3,Selaginella Lepidophylla Extract,로즈오브예리코추출물,,5,Skin Conditioning Agent,대한민국
+MAR-0015,1,Lactobacillus/Rice Bran/Saccharomyces/Camellia Sinensis Leaf/Citrus Unshiu Peel/Laminaria Japonica Thallus/Prunus Mume Fruit Ferment Filtrate Filtrate,,'-,97,Skin Conditioning Agent,대한민국
+MAR-0015,2,"1,2-Hexanediol","1,2-헥산다이올",6920-22-5,3,Skin Conditioning Agent,대한민국
+MAR-0016,1,Water,정제수,7732-18-5,61.95,Skin Conditioning Agent,대한민국
+MAR-0016,2,Butylene Glycol,부틸렌글라이콜,107-88-0,30,Skin Conditioning Agent,대한민국
+MAR-0016,3,Rose Extract,장미추출물,84696-47-9,2,Skin Conditioning Agent,대한민국
+MAR-0016,4,Opuntia Coccinellifera Fruit Extract,코치닐선인장열매추출물,-,2,Skin Conditioning Agent,대한민국
+MAR-0016,5,Punica Granatum Fruit Extract,석류추출물,84961-57-9,2,Skin Conditioning Agent,대한민국
+MAR-0016,6,"1,2-Hexanediol","1,2-헥산다이올",6920-22-5,2,Skin Conditioning Agent,대한민국
+MAR-0016,7,Caprylyl Glycol,카프릴릴글라이콜,1117-86-8,0.05,Skin Conditioning Agent,대한민국
+MAR-0017,1,Oryza Sativa (Rice) Powder,쌀가루,,100,Skin Conditioning Agent,대한민국
+MAS-0003,1,Nonfat Dry Milk,탈지분유,-,100,Skin Conditioning Agent,
+MAS-0004,1,Stearyl Glycyrrhetinate,스테아릴글리시레티네이트,13832-70-7,100,Skin Conditioning Agent,
+MAS-0008,1,Water,정제수,7732-18-5,58,Skin Conditioning Agent,대한민국
+MAS-0008,2,Butylene Glycol,부틸렌글라이콜,107-88-0,40,Skin Conditioning Agent,대한민국
+MAS-0008,3,Algae Extract (Retired),,92128-82-0,2,Skin Conditioning Agent,대한민국
+MAS-0009,1,Algae Extract,조류추출물,92128-82-0,100,Skin Conditioning Agent,
+MAS-0011,1,Hydrolyzed Silk,하이드롤라이즈드실크,73049-73-7,100,Skin Conditioning Agent,
+MAS-0012,1,Tricholoma Matsutake Extract,송이버섯추출물,-,100,Skin Conditioning Agent,
+MAS-0016,1,Shea Butter,,-,100,Skin Conditioning Agent,
+MAS-0017,1,Plantago Lanceolata Leaf Extract,창질경이잎추출물,85085-64-9,50,Skin Conditioning Agent,
+MAS-0017,2,Berberis Aquifolium Extract,오레곤그레이프추출물,-,50,Skin Conditioning Agent,
+MAS-0018,1,Water,정제수,7732-18-5,55,Skin Conditioning Agent,대한민국
+MAS-0018,2,Butylene Glycol,부틸렌글라이콜,107-88-0,40,Skin Conditioning Agent,대한민국
+MAS-0018,3,Oryza Sativa (Rice) Extract,쌀추출물,68553-81-1,5,Skin Conditioning Agent,대한민국
+MAS-0019,1,Water,정제수,7732-18-5,0,Skin Conditioning Agent,대한민국
+MAS-0019,2,"1,3-Butylen Glycol",부틸렌글라이콜,107-88-0,0,Skin Conditioning Agent,대한민국
+MAS-0019,3,Fragaria Chiloensis (Strawberry) Fruit Extract,비치스트로베리추출물,-,0,Skin Conditioning Agent,대한민국
+MAS-0020,1,Adenosine,아데노신,58-61-7,0,Skin Conditioning Agent,
+MAS-0020,2,Butylene Glycol,부틸렌글라이콜,107-88-0,0,Skin Conditioning Agent,
+MAS-0020,3,Alcohol,에탄올,64-17-5,0,Skin Conditioning Agent,
+MAS-0020,4,Water,정제수,64-17-5,0,Skin Conditioning Agent,
+MAS-0021,1,Water,정제수,164288-51-1,78,Skin Conditioning Agent,대한민국
+MAS-0021,2,Butylene Glycol,부틸렌글라이콜,84012-44-2,20,Skin Conditioning Agent,대한민국
+MAS-0021,3,Coix Lacryma-Jobi Ma-yuen Seed Extract,율무씨추출물,-,0.2,Skin Conditioning Agent,대한민국
+MAS-0021,4,Triticum Vulgare (Wheat) Seed Extract,밀추출물,-,0.2,Skin Conditioning Agent,대한민국
+MAS-0021,5,Zea Mays (Corn) Kernel Extract,옥수수커넬추출물,-,0.2,Skin Conditioning Agent,대한민국
+MAS-0021,6,Phaseolus Radiatus Seed Extract,녹두추출물,-,0.2,Skin Conditioning Agent,대한민국
+MAS-0021,7,Glycine Soja (Soybean) Seed Extract,검정콩추출물,,0.1,Skin Conditioning Agent,대한민국
+MAS-0021,8,Oryza Sativa (Rice) Bran Extract,쌀겨추출물,,0.1,Skin Conditioning Agent,대한민국
+MAS-0021,9,"1,2-Hexanediol","1,2-헥산다이올",,1,Skin Conditioning Agent,대한민국
+MAS-0022,1,Water,정제수,7732-18-5,55,Skin Conditioning Agent,
+MAS-0022,2,Butylene Glycol,부틸렌글라이콜,107-88-0,40,Skin Conditioning Agent,
+MAS-0022,3,Mentha Piperita (Peppermint) Leaf Extract,페퍼민트잎추출물,84082-70-2,5,Skin Conditioning Agent,
+MAS-0023,1,Water,정제수,84929-30-6,59,Skin Conditioning Agent,
+MAS-0023,2,Butylene Glycol,부틸렌글라이콜,,40,Skin Conditioning Agent,
+MAS-0023,3,Lawsonia Inermis (Henna) Extract,헨나추출물,,1,Skin Conditioning Agent,
+MAS-0025,1,Oryza Sativa (Rice) Extract,쌀추출물,68553-81-1,100,Skin Conditioning Agent,
+MAS-0026,1,Sodium Ascorbyl Phosphate,소듐아스코빌포스페이트,66170-10-3,100,Skin Conditioning Agent,
+MAS-0027,1,Punica Granatum Fruit Extract,석류추출물,84961-57-9,0,Skin Conditioning Agent,대한민국
+MAS-0027,2,Ficus Carica (Fig) Fruit Extract,무화과추출물,-,0,Skin Conditioning Agent,대한민국
+MAS-0027,3,Codonopsis Lanceolata Root Extract,더덕뿌리추출물,-,0,Skin Conditioning Agent,대한민국
+MAS-0028,1,Water,정제수,7732-18-5,55,Skin Conditioning Agent,대한민국
+MAS-0028,2,Butylene Glycol,부틸렌글라이콜,107-88-0,40,Skin Conditioning Agent,대한민국
+MAS-0028,3,Snail Secretion Filtrate,달팽이점액여과물,-,5,Skin Conditioning Agent,대한민국
+MAS-0029,1,Water,정제수,7732-18-5,50.65,Skin Conditioning Agent,대한민국
+MAS-0029,2,Butylene Glycol,부틸렌글라이콜,107-88-0,40,Skin Conditioning Agent,대한민국
+MAS-0029,3,Rehmannia Glutinosa Root Extract,지황뿌리추출물,-,0.9,Skin Conditioning Agent,대한민국
+MAS-0029,4,Eclipta Prostrata Extract,한련초추출물,-,0.9,Skin Conditioning Agent,대한민국
+MAS-0029,5,Artemisia Princeps Leaf Extract,쑥잎추출물,-,0.9,Skin Conditioning Agent,대한민국
+MAS-0029,6,Glycyrrhiza Uralensis (Licorice) Root Extract,감초뿌리추출물,84775-66-6,0.9,Skin Conditioning Agent,대한민국
+MAS-0029,7,Sophora Flavescens Root Extract,고삼뿌리추출물,-,0.9,Skin Conditioning Agent,대한민국
+MAS-0029,8,Capsicum Annuum Fruit Extract,고추열매추출물,-,0,Skin Conditioning Agent,대한민국
+MAS-0029,9,Angelica Gigas Root Extract,참당귀뿌리추출물,-,0.9,Skin Conditioning Agent,대한민국
+MAS-0029,10,Polygonum Multiflorum Root Extract,하수오뿌리추출물,-,0.9,Skin Conditioning Agent,대한민국
+MAS-0029,11,Angelica Dahurica Root Extract,구릿대뿌리추출물,-,0.9,Skin Conditioning Agent,대한민국
+MAS-0029,12,Lithospermum Erythrorhizon Root Extract,지치뿌리추출물,-,0.9,Skin Conditioning Agent,대한민국
+MAS-0029,13,Lycium Chinense Fruit Extract,구기자추출물,-,0.25,Skin Conditioning Agent,대한민국
+MAS-0029,14,Morus Alba Root Extract,뽕나무뿌리추출물,94167-05-2,0.25,Skin Conditioning Agent,대한민국
+MAS-0029,15,Pinus Palustris Leaf Extract,,-,0.25,Skin Conditioning Agent,대한민국
+MAS-0029,16,Rubus Coreanus Fruit Extract,복분자딸기열매추출물,84650-60-2,0.25,Skin Conditioning Agent,대한민국
+MAS-0029,17,Camellia Sinensis Leaf Extract,녹차추출물,,0.25,Skin Conditioning Agent,대한민국
+MAS-0030,1,Pinus Densiflora Leaf Powder,소나무잎가루,-,100,Skin Conditioning Agent,
+MAS-0031,1,Water,정제수,7732-18-5,50,Skin Conditioning Agent,
+MAS-0031,2,Propanediol,프로판다이올,504-63-2,40,Skin Conditioning Agent,
+MAS-0031,3,Salvia Officinalis (Sage) Leaf Extract,살비아잎추출물,84082-79-1,10,Skin Conditioning Agent,
+MAS-0032,1,Water,정제수,7732-18-5,55,Skin Conditioning Agent,대한민국
+MAS-0032,2,Butylene Glycol,부틸렌글라이콜,107-88-0,40,Skin Conditioning Agent,대한민국
+MAS-0032,3,Artemisia Capillaris Extract,사철쑥추출물,-,5,Skin Conditioning Agent,대한민국
+MAS-0033,1,Water,정제수,7732-18-5,57,Skin Conditioning Agent,대한민국
+MAS-0033,2,Butylene Glycol,부틸렌글라이콜,107-88-0,40,Skin Conditioning Agent,대한민국
+MAS-0033,3,Beta Vulgaris (Beet) Root Extract,사탕무뿌리추출물,89957-89-1,3,Skin Conditioning Agent,대한민국
+MAS-0034,1,Water,정제수,7732-18-5,58,Skin Conditioning Agent,대한민국
+MAS-0034,2,Butylene Glycol,부틸렌글라이콜,107-88-0,40,Skin Conditioning Agent,대한민국
+MAS-0034,3,Spirulina Platensis Extract,스피룰리나 플라텐시스추출물,223751-80-2,2,Skin Conditioning Agent,대한민국
+MAS-0035,1,Water,정제수,7732-18-5,57,Skin Conditioning Agent,대한민국
+MAS-0035,2,Butylene Glycol,부틸렌글라이콜,107-88-0,40,Skin Conditioning Agent,대한민국
+MAS-0035,3,Silk Extract,실크추출물,91079-16-2,3,Skin Conditioning Agent,대한민국
+MAS-0036,1,Water,정제수,7732-18-5,57,Skin Conditioning Agent,대한민국
+MAS-0036,2,Butylene Glycol,부틸렌글라이콜,107-88-0,40,Skin Conditioning Agent,대한민국
+MAS-0036,3,Zingiber Officinale (Ginger) Root Extract,생강추출물,84696-15-1,3,Skin Conditioning Agent,대한민국
+MAS-0037,1,Bakuchiol,바쿠치올,10309-37-2,100,Skin Conditioning Agent,미국
+MAS-0038,1,Sodium Hyaluronate,소듐하이알루로네이트,9067-32-7,100,Skin Conditioning Agent,중국
+MAS-0039,1,Tranexamic Acid,트라넥사믹애씨드,1197-18-8,100,Skin Conditioning Agent,대한민국
+MAS-0040,1,Water,정제수,7732-18-5,97.5,Skin Conditioning Agent,대한민국
+MAS-0040,2,"1,2-Hexanediol","1,2-헥산다이올",6920-22-5,2,Skin Conditioning Agent,대한민국
+MAS-0040,3,Saccharum Officinarum (Sugarcane) Extract,사탕수수추출물,91722-22-4,0.5,Skin Conditioning Agent,대한민국
+MAS-0041,1,Water,정제수,7732-18-5,59,Skin Conditioning Agent,대한민국
+MAS-0041,2,Butylene Glycol,부틸렌글라이콜,107-88-0,40,Skin Conditioning Agent,대한민국
+MAS-0041,3,Coral Extract,산호추출물,ㅡ,1,Skin Conditioning Agent,대한민국
+MAS-0042,1,Alpha-Arbutin,알파-알부틴,84380-01-8,100,Skin Conditioning Agent,중국
+MAT-0005,1,Triticum Vulgare (Wheat) Protein,밀단백질,-,100,Skin Conditioning Agent,
+MAT-0008,1,Solanum Lycopersicum (Tomato) Fruit Extract,토마토추출물,-,100,Skin Conditioning Agent,대한민국
+MAT-0009,1,Water,정제수,7732-18-5,50,Skin Conditioning Agent,대한민국
+MAT-0009,2,Butylene Glycol,부틸렌글라이콜,107-88-0,40,Skin Conditioning Agent,대한민국
+MAT-0009,3,Nelumbo Nucifera Flower Extract,연꽃추출물,85085-51-4,1.25,Skin Conditioning Agent,대한민국
+MAT-0009,4,Bellis Perennis (Daisy) Flower Extract,데이지꽃추출물,84776-11-4,1.25,Skin Conditioning Agent,대한민국
+MAT-0009,5,Chrysanthemum Indicum Flower Extract,감국꽃추출물,-,1.25,Skin Conditioning Agent,대한민국
+MAT-0009,6,Camellia Japonica Flower Extract,동백나무꽃추출물,223748-13-8,1.25,Skin Conditioning Agent,대한민국
+MAT-0009,7,Rosa Centifolia Flower Extract,프로방스장미꽃추출물,84604-12-6,1.25,Skin Conditioning Agent,대한민국
+MAT-0009,8,Prunus Serrulata Flower Extract,세룰라타벚나무꽃추출물,-,1.25,Skin Conditioning Agent,대한민국
+MAT-0009,9,Sambucus Nigra Flower Extract,엘더꽃추출물,84603-58-7,1.25,Skin Conditioning Agent,대한민국
+MAT-0009,10,Oenothera Biennis (Evening Primrose) Flower Extract,달맞이꽃추출물,-,1.25,Skin Conditioning Agent,대한민국
+MAT-0010,1,Water,,7732-18-5,50,Skin Conditioning Agent,대한민국
+MAT-0010,2,Butylene Glycol,,107-88-0,40,Skin Conditioning Agent,대한민국
+MAT-0010,3,Musa Sapientum (Banana) Fruit Extract,바나나추출물,89957-82-4,2,Skin Conditioning Agent,대한민국
+MAT-0010,4,Carica Papaya (Papaya) Fruit Extract,파파야열매추출물,84012-30-6,2,Skin Conditioning Agent,대한민국
+MAT-0010,5,Garcinia Mangostana Fruit Extract,망고스틴추출물,90045-25-3,2,Skin Conditioning Agent,대한민국
+MAT-0010,6,Psidium Guajava Fruit Extract,구아바열매추출물,90045-46-8,2,Skin Conditioning Agent,대한민국
+MAT-0010,7,Ananas Sativus (Pineapple) Fruit Extract,얼룩파인애플추출물,-,2,Skin Conditioning Agent,대한민국
+MAT-0011,1,Water,탄산수,7732-18-5,97,Skin Conditioning Agent,대한민국
+MAT-0011,2,"1,2-Hexanediol","1,2-헥산다이올",6920-22-5,3,Skin Conditioning Agent,대한민국
+MAT-0012,1,Water,정제수,7732-18-5,58,Skin Conditioning Agent,대한민국
+MAT-0012,2,Butylene Glycol,부틸렌글라이콜,107-88-0,40,Skin Conditioning Agent,대한민국
+MAT-0012,3,Melaleuca Alternifolia (Tea Tree) Leaf Extract,티트리잎추출물,85085-48-9,2,Skin Conditioning Agent,대한민국
+MAT-0013,1,Melaleuca Alternifolia (Tea Tree) Leaf Water,티트리잎수,85085-48-9 (generic),97.9,Skin Conditioning Agent,대한민국
+MAT-0013,2,"1,2-Hexanediol","1,2-헥산다이올",6920-22-5,2,Skin Conditioning Agent,대한민국
+MAT-0013,3,Ethylhexylglycerin,에틸헥실글리세린,70445-33-9,0.1,Skin Conditioning Agent,대한민국
+MAT-0014,1,Asiaticoside,아시아티코사이드,16830-15-2,36,Skin Conditioning Agent,중국
+MAT-0014,2,Asiatic Acid,아시아틱애씨드,464-92-6,27,Skin Conditioning Agent,중국
+MAT-0014,3,Madecassic Acid,마데카식애씨드,18449-41-7,27,Skin Conditioning Agent,중국
+MAT-0014,4,Centella Asiatica Extract,병풀추출물,84696-21-9,10,Skin Conditioning Agent,중국
+MAU-0002,1,PEG-12 Glyceryl Laurate,피이지-12글리세릴라우레이트,51248-32-9,0,Skin Conditioning Agent,대한민국
+MAU-0002,2,PEG-36 Castor Oil,피이지-36캐스터오일,61791-12-6,0,Skin Conditioning Agent,대한민국
+MAU-0002,3,Farnesol,파네솔,4602-84-0,0,Skin Conditioning Agent,대한민국
+MAU-0002,4,Ethyl Linoleate,에틸리놀리에이트,544-35-4,0,Skin Conditioning Agent,대한민국
+MAU-0002,5,Farnesyl acetate,파네실아세테이트,29548-30-9,0,Skin Conditioning Agent,대한민국
+MAU-0003,1,Mannitol,만니톨,69-65-8,50,Skin Conditioning Agent,스위스
+MAU-0003,2,Cellulose,셀룰로오스,9004-34-6,40,Skin Conditioning Agent,스위스
+MAU-0003,3,Chromium Hydroxide Green,크로뮴하이드록사이드그린,12001-99-9,5,Skin Conditioning Agent,스위스
+MAU-0003,4,Tocopheryl Acetate,토코페릴아세테이트,58-95-7,4,Skin Conditioning Agent,스위스
+MAU-0003,5,Hydroxypropyl Methylcellulose,하이드록시프로필메틸셀룰로오스,9004-65-3,1,Skin Conditioning Agent,스위스
+MAU-0004,1,Mannitol,만니톨,69-65-8,50,Skin Conditioning Agent,스위스
+MAU-0004,2,Cellulose,셀룰로오스,9004-34-6,40,Skin Conditioning Agent,스위스
+MAU-0004,3,CI 77491,적색산화철,1309-37-1,5,Skin Conditioning Agent,스위스
+MAU-0004,4,Tocopheryl Acetate,토코페릴아세테이트,58-95-7,4,Skin Conditioning Agent,스위스
+MAU-0004,5,Hydroxypropyl Methylcellulose,하이드록시프로필메틸셀룰로오스,9004-65-3,1,Skin Conditioning Agent,스위스
+MAU-0005,1,Water,정제수,7732-18-5,55,Skin Conditioning Agent,대한민국
+MAU-0005,2,Butylene Glycol,부틸렌글라이콜,107-88-0,40,Skin Conditioning Agent,대한민국
+MAU-0005,3,Citrus Junos Fruit Extract,유자추출물,-,5,Skin Conditioning Agent,대한민국
+MAU-0006,1,Sea Water,해수,ㅡ,97,Skin Conditioning Agent,대한민국
+MAU-0006,2,"1,2-Hexanediol","1,2-헥산다이올",6920-22-5,3,Skin Conditioning Agent,대한민국
+MAV-0002,1,"3,4-dihydro-2",,7695-91-2,0,"Antioxidants, Skin Conditioning Agent",스위스
+MAV-0002,2,5,,,0,"Antioxidants, Skin Conditioning Agent",스위스
+MAV-0002,3,"7,8-tetramethyl-2-
+(4",,,0,"Antioxidants, Skin Conditioning Agent",스위스
+MAV-0002,4,8,,,0,"Antioxidants, Skin Conditioning Agent",스위스
+MAV-0002,5,12-trimethyltridecyl)-2Hbenzopyran-6-yl ace,,,100,"Antioxidants, Skin Conditioning Agent",스위스
+MAV-0004,1,Ananas Sativus (Pineapple) Fruit Extract,얼룩파인애플추출물,-,100,Skin Conditioning Agent,
+MAV-0005,1,Water,정제수,7732-18-5,50,Skin Conditioning Agent,대한민국
+MAV-0005,2,Butylene Glycol,부틸렌글라이콜,107-88-0,40,Skin Conditioning Agent,대한민국
+MAV-0005,3,Carica Papaya (Papaya) Fruit Extract,파파야열매추출물,84012-30-6,10,Skin Conditioning Agent,대한민국
+MAV-0006,1,Hydrogenated Lecithin,하이드로제네이티드레시틴,92128-87-5,0,Skin Conditioning Agent,
+MAV-0006,2,Propylene glycol,프로필렌글라이콜,57-55-6,0,Skin Conditioning Agent,
+MAV-0006,3,Glycerin,글리세린,56-81-5,0,Skin Conditioning Agent,
+MAV-0006,4,Methylparaben,메틸파라벤,99-76-3,0,Skin Conditioning Agent,
+MAV-0006,5,Disodium EDTA,다이소듐이디티에이,139-33-3,0,Skin Conditioning Agent,
+MAV-0006,6,BHT,비에이치티,128-37-0,0,Skin Conditioning Agent,
+MAV-0006,7,Tocopheryl Acetate,토코페릴아세테이트,58-95-7,0,Skin Conditioning Agent,
+MAV-0006,8,Alcohol,에탄올,64-17-5,0,Skin Conditioning Agent,
+MAV-0006,9,Niacinamide,나이아신아마이드,98-92-0,0,Skin Conditioning Agent,
+MAV-0006,10,Magnesium Ascorbyl Phosphate,마그네슘아스코빌포스페이트,113170-55-1,0,Skin Conditioning Agent,
+MAV-0006,11,Retinyl Palmitate,레티닐팔미테이트,79-81-2,0,Skin Conditioning Agent,
+MAV-0006,12,Ceramide NP,세라마이드엔피,-,0,Skin Conditioning Agent,
+MAV-0006,13,Water,정제수,7732-18-5,0,Skin Conditioning Agent,
+MAV-0007,1,Hippophae Rhamnoides Water,비타민나무수,90106-68-6,97.9,Skin Conditioning Agent,대한민국
+MAV-0007,2,"1,2-Hexanediol",,6920-22-5,2,Skin Conditioning Agent,대한민국
+MAV-0007,3,Ethylhexylglycerin,,70445-33-9,0.1,Skin Conditioning Agent,대한민국
+MAV-0008,1,3-O-Ethyl Ascorbic Acid,3-O-에틸아스코빅애씨드,86404-04-8,100,Skin Conditioning Agent,대한민국
+MAV-0009,1,Water,정제수,7732-18-5,58,Skin Conditioning Agent,대한민국
+MAV-0009,2,Butylene Glycol,부틸렌글라이콜,107-88-0,40,Skin Conditioning Agent,대한민국
+MAV-0009,3,Vinegar Extract,비니거추출물,-,2,Skin Conditioning Agent,대한민국
+MAV-0010,1,Biotin,바이오틴,58-85-5,0.01,Skin Conditioning Agent,대한민국
+MAV-0010,2,Thiamine HCl,티아민에이치씨엘,67-03-08,0.001,Skin Conditioning Agent,대한민국
+MAV-0010,3,Cyanocobalamin,사이아노코발아민,68-19-9,0.01,Skin Conditioning Agent,대한민국
+MAV-0010,4,Riboflavin,리보플라빈,83-88-5,0.1,Skin Conditioning Agent,대한민국
+MAV-0010,5,Pyridoxine,피리독신,65-23-6/8059-24-3,0.001,Skin Conditioning Agent,대한민국
+MAV-0010,6,Folic Acid,폴릭애씨드,59-30-3,0.1,Skin Conditioning Agent,대한민국
+MAV-0010,7,Menadione,메나다이온,58-27-5,0.05,Skin Conditioning Agent,대한민국
+MAV-0010,8,Bioflavonoids,바이오플라보노이드,61788-55-4,0.001,Skin Conditioning Agent,대한민국
+MAV-0010,9,Ascorbic Acid,아스코빅애씨드,50-81-7/62624-30-0,0.01,Skin Conditioning Agent,대한민국
+MAV-0010,10,Panthenol,판테놀,81-13-0/16485-10-2,0.1,Skin Conditioning Agent,대한민국
+MAV-0010,11,Niacinamide,나이아신아마이드,98-92-0,2,Skin Conditioning Agent,대한민국
+MAV-0010,12,"1,2-Hexanediol","1,2-헥산다이올",6920-22-5,2,Skin Conditioning Agent,대한민국
+MAV-0010,13,Water,정제수,7732-18-5,95.617,Skin Conditioning Agent,대한민국
+MAV-0011,1,Cyanocobalamin,사이아노코발아민,68-19-9,100,Skin Conditioning Agent,대한민국
+MAV-0012,1,Water,정제수,7732-18-5,96.9,Skin Conditioning Agent,대한민국
+MAV-0012,2,"1,2-Hexanediol","1,2-헥산다이올",6920-22-5,2,Skin Conditioning Agent,대한민국
+MAV-0012,3,Rosa Damascena Flower Extract,다마스크장미꽃추출물,-,1,Skin Conditioning Agent,대한민국
+MAV-0012,4,Sodium DNA,소듐디엔에이,9007-49-2,0.1,Skin Conditioning Agent,대한민국
+MAW-0002,1,Water,정제수,7732-18-5,80,Skin Conditioning Agent,
+MAW-0002,2,Butylene Glycol,부틸렌글라이콜,107-88-0,15,Skin Conditioning Agent,
+MAW-0002,3,Camellia Sinensis Leaf Extract,녹차추출물,84650-60-2,5,Skin Conditioning Agent,
+MAY-0002,1,Yucca Glauca Root Extract,솝위드뿌리추출물,90147-57-2,100,Skin Conditioning Agent,
+MAY-0003,1,Water,,7732-18-5,68,Skin Conditioning Agent,대한민국
+MAY-0003,2,Butylene Glycol,,107-88-0,30,Skin Conditioning Agent,대한민국
+MAY-0003,3,Phenoxyethanol,,122-99-6,0.9,Skin Conditioning Agent,대한민국
+MAY-0003,4,Velvet Extract,녹용추출물,-,0.2,Skin Conditioning Agent,대한민국
+MAY-0003,5,Ganoderma Lucidum (Mushroom) Stem Extract,영지버섯줄기추출물,223751-82-4,0.2,Skin Conditioning Agent,대한민국
+MAY-0003,6,Panax Ginseng Root Extract,산양삼추출물,72480-62-7,0.2,Skin Conditioning Agent,대한민국
+MAY-0003,7,Asparagus Officinalis Root Extract,아스파라거스뿌리추출물,84649-90-1,0.2,Skin Conditioning Agent,대한민국
+MAY-0003,8,Astragalus Membranaceus Root Extract,황기뿌리추출물,94166-93-5,0.2,Skin Conditioning Agent,대한민국
+MAY-0003,9,Ethylhexylglycerin,,70445-33-9,0.1,Skin Conditioning Agent,대한민국
+MAY-0005,1,Water,정제수,7732-18-5,55,Skin Conditioning Agent,대한민국
+MAY-0005,2,Butylene Glycol,부틸렌글라이콜,107-88-0,40,Skin Conditioning Agent,대한민국
+MAY-0005,3,Camellia Japonica Flower Extract,동백나무꽃추출물,223748-13-8,5,Skin Conditioning Agent,대한민국
+MAY-0007,1,Water,정제수,7732-18-5,55,Skin Conditioning Agent,대한민국
+MAY-0007,2,Butylene Glycol,부틸렌글라이콜,107-88-0,40,Skin Conditioning Agent,대한민국
+MAY-0007,3,Artemisia Princeps Leaf Extract,쑥잎추출물,223747-95-3,5,Skin Conditioning Agent,대한민국
+MAY-0008,1,Water,정제수,7732-18-5,55,Skin Conditioning Agent,대한민국
+MAY-0008,2,Butylene Glycol,부틸렌글라이콜,107-88-0,30,Skin Conditioning Agent,대한민국
+MAY-0008,3,Brassica Oleracea Capitata (Cabbage) Leaf Extract,양배추추출물,89958-13-4,10,Skin Conditioning Agent,대한민국
+MAY-0008,4,Glycerin,글리세린,56-81-5,5,Skin Conditioning Agent,대한민국
+MAY-0009,1,Water,정제수,7732-18-5,55,Skin Conditioning Agent,
+MAY-0009,2,Alcohol,에탄올,64-17-5,40,Skin Conditioning Agent,
+MAY-0009,3,Nelumbo Nucifera Flower Extract,연꽃추출물,85085-51-4,5,Skin Conditioning Agent,
+MAY-0010,1,Water,정제수,7732-18-5,55,Skin Conditioning Agent,대한민국
+MAY-0010,2,Butylene Glycol,부틸렌글라이콜,107-88-0,40,Skin Conditioning Agent,대한민국
+MAY-0010,3,Houttuynia Cordata Extract,약모밀추출물,164288-50-0,5,Skin Conditioning Agent,대한민국
+MAY-0011,1,Butylene Glycol,부틸렌글라이콜,107-88-0,30,Skin Conditioning Agent,대한민국
+MAY-0011,2,Water,,-,34.5,Skin Conditioning Agent,대한민국
+MAY-0011,3,Sophora Angustifolia Root Extract,도둑놈의지팡이뿌리추출물,84775-52-0,1,Skin Conditioning Agent,대한민국
+MAY-0011,4,Curcuma Longa (Turmeric) Root Extract,울금뿌리추출물,84929-28-2,1,Skin Conditioning Agent,대한민국
+MAY-0011,5,Paullinia Cupana Seed Extract,과라나씨추출물,6920-22-5,1,Skin Conditioning Agent,대한민국
+MAY-0011,6,"1,2-Hexanediol","1,2-헥산다이올",1117-86-8,2,Skin Conditioning Agent,대한민국
+MAY-0011,7,Caprylyl Glycol,카프릴릴글라이콜,,0.5,Skin Conditioning Agent,대한민국
+MAY-0011,8,Other,,,30,Skin Conditioning Agent,대한민국
+MAZ-0002,1,Ubiquinone,유비퀴논,"303-98-0 
+60684-33-5",100,Skin Conditioning Agent,
+MCB-0002,1,CI 42090,청색1호,3844-45-9,100,Colorants,
+MCB-0004,1,Anthraquinone Dye Mixture,안트라퀴논 다이 믹스처,,100,,미국
+MCB-0005,1,Azo Dye Mixture,아조 다이 믹스처,,100,,
+MCC-0001,1,Cacao Color,카카오색소,9004-53-9,100,Skin Conditioning Agent,대한민국
+MCC-0002,1,Mica,마이카,12001-26-2,63,"Opacifying Agent, Pearlizing Agent",독일
+MCC-0002,2,Titanium Dioxide,티타늄디옥사이드,13463-67-7,30.5,"Opacifying Agent, Pearlizing Agent",독일
+MCC-0002,3,Iron Oxides,황색산화철,1345-27-3,6.5,"Opacifying Agent, Pearlizing Agent",독일
+MCC-0003,1,synthetic fiuorphlogopite,,12003-38-2,83.5,"Bulking Agents, Opacifying Agents, Pearlizing Agent",독일
+MCC-0003,2,tin oxide,틴옥사이드,1332-29-2,0.5,"Bulking Agents, Opacifying Agents, Pearlizing Agent",독일
+MCC-0003,3,titanium dioxde,,13463-67-7,16,"Bulking Agents, Opacifying Agents, Pearlizing Agent",독일
+MCC-0004,1,Caramel,카라멜,8028-89-5,100,Skin Conditioning Agent,대한민국
+MCC-0005,1,Chromium Oxide Greens,크로뮴옥사이드그린,1308-38-9,100,Colorant,영국
+MCC-0006,1,Mica,마이카,12001-26-2,72,Pearlizing Agent,중국
+MCC-0006,2,CI 77891,CI 77891,13463-67-7,28,Pearlizing Agent,중국
+MCC-0007,1,Titanium Dioxide,티타늄디옥사이드,13463-67-7,50,Bulking Agents,대한민국
+MCC-0007,2,CI 77492,황색산화철,51274-00-1,35,Bulking Agents,대한민국
+MCC-0007,3,Mica,마이카,12001-26-2,10,Bulking Agents,대한민국
+MCC-0007,4,Styrene/Acrylates Copolymer,스타이렌/아크릴레이트코폴리머,9010-92-8,3,Bulking Agents,대한민국
+MCC-0007,5,Sucrose,수크로오스,57-50-1,1,Bulking Agents,대한민국
+MCC-0007,6,Cellulose Gum,셀룰로오스검,9004-32-4,1,Bulking Agents,대한민국
+MCC-0008,1,Titanium Dioxide,티타늄디옥사이드,13463-67-7,50,Bulking Agents,대한민국
+MCC-0008,2,CI 77491,적색산화철,1309-37-1,35,Bulking Agents,대한민국
+MCC-0008,3,Mica,마이카,12001-26-2,10,Bulking Agents,대한민국
+MCC-0008,4,Styrene/Acrylates Copolymer,스타이렌/아크릴레이트코폴리머,9010-92-8,3,Bulking Agents,대한민국
+MCC-0008,5,Sucrose,수크로오스,57-50-1,1,Bulking Agents,대한민국
+MCC-0008,6,Cellulose Gum,셀룰로오스검,9004-32-4,1,Bulking Agents,대한민국
+MCC-0009,1,Synthetic Mica,합성플루오르플로고파이트,12003-38-2,92,Pearlizing Agent,중국
+MCC-0009,2,Titanium Oxide,티타늄디옥사이드,13463-67-7,8,Pearlizing Agent,중국
+MCC-0010,1,Gardenia Florida Fruit Extract,치자추출물,92457-01-7,25,Skin Conditioning Agent,대한민국
+MCC-0010,2,Carthamus Tinctorius (Safflower) Flower Extract,잇꽃꽃추출물,ㅡ,50,Skin Conditioning Agent,대한민국
+MCC-0010,3,Dextrin,덱스트린,9004-53-9,25,Skin Conditioning Agent,대한민국
+MCC-0011,1,Synthetic Fluorphlogopite,합성플루오르플로고파이트,12003-38-2,82.1,Pearlizing Agent,중국
+MCC-0011,2,Titanium Dioxide,티타늄디옥사이드,13463-67-7,14.5,Pearlizing Agent,중국
+MCC-0011,3,Iron Oxide Red,적색산화철,1309-37-1,3.4,Pearlizing Agent,중국
+MCD-0009,1,CI 47000,황색204호,8003-22-3,100,Colorant,일본
+MCF-0001,1,CI 42090,청색1호,2650-18-2,100,Colorant,한국
+MCF-0002,1,CI 42053,녹색3호,2353-45-9,100,Colorant,일본
+MCF-0005,1,CI 19140,황색4호,12225-21-7,100,Colorant,일본
+MCF-0006,1,CI 15985,황색5호,2783-94-0,100,Colorant,일본
+MCG-0001,1,Azo Dye Mixture,아조 다이 믹스처,,100,,
+MCO-0001,1,CI 15510,등색205호,633-96-5,100,Colorant,일본
+MCP-0001,1,Azo Dye Mixture,아조 다이 믹스처,,100,,
+MCR-0001,1,CI 16185,적색2호,,100,Colorant,한국
+MCR-0002,1,CI 45190,적색401호,,100,Colorant,일본
+MCR-0005,1,CI 17200,적색227호,3567-66-6,100,Colorant,일본
+MCR-0006,1,CI 26100,적색225호,,100,Colorant,일본
+MCR-0007,1,CI 14700,적색504호,,100,Colorant,일본
+MCR-0008,1,CI 16255,적색102호,,100,Colorant,일본
+MCR-0009,1,Azo Dye Mixture,아조 다이 믹스처,,100,,미국
+MCT-0006,1,Titanium Dioxide,티타늄디옥사이드,13463-67-7,0,Ultraviolet Light Absorbers,
+MCT-0006,2,Water,정제수,7732-18-5,0,Ultraviolet Light Absorbers,
+MCT-0006,3,Alumina,알루미나,1333-84-2,0,Ultraviolet Light Absorbers,
+MCT-0006,4,Silica,실리카,7631-86-9,0,Ultraviolet Light Absorbers,
+MCT-0006,5,Sodium Polyacrylate,소듐폴리아크릴레이트,9003-04-7,0,Ultraviolet Light Absorbers,
+MCT-0006,6,Propylene Glycol,프로필렌글라이콜,57-55-6,0,Ultraviolet Light Absorbers,
+MCT-0006,7,Diazolidinyl Urea,디아졸리디닐우레아,78491-02-8,0,Ultraviolet Light Absorbers,
+MCT-0006,8,Methylparaben,메틸파라벤,99-76-3,0,Ultraviolet Light Absorbers,
+MCT-0006,9,Propylparaben,프로필파라벤,94-13-3,0,Ultraviolet Light Absorbers,
+MCT-0007,1,Titanium Dioxide,티타늄디옥사이드,13463-67-7,55,Pearlizing Agent,독일
+MCT-0007,2,Mica,마이카,12001-26-2,33,Pearlizing Agent,독일
+MCT-0007,3,Silica,실리카,7631-86-9,12,Pearlizing Agent,독일
+MCT-0008,1,Titanium Dioxide,티타늄디옥사이드,13463-67-7,97,Opacifying Agent,
+MCT-0008,2,Aluminum Hydroxide,알루미늄하이드록사이드,21645-51-2,3,Opacifying Agent,
+MCT-0009,1,Hydrated Ferric Oxide,황색산화철,,100,Colorant,
+MCT-0010,1,Ferric Oxide,적색산화철,,100,Colorant,
+MCU-0001,1,Ultramarines,울트라마린,11118-33-5,100,Colorant,영국
+MCU-0002,1,CI 77007,울트라마린,12769-96-9,90,Colorant,영국
+MCU-0002,2,CI 77004,벤토나이트,1302-78-9,10,Colorant,영국
+MCV-0001,1,CI 60730,자색401호,4430-18-6,100,Colorant,일본
+MCY-0001,1,Azo Dye Mixture,아조 다이 믹스처,,100,,미국
+MDA-0001,1,Silica,실리카,7631-86-9,100,Bulking Agents,독일
+MDA-0002,1,Silica Dimethyl Silylate,실리카다이메틸실릴레이트,1158846-14-0,100,Bulking Agents,
+MDA-0003,1,Prunus Armeniaca (Apricot) Seed Powder,살구씨가루,68650-44-2,100,Scrubs,대한민국
+MDB-0002,1,Titanium Dioxide,티타늄디옥사이드,13463-67-7,63.2,Bulking Agents,대한민국
+MDB-0002,2,Talc,탤크,14807-96-6,20.2,Bulking Agents,대한민국
+MDB-0002,3,Nylon-12,나일론-12,25038-74-8,3,Bulking Agents,대한민국
+MDB-0002,4,Polymethyl Methacrylate,폴리메틸메타크릴레이트,9011-14-7,1.5,Bulking Agents,대한민국
+MDB-0002,5,Yellow Oxide of Iron,황색산화철,1345-27-3,4.88,Bulking Agents,대한민국
+MDB-0002,6,Red Oxide of Iron,적색산화철,1309-37-1,1.94,Bulking Agents,대한민국
+MDB-0002,7,Black Oxide of Iron,흑색산화철,1309-37-1,1.43,Bulking Agents,대한민국
+MDB-0002,8,Ultramarines,울트라마린,1302-83-6,1.05,Bulking Agents,대한민국
+MDB-0002,9,Triethoxycaprylylsilane,트라이에톡시카프릴릴실레인,2943-75-1,2.7,Bulking Agents,대한민국
+MDB-0002,10,Dimethicone,다이메티콘,9006-65-9,0.1,Bulking Agents,대한민국
+MDC-0001,1,Kaolin,카올린,1332-58-7,75,Bulking Agents,프랑스
+MDC-0001,2,Illite,일라이트,12173-60-3,25,Bulking Agents,프랑스
+MDD-0001,1,Aluminum Starch Octenylsuccinate,알루미늄전분옥테닐석시네이트,9087-61-0,100,Viscosity Increasing agent,
+MDE-0001,1,Mica,마이카,12001-26-2,0,Bulking Agents,
+MDE-0001,2,Triethoxycaprylylsilane,트라이에톡시카프릴릴실레인,2943-75-1,0,Bulking Agents,
+MDE-0001,3,Titanium Dioxide,티타늄디옥사이드,13463-67-7,0,Bulking Agents,
+MDE-0001,4,Methyl Methacrylate Crosspolymer,메틸메타크릴레이트크로스폴리머,25777-71-3,0,Bulking Agents,
+MDE-0001,5,CI 77492,황색산화철,1345-27-3,0,Bulking Agents,
+MDE-0001,6,CI77491,적색산화철,1309-37-1,0,Bulking Agents,
+MDE-0001,7,CI 77499,흑색산화철,1309-37-1,0,Bulking Agents,
+MDG-0001,1,Garcinia Cambogia Fruit Extract,가르시니아열매추출물,90045-23-1,100,Skin Conditioning Agent,대한민국
+MDI-0001,1,Nylon-6,나일론-6,25038-54-4,100,Opacifying Agents,
+MDK-0001,1,Kaolin,카올린,1332-58-7,100,Bulking Agents,미국
+MDP-0004,1,Prunus Amygdalus Dulcis (Sweet Almond) Shell Powder,스위트아몬드껍질가루,90320-37-9,100,Scrubs,중국
+MDS-0012,1,Silica,실리카,7631-86-9,0,Bulking Agents,
+MDS-0012,2,Mineral Oil,미네랄오일,8012-95-1,0,Bulking Agents,
+MDS-0012,3,Dimethicone,다이메티콘,9006-65-9,0,Bulking Agents,
+MDS-0013,1,Polymethyl Methacrylate,폴리메틸메타크릴레이트,9011-14-7,100,Bulking Agents,
+MDS-0014,1,Cyclopentasiloxane,사이클로펜타실록세인,541-02-6,0,Skin Conditioning Agent,
+MDS-0014,2,PEG-10 Dimethicone/Vinyl Dimethicone Crosspolymer,피이지-10다이메티콘/비닐다이메티콘크로스폴리머,68937-54-2,0,Skin Conditioning Agent,
+MDS-0015,1,Silica,실리카,7631-86-9,100,Absorbents,대한민국
+MDS-0016,1,Silica,실리카,7631-86-9,100,Bulking Agent,대한민국
+MDT-0009,1,Titanium Dioxide,티타늄디옥사이드,13463-67-7,87,Sunscreen Agents,대한민국
+MDT-0009,2,Silica,실리카,7631-86-9,10,Sunscreen Agents,대한민국
+MDT-0009,3,Dimethicone,다이메티콘,9006-65-9,3,Sunscreen Agents,대한민국
+MFA-0012,1,Fragrance,향료,-,100,Fragrance,대한민국
+MFA-0013,1,Fragrance,향료,-,100,Fragrance,
+MFA-0014,1,Fragrance,향료,-,100,Fragrance,대한민국
+MFA-0015,1,Fragrance,향료,-,100,Fragrance,대한민국
+MFA-0016,1,Fragrance,향료,-,100,Fragrance,대한민국
+MFB-0001,1,Fragrance,향료,-,100,Fragrance,
+MFB-0009,1,Fragrance,향료,-,100,Fragrance,
+MFB-0014,1,Fragrance,향료,-,100,Fragrance,
+MFB-0016,1,Fragrance,향료,-,100,Fragrance,대한민국
+MFB-0017,1,Fragrance,향료,-,100,Fragrance,대한민국
+MFB-0019,1,Fragrance,향료,-,100,Fragrance,대한민국
+MFB-0020,1,Fragrance,향료,-,100,Fragrance,
+MFB-0021,1,Fragrance,향료,-,100,Fragrance,
+MFB-0022,1,Fragrance,향료,-,100,Fragrance,
+MFB-0024,1,Fragrance,향료,-,100,Fragrance,
+MFB-0025,1,Fragrance,향료,-,100,Fragrance,대한민국
+MFB-0026,1,Fragrance,향료,-,100,Fragrance,대한민국
+MFB-0027,1,Fragrance,향료,-,100,Fragrance,대한민국
+MFB-0028,1,Fragrance,향료,-,100,Fragrance,대한민국
+MFB-0029,1,Fragrance,향료,-,100,Fragrance,대한민국
+MFB-0030,1,Fragrance,향료,-,100,Fragrance,대한민국
+MFB-0031,1,Fragrance,향료,-,100,Fragrance,
+MFB-0032,1,Fragrance,향료,-,100,Fragrance,대한민국
+MFB-0033,1,Fragrance,향료,-,100,Fragrance,
+MFB-0034,1,Fragrance,향료,-,100,Fragrance,대한민국
+MFB-0035,1,Fragrance,향료,-,100,Fragrance,대한민국
+MFB-0036,1,Fragrance,향료,-,100,Fragrance,대한민국
+MFB-0037,1,Fragrance,향료,-,100,Fragrance,대한민국
+MFB-0038,1,Fragrance,향료,-,100,Fragrance,대한민국
+MFB-0039,1,Fragrance,향료,-,100,Fragrance,대한민국
+MFB-0040,1,Fragrance,향료,-,100,Fragrance,대한민국
+MFB-0041,1,Fragrance,향료,-,100,Fragrance,대한민국
+MFB-0042,1,Fragrance,향료,-,100,Fragrance,대한민국
+MFB-0043,1,Fragrance,향료,-,100,Fragrance,대한민국
+MFB-0044,1,Fragrance,향료,-,100,Fragrance,대한민국
+MFB-0045,1,Fragrance,향료,-,100,Fragrance,대한민국
+MFB-0046,1,Fragrance,향료,-,100,Fragrance,대한민국
+MFB-0047,1,Fragrance,향료,-,100,Fragrance,대한민국
+MFB-0048,1,Fragrance,향료,-,100,Fragrance,대한민국
+MFB-0049,1,Fragrance,향료,-,100,Fragrance,대한민국
+MFB-0050,1,Fragrance,향료,-,100,Fragrance,대한민국
+MFB-0051,1,Fragrance,향료,-,100,Fragrance,대한민국
+MFB-0052,1,Fragrance,향료,-,100,Fragrance,대한민국
+MFB-0053,1,Fragrance,향료,-,100,Fragrance,대한민국
+MFB-0054,1,Fragrance,향료,-,100,Fragrance,ICID
+MFB-0055,1,Fragrance,향료,-,100,Fragrance,대한민국
+MFB-0056,1,Fragrance,향료,-,100,Fragrance,대한민국
+MFB-0057,1,Fragrance,향료,-,100,Fragrance,대한민국
+MFB-0058,1,Fragrance,향료,-,100,Fragrance,대한민국
+MFB-0059,1,Fragrance,향료,-,100,Fragrance,대한민국
+MFB-0060,1,Fragrance,향료,-,100,Fragrance,대한민국
+MFB-0061,1,Fragrance,향료,-,100,Fragrance,대한민국
+MFB-0062,1,Fragrance,향료,-,100,Fragrance,대한민국
+MFB-0063,1,Fragrance,향료,-,100,Fragrance,대한민국
+MFB-0064,1,Fragrance,향료,-,100,Fragrance,대한민국
+MFB-0065,1,Fragrance,향료,-,100,Fragrance,대한민국
+MFB-0066,1,Fragrance,향료,-,100,Fragrance,대한민국
+MFB-0067,1,Fragrance,향료,-,100,Fragrance,대한민국
+MFB-0068,1,Fragrance,향료,-,100,Fragrance,대한민국
+MFB-0069,1,Fragrance,향료,-,100,Fragrance,대한민국
+MFB-0070,1,Fragrance,향료,-,100,Fragrance,대한민국
+MFB-0071,1,Fragrance,향료,-,100,Fragrance,대한민국
+MFB-0072,1,Fragrance,향료,-,100,Fragrance,대한민국
+MFB-0074,1,Fragrance,향료,-,100,Fragrance,대한민국
+MFB-0075,1,Fragrance,향료,-,100,"Skin Conditioning Agent, Fragrance",
+MFB-0076,1,Fragrance,향료,-,100,Fragrance,대한민국
+MFB-0077,1,Fragrance,향료,-,100,Fragrance,대한민국
+MFB-0078,1,Fragrance,향료,-,100,Fragrance,대한민국
+MFB-0079,1,Fragrance,향료,,100,Fragrance,
+MFB-0080,1,Fragrance,향료,,100,Fragrance,
+MFB-0081,1,Fragrance,향료,,100,Fragrance,
+MFB-0082,1,Fragrance,향료,,100,Fragrance,
+MFB-0083,1,Fragrance,향료,,100,Fragrance,
+MFB-0084,1,Fragrance,향료,,100,Fragrance,
+MFB-0085,1,Fragrance,향료,,100,Fragrance,
+MFB-0086,1,Fragrance,향료,,100,Fragrance,
+MFB-0087,1,Fragrance,향료,,100,Fragrance,
+MFB-0088,1,Fragrance,향료,,100,Fragrance,
+MFB-0089,1,Fragrance,향료,,100,Fragrance,
+MFB-0090,1,Fragrance,향료,,100,Fragrance,
+MFB-0091,1,Fragrance,향료,,100,Fragrance,
+MFB-0092,1,Fragrance,향료,,100,Fragrance,
+MFB-0093,1,Fragrance,향료,,100,Fragrance,대한민국
+MFB-0094,1,Fragrance,향료,,100,Fragrance,대한민국
+MFB-0095,1,Fragrance,향료,,100,Fragrance,대한민국
+MFB-0096,1,Fragrance,향료,-,100,Fragrance,대한민국
+MFB-0097,1,Fragrance,향료,-,100,Fragrance,대한민국
+MFB-0098,1,Fragrance,향료,-,100,Fragrance,대한민국
+MFB-0099,1,Fragrance,향료,-,100,Fragrance,대한민국
+MFB-0100,1,Fragrance,향료,,100,Fragrance,대한민국
+MFB-0101,1,Fragrance,향료,,100,Fragrance,대한민국
+MFB-0102,1,Fragrance,향료,,100,Fragrance,대한민국
+MFB-0103,1,Fragrance,향료,,100,Fragrance,대한민국
+MFB-0104,1,Fragrance,향료,,100,Fragrance,대한민국
+MFB-0105,1,Fragrance,향료,,100,Fragrance,대한민국
+MFB-0106,1,Fragrance,향료,,100,Fragrance,대한민국
+MFB-0107,1,Fragrance,향료,,100,Fragrance,대한민국
+MFB-0108,1,Fragrance,향료,,100,Fragrance,대한민국
+MFB-0109,1,Fragrance,향료,,100,Fragrance,대한민국
+MFC-0016,1,Fragrance,향료,-,100,Fragrance,
+MFC-0017,1,Fragrance,향료,-,100,Fragrance,
+MFC-0019,1,Fragrance,향료,-,100,Fragrance,대한민국
+MFC-0020,1,Fragrance,향료,-,100,Fragrance,대한민국
+MFC-0021,1,Fragrance,향료,-,100,Fragrance,
+MFC-0022,1,Fragrance,향료,-,100,Fragrance,스페인
+MFC-0023,1,Fragrance,향료,-,100,Fragrance,대한민국
+MFC-0024,1,Fragrance,향료,-,100,Fragrance,대한민국
+MFC-0025,1,Fragrance,향료,-,100,Fragrance,대한민국
+MFC-0026,1,Fragrance,향료,-,100,Fragrance,대한민국
+MFC-0027,1,Fragrance,향료,-,100,Fragrance,대한민국
+MFC-0028,1,Fragrance,향료,-,100,Fragrance,대한민국
+MFC-0029,1,Fragrance,향료,-,100,Fragrance,대한민국
+MFC-0030,1,Fragrance,향료,-,100,Fragrance,대한민국
+MFC-0031,1,Fragrance,향료,-,100,Fragrance,대한민국
+MFC-0032,1,Fragrance,향료,-,100,Fragrance,대한민국
+MFC-0033,1,Fragrance,향료,-,100,Fragrance,대한민국
+MFC-0034,1,Fragrance,향료,8000-29-1,100,Fragrance,대한민국
+MFD-0006,1,Fragrance,향료,-,100,Fragrance,대한민국
+MFD-0007,1,Fragrance,향료,-,100,Fragrance,대한민국
+MFD-0008,1,Fragrance,향료,-,100,Fragrance,대한민국
+MFD-0009,1,Fragrance,향료,-,100,Fragrance,대한민국
+MFE-0001,1,Fragrance,향료,-,100,Fragrance,
+MFE-0002,1,Fragrance,향료,-,100,Fragrance,대한민국
+MFE-0004,1,Fragrance,향료,-,100,Fragrance,
+MFE-0005,1,Fragrance,향료,-,100,Fragrance,대한민국
+MFE-0018,1,Fragrance,향료,-,100,Fragrance,
+MFE-0019,1,Citrus Limon (Lemon) Fruit Oil,레몬오일,8808-56-8,35,Skin Conditioning Agent,
+MFE-0019,2,Juniperus Communis Fruit Oil,두송열매오일,8002-68-4,25,Skin Conditioning Agent,
+MFE-0019,3,Pelargonium Graveolens Flower Oil,센티드제라늄꽃오일,8000-46-2,20,Skin Conditioning Agent,
+MFE-0019,4,Cananga Odorata Flower Oil,일랑일랑꽃오일,8006-81-3,15,Skin Conditioning Agent,
+MFE-0019,5,Lavandula Angustifolia (Lavender) Oil,라벤더오일,8000-28-0,5,Skin Conditioning Agent,
+MFE-0020,1,Eucalyptus Globulus Leaf Oil,유칼립투스잎오일,8000-48-4,100,Skin Conditioning Agent,
+MFE-0021,1,Citrus Limon (Lemon) Peel Oil,레몬껍질오일,8008-56-8,55,Skin Conditioning Agent,대한민국
+MFE-0021,2,Litsea Cubeba Fruit Oil,리씨열매오일,68855-99-2,25,Skin Conditioning Agent,대한민국
+MFE-0021,3,Eucalyptus Citriodora Leaf/Twig Oil,레몬유칼립투스잎/잔가지오일,85203-56-1,10,Skin Conditioning Agent,대한민국
+MFE-0021,4,Eucalyptus Globulus Leaf Oil,유칼립투스잎오일,8000-48-4,5,Skin Conditioning Agent,대한민국
+MFE-0021,5,Citrus Paradisi (Grapefruit) Peel Oil,자몽껍질오일,8016-20-4,5,Skin Conditioning Agent,대한민국
+MFF-0003,1,Fragrance,향료,-,100,Fragrance,대한민국
+MFF-0004,1,Fragrance,향료,-,100,Fragrance,대한민국
+MFF-0005,1,Fragrance,향료,-,100,Fragrance,대한민국
+MFF-0006,1,Fragrance,향료,-,100,Fragrance,대한민국
+MFF-0007,1,Fragrance,향료,-,100,Fragrance,대한민국
+MFF-0008,1,Fragrance,향료,-,100,Fragrance,대한민국
+MFF-0009,1,Fragrance,향료,-,100,Fragrance,대한민국
+MFF-0010,1,Fragrance,향료,-,100,Fragrance,대한민국
+MFF-0011,1,Fragrance,향료,-,100,Fragrance,대한민국
+MFF-0012,1,Fragrance,향료,-,100,Fragrance,대한민국
+MFF-0014,1,Fragrance,향료,-,100,Fragrance,대한민국
+MFF-0015,1,Fragrance,향료,-,100,Fragrance,대한민국
+MFF-0016,1,Fragrance,향료,-,100,Fragrance,대한민국
+MFF-0017,1,Fragrance,향료,-,100,Fragrance,
+MFF-0018,1,Fragrance,향료,-,100,Fragrance,대한민국
+MFF-0019,1,Fragrance,향료,-,100,Fragrance,
+MFF-0020,1,Fragrance,향료,-,100,Fragrance,대한민국
+MFF-0021,1,Fragrance,향료,-,100,Fragrance,대한민국
+MFF-0022,1,Fragrance,향료,-,100,Fragrance,대한민국
+MFF-0023,1,Fragrance,향료,-,100,Fragrance,대한민국
+MFF-0024,1,Fragrance,향료,-,100,Fragrance,대한민국
+MFF-0025,1,Fragrance,향료,-,100,Fragrance,대한민국
+MFF-0026,1,Fragrance,향료,-,100,Fragrance,대한민국
+MFF-0027,1,Fragrance,향료,-,100,Fragrance,대한민국
+MFF-0028,1,Fragrance,향료,-,100,Fragrance,대한민국
+MFF-0029,1,Fragrance,향료,-,100,Fragrance,대한민국
+MFF-0030,1,Fragrance,향료,-,100,Fragrance,대한민국
+MFF-0031,1,Fragrance,향료,-,100,Fragrance,대한민국
+MFF-0032,1,Fragrance,향료,-,100,Fragrance,대한민국
+MFF-0033,1,Fragrance,향료,-,100,Fragrance,대한민국
+MFF-0034,1,Fragrance,향료,-,100,Fragrance,대한민국
+MFF-0035,1,Fragrance,향료,-,100,Fragrance,대한민국
+MFF-0036,1,Fragrance,향료,-,100,Fragrance,대한민국
+MFF-0037,1,Fragrance,향료,-,100,Fragrance,대한민국
+MFF-0038,1,Fragrance,향료,-,100,Fragrance,대한민국
+MFF-0039,1,Fragrance,향료,-,100,Fragrance,대한민국
+MFF-0040,1,Fragrance,향료,-,100,Fragrance,대한민국
+MFF-0041,1,Fragrance,향료,-,100,Fragrance,대한민국
+MFF-0042,1,Fragrance,향료,-,100,Fragrance,대한민국
+MFF-0043,1,Fragrance,향료,,100,Fragrance,대한민국
+MFF-0044,1,Fragrance,향료,-,100,Fragrance,대한민국
+MFF-0045,1,Fragrance,향료,,100,Fragrance,대한민국
+MFF-0046,1,Fragrance,향료,,100,Fragrance,대한민국
+MFF-0047,1,Fragrance,향료,-,100,Fragrance,대한민국
+MFF-0048,1,Fragrance,향료,-,100,Fragrance,대한민국
+MFF-0049,1,Fragrance,향료,-,100,Fragrance,대한민국
+MFF-0050,1,Fragrance,향료,-,100,Fragrance,대한민국
+MFF-0051,1,Fragrance,향료,-,100,Fragrance,대한민국
+MFG-0004,1,Fragrance,향료,-,100,Fragrance,스페인
+MFG-0005,1,Fragrance,향료,-,100,Fragrance,대한민국
+MFG-0006,1,Fragrance,향료,-,100,Fragrance,대한민국
+MFH-0001,1,Fragrance,향료,-,100,Fragrance,대한민국
+MFH-0005,1,Fragrance,향료,-,100,Fragrance,대한민국
+MFH-0006,1,Fragrance,향료,-,100,Fragrance,
+MFH-0007,1,Fragrance,향료,-,100,Fragrance,대한민국
+MFH-0008,1,Fragrance,향료,-,100,Fragrance,대한민국
+MFH-0009,1,Fragrance,향료,-,100,Fragrance,대한민국
+MFH-0010,1,Fragrance,향료,-,100,Fragrance,대한민국
+MFH-0011,1,Fragrance,향료,-,100,Fragrance,대한민국
+MFH-0012,1,Fragrance,향료,-,100,Fragrance,대한민국
+MFH-0013,1,Fragrance,향료,-,100,Fragrance,대한민국
+MFH-0014,1,Fragrance,향료,-,100,Fragrance,대한민국
+MFH-0015,1,Fragrance,향료,-,100,Fragrance,대한민국
+MFH-0016,1,Fragrance,향료,-,100,Fragrance,대한민국
+MFK-0007,1,Fragrance,향료,-,100,Fragrance,
+MFK-0016,1,Fragrance,향료,-,100,Fragrance,
+MFK-0018,1,Fragrance,향료,-,100,Fragrance,대한민국
+MFK-0019,1,Fragrance,향료,-,100,Fragrance,
+MFK-0020,1,Fragrance,향료,-,100,Fragrance,
+MFK-0021,1,Fragrance,향료,-,100,Fragrance,
+MFK-0022,1,Fragrance,향료,-,100,Fragrance,
+MFK-0024,1,Fragrance,향료,-,100,Fragrance,
+MFK-0025,1,Fragrance,향료,-,100,Fragrance,
+MFK-0026,1,Fragrance,향료,-,100,Fragrance,
+MFL-0007,1,Fragrance,향료,-,100,Fragrance,
+MFL-0009,1,Fragrance,향료,8000-28-0,100,Fragrance,
+MFL-0010,1,Fragrance,향료,-,100,Fragrance,
+MFL-0011,1,Fragrance,향료,68855-99-2,100,Fragrance,
+MFL-0012,1,Fragrance,향료,8807-75-8,100,Fragrance,대한민국
+MFM-0010,1,Fragrance,향료,8008-31-9,100,Fragrance,
+MFM-0016,1,Fragrance,향료,-,100,Fragrance,
+MFM-0017,1,Fragrance,향료,-,100,Fragrance,대한민국
+MFM-0018,1,Fragrance,향료,-,100,Fragrance,대한민국
+MFM-0019,1,Fragrance,향료,-,100,Fragrance,대한민국
+MFM-0020,1,Fragrance,향료,-,100,Fragrance,대한민국
+MFM-0021,1,Fragrance,향료,-,100,Fragrance,대한민국
+MFM-0022,1,Fragrance,향료,-,100,Fragrance,대한민국
+MFM-0023,1,Fragrance,향료,-,100,Fragrance,대한민국
+MFN-0001,1,Fragrance,향료,-,100,"Skin Conditioning Agent, Fragrance",대한민국
+MFO-0005,1,Fragrance,향료,8008-57-9,100,"Skin Conditioning Agent, Fragrance",
+MFP-0003,1,Fragrance,향료,-,100,Fragrance,대한민국
+MFP-0004,1,Fragrance,향료,-,100,Fragrance,대한민국
+MFP-0005,1,Fragrance,향료,-,100,Fragrance,
+MFP-0006,1,Fragrance,향료,-,100,Fragrance,대한민국
+MFP-0007,1,Fragrance,향료,-,100,Fragrance,대한민국
+MFP-0008,1,Fragrance,향료,-,100,Fragrance,
+MFP-0009,1,Fragrance,향료,-,100,Fragrance,대한민국
+MFP-0010,1,Fragrance,향료,-,100,Fragrance,대한민국
+MFP-0011,1,Fragrance,향료,-,100,Fragrance,대한민국
+MFP-0012,1,Fragrance,향료,-,100,Fragrance,대한민국
+MFP-0013,1,Fragrance,향료,-,100,Fragrance,대한민국
+MFP-0014,1,Fragrance,향료,-,100,Fragrance,대한민국
+MFP-0015,1,Fragrance,향료,-,100,Fragrance,대한민국
+MFP-0016,1,Fragrance,향료,-,100,Fragrance,대한민국
+MFP-0017,1,Fragrance,향료,-,100,Fragrance,대한민국
+MFP-0018,1,Fragrance,향료,-,100,Fragrance,대한민국
+MFP-0019,1,Fragrance,향료,-,100,Fragrance,대한민국
+MFP-0020,1,Fragrance,향료,-,100,Fragrance,대한민국
+MFP-0021,1,Fragrance,향료,-,100,Fragrance,대한민국
+MFP-0022,1,Fragrance,향료,-,100,Fragrance,대한민국
+MFP-0023,1,Fragrance,향료,-,100,Fragrance,대한민국
+MFP-0024,1,Fragrance,향료,-,100,Fragrance,대한민국
+MFP-0025,1,Fragrance,향료,-,100,Fragrance,대한민국
+MFP-0026,1,Fragrance,향료,-,100,Fragrance,대한민국
+MFP-0027,1,Fragrance,향료,-,100,Fragrance,대한민국
+MFP-0028,1,Fragrance,향료,-,100,Fragrance,대한민국
+MFP-0029,1,Fragrance,향료,-,100,Fragrance,대한민국
+MFP-0030,1,Fragrance,향료,-,100,Fragrance,대한민국
+MFP-0031,1,Fragrance,향료,-,100,Fragrance,대한민국
+MFP-0032,1,Fragrance,향료,-,100,Fragrance,대한민국
+MFP-0033,1,Fragrance,향료,-,100,Fragrance,대한민국
+MFP-0034,1,Fragrance,향료,-,100,Fragrance,대한민국
+MFP-0035,1,Fragrance,향료,-,100,Fragrance,대한민국
+MFP-0036,1,Fragrance,향료,-,100,Fragrance,
+MFP-0037,1,Fragrance,향료,-,100,Fragrance,대한민국
+MFP-0038,1,Fragrance,향료,8006-90-4,100,"Fragrance, Skin Conditioning Agent",
+MFP-0039,1,Fragrance,향료,-,100,Fragrance,대한민국
+MFP-0040,1,Fragrance,향료,-,100,Fragrance,대한민국
+MFP-0041,1,Fragrance,향료,-,100,Fragrance,대한민국
+MFP-0042,1,Fragrance,향료,-,100,Fragrance,대한민국
+MFP-0043,1,Fragrance,향료,,100,Fragrance,싱가포르
+MFR-0004,1,Fragrance,향료,8000-25-7,100,Fragrance,
+MFR-0005,1,Fragrance,향료,-,100,Fragrance,
+MFR-0006,1,Fragrance,향료,-,100,Fragrance,스페인
+MFR-0007,1,Fragrance,향료,-,100,Fragrance,
+MFS-0007,1,Fragrance,향료,-,100,Fragrance,
+MFS-0008,1,Fragrance,향료,-,100,Fragrance,
+MFS-0012,1,Fragrance,향료,-,100,Fragrance,
+MFS-0013,1,Fragrance,향료,-,100,Fragrance,
+MFS-0015,1,Fragrance,향료,-,100,Fragrance,
+MFS-0016,1,Fragrance,향료,-,100,Fragrance,대한민국
+MFS-0017,1,Fragrance,향료,-,100,Fragrance,대한민국
+MFS-0019,1,Fragrance,향료,-,100,Fragrance,
+MFS-0020,1,Fragrance,향료,-,100,Fragrance,
+MFS-0021,1,Fragrance,향료,-,100,Fragrance,대한민국
+MFS-0023,1,Fragrance,향료,-,100,Fragrance,대한민국
+MFS-0024,1,Fragrance,향료,-,100,Fragrance,
+MFS-0025,1,Fragrance,향료,-,100,Fragrance,
+MFS-0026,1,Fragrance,향료,-,100,Fragrance,대한민국
+MFS-0030,1,Fragrance,향료,-,100,Fragrance,대한민국
+MFS-0031,1,Fragrance,향료,-,100,Fragrance,
+MFS-0032,1,Fragrance,향료,-,100,Fragrance,대한민국
+MFS-0033,1,Fragrance,향료,-,100,Fragrance,대한민국
+MFS-0034,1,Fragrance,향료,-,100,Fragrance,
+MFS-0035,1,Fragrance,향료,-,100,Fragrance,대한민국
+MFS-0036,1,Fragrance,향료,-,100,Fragrance,대한민국
+MFS-0037,1,Fragrance,향료,-,100,Fragrance,대한민국
+MFS-0038,1,Fragrance,향료,-,100,Fragrance,대한민국
+MFS-0039,1,Fragrance,향료,-,100,Fragrance,
+MFS-0040,1,Fragrance,향료,-,100,Fragrance,대한민국
+MFS-0041,1,Fragrance,향료,-,100,Fragrance,대한민국
+MFS-0042,1,Fragrance,향료,-,100,Fragrance,
+MFS-0043,1,Fragrance,향료,-,100,Fragrance,
+MFS-0044,1,Fragrance,향료,-,100,Fragrance,
+MFS-0045,1,Fragrance,향료,-,100,Fragrance,
+MFS-0046,1,Fragrance,향료,-,100,Fragrance,
+MFS-0047,1,Fragrance,향료,-,100,Fragrance,
+MFS-0048,1,Fragrance,향료,-,100,Fragrance,
+MFS-0049,1,Fragrance,향료,-,100,Fragrance,
+MFS-0050,1,Fragrance,향료,-,100,Fragrance,
+MFS-0051,1,Fragrance,향료,-,100,Fragrance,
+MFS-0052,1,Fragrance,향료,-,100,Fragrance,
+MFS-0053,1,Fragrance,향료,-,100,Fragrance,
+MFS-0054,1,Fragrance,향료,-,100,Fragrance,
+MFS-0055,1,Fragrance,향료,-,100,Fragrance,
+MFS-0056,1,Fragrance,향료,-,100,Fragrance,
+MFS-0057,1,Fragrance,향료,-,100,Fragrance,
+MFS-0058,1,Fragrance,향료,-,100,Fragrance,
+MFS-0059,1,Fragrance,향료,-,100,Fragrance,
+MFS-0060,1,Fragrance,향료,-,100,Fragrance,
+MFS-0061,1,Fragrance,향료,-,100,Fragrance,
+MFS-0062,1,Fragrance,향료,-,100,Fragrance,
+MFS-0063,1,Fragrance,향료,-,100,Fragrance,
+MFS-0064,1,Fragrance,향료,-,100,Fragrance,
+MFS-0065,1,Fragrance,향료,-,100,Fragrance,
+MFS-0066,1,Fragrance,향료,-,100,Fragrance,
+MFS-0067,1,Fragrance,향료,-,100,Fragrance,
+MFS-0068,1,Fragrance,향료,-,100,Fragrance,
+MFS-0069,1,Fragrance,향료,-,100,Fragrance,
+MFS-0070,1,Fragrance,향료,-,100,Fragrance,
+MFS-0071,1,Fragrance,향료,-,100,Fragrance,
+MFS-0072,1,Fragrance,향료,-,100,Fragrance,
+MFS-0073,1,Fragrance,향료,-,100,Fragrance,
+MFS-0074,1,Fragrance,향료,-,100,Fragrance,
+MFS-0075,1,Fragrance,향료,-,100,Fragrance,
+MFS-0076,1,Fragrance,향료,-,100,Fragrance,
+MFS-0077,1,Fragrance,향료,-,100,Fragrance,
+MFS-0078,1,Fragrance,향료,-,100,Fragrance,
+MFS-0079,1,Fragrance,향료,-,100,Fragrance,
+MFS-0080,1,Fragrance,향료,-,100,Fragrance,
+MFS-0081,1,Fragrance,향료,-,100,Fragrance,
+MFS-0082,1,Fragrance,향료,-,100,Fragrance,
+MFS-0083,1,Fragrance,향료,-,100,Fragrance,
+MFS-0084,1,Fragrance,향료,-,100,Fragrance,
+MFS-0085,1,Fragrance,향료,-,100,Fragrance,
+MFS-0086,1,Fragrance,향료,-,100,Fragrance,
+MFS-0087,1,Fragrance,향료,-,100,Fragrance,
+MFS-0088,1,Fragrance,향료,-,100,Fragrance,
+MFS-0089,1,Fragrance,향료,-,100,Fragrance,
+MFS-0090,1,Fragrance,향료,-,100,Fragrance,
+MFS-0091,1,Fragrance,향료,-,100,Fragrance,
+MFS-0092,1,Fragrance,향료,-,100,Fragrance,
+MFS-0093,1,Fragrance,향료,-,100,Fragrance,
+MFS-0094,1,Fragrance,향료,-,100,Fragrance,
+MFS-0095,1,Fragrance,향료,-,100,Fragrance,
+MFS-0096,1,Fragrance,향료,-,100,Fragrance,
+MFS-0097,1,Callitris Columellaris Seed Oil,싸이프러스씨오일,192526-11-7,100,Skin Conditioning Agent,프랑스
+MFS-0098,1,Fragrance,향료,-,100,Fragrance,대한민국
+MFS-0099,1,Fragrance,향료,-,100,Fragrance,대한민국
+MFS-0100,1,Fragrance,향료,-,100,Fragrance,대한민국
+MFS-0101,1,Fragrance,향료,-,100,Fragrance,대한민국
+MFS-0102,1,Fragrance,향료,-,100,Fragrance,대한민국
+MFS-0103,1,Fragrance,향료,-,100,Fragrance,대한민국
+MFS-0104,1,Salvia Officinalis (Sage) Oil,살비아오일,8022-56-8,100,Skin Conditioning Agent,이탈리아
+MFS-0105,1,Fragrance,향료,-,100,Fragrance,대한민국
+MFS-0106,1,Fragrance,향료,,100,Fragrance,
+MFS-0107,1,Fragrance,향료,8014-09-3,100,Fragrance,대한민국
+MFS-0108,1,Fragrance,향료,,100,Fragrance,대한민국
+MFS-0109,1,Fragrance,향료,,100,Fragrance,대한민국
+MFS-0110,1,Fragrance,향료,,100,Fragrance,대한민국
+MFS-0111,1,Fragrance,향료,,100,Fragrance,대한민국
+MFS-0112,1,Pelargonium Graveolens Flower Oil,센티드제라늄꽃오일,8000-46-2,47.0034,Skin Conditioning Agent,대한민국
+MFS-0112,2,Citrus Limon (Lemon) Peel Oil,레몬껍질오일,8008-56-8,19.389,Skin Conditioning Agent,대한민국
+MFS-0112,3,Citrus Aurantium Dulcis (Orange) Peel Oil,오렌지껍질오일,8028-48-6,14.1011,Skin Conditioning Agent,대한민국
+MFS-0112,4,Eucalyptus Globulus Leaf Oil,유칼립투스잎오일,8000-48-4,5.8754,Skin Conditioning Agent,대한민국
+MFS-0112,5,Citrus Aurantium Bergamia (Bergamot) Fruit Oil,베르가모트오일,8007-75-8,5.2879,Skin Conditioning Agent,대한민국
+MFS-0112,6,Rosmarinus Officinalis (Rosemary) Leaf Oil,로즈마리잎오일,8000-25-7,3.5253,Skin Conditioning Agent,대한민국
+MFS-0112,7,Anthemis Nobilis Flower Oil,캐모마일꽃오일,8015-92-7,2.1152,Skin Conditioning Agent,대한민국
+MFS-0112,8,Cymbopogon Citratus Leaf Oil,레몬그라스잎오일,8007-02-1,1.4101,Skin Conditioning Agent,대한민국
+MFS-0112,9,Pinus Sylvestris Leaf Oil,구주소나무잎오일,8023-99-2,0.7051,Skin Conditioning Agent,대한민국
+MFS-0112,10,Thymus Vulgaris (Thyme) Flower/Leaf Oil,타임꽃/잎오일,8007-46-3,0.5875,Skin Conditioning Agent,대한민국
+MFT-0003,1,Fragrance,향료,-,100,Fragrance,스페인
+MFT-0004,1,Fragrance,향료,-,100,Fragrance,스페인
+MFT-0006,1,Fragrance,향료,-,100,Fragrance,스페인
+MFT-0007,1,Fragrance,향료,-,100,Fragrance,스페인
+MFT-0008,1,Fragrance,향료,-,100,Fragrance,스페인
+MFT-0009,1,Fragrance,향료,-,100,Fragrance,스페인
+MFT-0010,1,Fragrance,향료,-,100,Fragrance,스페인
+MFT-0011,1,Fragrance,향료,-,100,Fragrance,스페인
+MFT-0014,1,Fragrance,향료,-,100,Fragrance,스페인
+MFT-0015,1,Fragrance,향료,-,100,Fragrance,스페인
+MFT-0016,1,Fragrance,향료,-,100,Fragrance,
+MFT-0018,1,Fragrance,향료,-,100,Fragrance,
+MFT-0021,1,Fragrance,향료,-,100,Fragrance,스페인
+MFT-0022,1,Fragrance,향료,-,100,Fragrance,스페인
+MFT-0023,1,Fragrance,향료,-,100,Fragrance,
+MFT-0024,1,Fragrance,향료,-,100,Fragrance,스페인
+MFT-0025,1,Fragrance,향료,-,100,Fragrance,
+MFT-0026,1,Fragrance,향료,-,100,Fragrance,
+MFT-0028,1,Fragrance,향료,-,100,Fragrance,스페인
+MFT-0029,1,Fragrance,향료,-,100,Fragrance,
+MFT-0030,1,Fragrance,향료,-,100,Fragrance,스페인
+MFT-0031,1,Fragrance,향료,-,100,Fragrance,
+MFW-0001,1,Fragrance,향료,-,100,Fragrance,
+MK1-0001,1,Butylene Glycol,부틸렌글라이콜,107-88-0,100,Humectant,일본
+MK1-0002,1,"1,2-Hexanediol","1,2-헥산다이올",6920-22-5,100,Humectant,
+MKA-0001,1,Betaine,베타인,107-43-7,100,Humectant,
+MKC-0001,1,Bacillus/Soybean Ferment Extract,바실러스/소이빈발효추출물,,100,Skin Conditioning Agent,대한민국
+MKC-0003,1,Water,정제수,7732-18-5,98.25,Skin Conditioning Agent,중국
+MKC-0003,2,Sodium Hyaluronate,소듐하이알루로네이트,9067-32-7,1,Skin Conditioning Agent,중국
+MKC-0003,3,Phenoxyethanol,페녹시에탄올,122-99-6,0.7,Skin Conditioning Agent,중국
+MKC-0003,4,Ethylhexylglycerin,에칠헥실글리세린,70445-33-9,0.05,Skin Conditioning Agent,중국
+MKC-0004,1,Water,정제수,7732-18-5,0,Skin Conditioning Agent,미국
+MKC-0004,2,Dimethicone,다이메티콘,9006-65-9,0,Skin Conditioning Agent,미국
+MKC-0004,3,Glycerin,글리세린,56-81-5,0,Skin Conditioning Agent,미국
+MKC-0004,4,Dimethicone/Vinyl Dimethicone Crosspolymer,다이메티콘/비닐다이메티콘크로스폴리머,-,0,Skin Conditioning Agent,미국
+MKC-0004,5,Pentylene Glycol,펜틸렌글라이콜,5343-92-0,0,Skin Conditioning Agent,미국
+MKC-0004,6,Phenoxyethanol,페녹시에탄올,122-99-6,0,Skin Conditioning Agent,미국
+MKC-0004,7,Carbomer,카보머,9003-01-4,0,Skin Conditioning Agent,미국
+MKC-0004,8,Amodimethicone,아모다이메티콘,-,0,Skin Conditioning Agent,미국
+MKC-0004,9,Sodium Hydroxide,소듐하이드록사이드,1310-73-2,0,Skin Conditioning Agent,미국
+MKC-0004,10,Disodium EDTA,다이소듐이디티에이,139-33-3,0,Skin Conditioning Agent,미국
+MKD-0003,1,Caprylyl Glycol,카프릴릴글라이콜,1117-86-8,100,Skin Conditioning Agent,독일
+MKD-0004,1,Methylpropanediol,메틸프로판다이올,2163-42-0,100,Humectant,
+MKD-0005,1,Diglycerin,다이글리세린,"25618-55-7 
+59113-36-9",100,Humectant,
+MKD-0006,1,Dipropylene Glycol,다이프로필렌글라이콜,25265-71-8,100,Humectant,
+MKE-0001,1,Alcohol,에탄올,64-17-5,100,Solvent,뉴질랜드
+MKF-0001,1,Hydrolyzed Jojoba Esters,하이드롤라이즈드호호바에스터,-,100,Skin Conditioning Agent,
+MKG-0001,1,Glycerin,글리세린,56-81-5,100,Humectants,말레이시아
+MKH-0003,1,Arginine DNA,알지닌디엔에이,-,100,Humectant,프랑스
+MKH-0004,1,Water,정제수,9004-61-9,96.5,Skin Conditioning Agent,대한민국
+MKH-0004,2,"1,2-Hexanediol","1,2-헥산다이올",,2.5,Skin Conditioning Agent,대한민국
+MKH-0004,3,Hyaluronic Acid,하이알루로닉애씨드,,1,Skin Conditioning Agent,대한민국
+MKH-0005,1,Water,정제수,7732-18-5,93.93,Skin Conditioning Agent,대한민국
+MKH-0005,2,Pentylene Glycol,펜틸렌글라이콜,5343-92-0,3,Skin Conditioning Agent,대한민국
+MKH-0005,3,"1,2-Hexanediol","1,2-헥산다이올",6920-22-5,2,Skin Conditioning Agent,대한민국
+MKH-0005,4,Sodium Hyaluronate,소듐하이알루로네이트,9067-32-7,0.53,Skin Conditioning Agent,대한민국
+MKH-0005,5,Sodium Hyaluronate Crosspolymer,소듐하이알루로네이트크로스폴리머,-,0.22,Skin Conditioning Agent,대한민국
+MKH-0005,6,Hydrolyzed Hyaluronic Acid,하이드롤라이즈드하이알루로닉애씨드,-,0.18,Skin Conditioning Agent,대한민국
+MKH-0005,7,Hyaluronic Acid,하이알루로닉애씨드,9004-61-9,0.08,Skin Conditioning Agent,대한민국
+MKH-0005,8,Ethylhexylglycerin,에틸헥실글리세린,70445-33-9,0.05,Skin Conditioning Agent,대한민국
+MKH-0005,9,Hydrolyzed Sodium Hyaluronate,하이드롤라이즈드소듐하이알루로네이트,-,0.01,Skin Conditioning Agent,대한민국
+MKH-0006,1,Water,정제수,7732-18-5,96.95,Skin Conditioning Agent,대한민국
+MKH-0006,2,"1,2-Hexanediol","1,2-헥산다이올",6920-22-5,2,Skin Conditioning Agent,대한민국
+MKH-0006,3,Sodium Hyaluronate,소듐하이알루로네이트,9067-32-7,1,Skin Conditioning Agent,대한민국
+MKH-0006,4,Caprylyl Glycol,카프릴릴글라이콜,1117-86-8,0.05,Skin Conditioning Agent,대한민국
+MKI-0003,1,Water,정제수,7732-18-5,94.95,Skin Conditioning Agent,
+MKI-0003,2,Lecithin,레시틴,8002-43-5,2,Skin Conditioning Agent,
+MKI-0003,3,Glycerin,글리세린,56-81-5,1,Skin Conditioning Agent,
+MKI-0003,4,Butylene Glycol,부틸렌글라이콜,107-88-0,2,Skin Conditioning Agent,
+MKI-0003,5,Sodium Styrene/Acrylates Copolymer,소듐스타이렌/아크릴레이트코폴리머,9010-92-8,0.05,Skin Conditioning Agent,
+MKI-0004,1,Methylpropanediol,메틸프로판다이올,2163-42-0,100,Humectant,대한민국
+MKI-0005,1,Isopentyldiol,아이소펜틸다이올,2568-33-4,100,Humectant,일본
+MKL-0001,1,Glycereth-26,글리세레스-26,31694-55-0,100,Humectant,
+MKM-0002,1,Maltitol,말티톨,585-88-6 (D-Form),100,Humectant,대한민국
+MKM-0003,1,Imperata Cylindrica Root Extract,띠뿌리추출물,-,0,Skin Conditioning Agent,
+MKM-0003,2,Water,정제수,7732-18-5,0,Skin Conditioning Agent,
+MKM-0003,3,Glycerin,글리세린,200-289-5,0,Skin Conditioning Agent,
+MKM-0003,4,Carbomer,카보머,9003-01-4,0,Skin Conditioning Agent,
+MKM-0003,5,Peg-8,피이지-8,5117-19-1,0,Skin Conditioning Agent,
+MKM-0004,1,Polyquaternium-7,폴리쿼터늄-7,26590-05-6,9,Skin Conditioning Agent,대한민국
+MKM-0004,2,Water,정제수,7732-18-5,90.6,Skin Conditioning Agent,대한민국
+MKM-0004,3,Sodium Benzoate,소듐벤조에이트,532-32-1,0.4,Skin Conditioning Agent,대한민국
+MKM-0005,1,Diglycerin,다이글리세린,25618-55-7,10,Humectant,대한민국
+MKM-0005,2,Methyl Gluceth-10,메틸글루세스-10,-,25,Humectant,대한민국
+MKM-0005,3,Dipropylene glycol,다이프로필렌글라이콜,110-98-5,18,Humectant,대한민국
+MKM-0005,4,Ethoxydiglycol,에톡시다이글라이콜,111-90-0,20,Humectant,대한민국
+MKM-0005,5,Glycereth-26,글리세레스-26,31694-55-0,10,Humectant,대한민국
+MKM-0005,6,Diethoxydiglycol,다이에톡시다이글라이콜,112-36-7,5,Humectant,대한민국
+MKM-0005,7,Butoxydiglycol,부톡시다이글라이콜,-,12,Humectant,대한민국
+MKO-0001,1,Glycerin,글리세린,56-81-5,0,Skin Conditioning Agent,프랑스
+MKO-0001,2,Water,정제수,7732-18-5,0,Skin Conditioning Agent,프랑스
+MKO-0001,3,Peg-8,피이지-8,5117-19-1,0,Skin Conditioning Agent,프랑스
+MKO-0001,4,Caprylyl Glycol,카프릴릴글라이콜,1117-86-8,0,Skin Conditioning Agent,프랑스
+MKO-0001,5,Sodium Polyacrylate,소듐폴리아크릴레이트,9003-04-7,0,Skin Conditioning Agent,프랑스
+MKP-0001,1,Propylene Glycol,프로필렌글라이콜,57-55-6,100,Humectant,대한민국
+MKP-0003,1,Water,정제수,7732-18-5,63.32,Skin Conditioning Agent,대한민국
+MKP-0003,2,Butylene Glycol,부틸렌글라이콜,107-88-0,30,Skin Conditioning Agent,대한민국
+MKP-0003,3,Glycerin,글리세린,56-81-5,5,Skin Conditioning Agent,대한민국
+MKP-0003,4,Betaine,베타인,107-43-7,1,Skin Conditioning Agent,대한민국
+MKP-0003,5,Sodium PCA,소듐피씨에이,28874-51-3 (L-),0.5,Skin Conditioning Agent,대한민국
+MKP-0003,6,Sorbitol,솔비톨,3959-53-3(D-),0.1,Skin Conditioning Agent,대한민국
+MKP-0003,7,Serine,세린,56-45-1(L-Form),0.01,Skin Conditioning Agent,대한민국
+MKP-0003,8,Glycine,글라이신,56-40-6,0.01,Skin Conditioning Agent,대한민국
+MKP-0003,9,Glutamic Acid,글루타믹애씨드,56-86-0 (L-),0.01,Skin Conditioning Agent,대한민국
+MKP-0003,10,Alanine,알라닌,56-41-7(L-Form),0.01,Skin Conditioning Agent,대한민국
+MKP-0003,11,Lysine,라이신,56-87-1(L-),0.01,Skin Conditioning Agent,대한민국
+MKP-0003,12,Arginine,알지닌,74-79-3(L-Form),0.01,Skin Conditioning Agent,대한민국
+MKP-0003,13,Threonine,트레오닌,72-19-5(L-Form),0.01,Skin Conditioning Agent,대한민국
+MKP-0003,14,Proline,프롤린,147-85-3(L-Form),0.01,Skin Conditioning Agent,대한민국
+MKP-0004,1,PEG-16 Macadamia Glycerides,피이지-16마카다미아글리세라이즈,-,100,Skin Conditioning Agent,
+MKP-0005,1,Pentylene Glycol,펜틸렌글라이콜,5343-92-0,100,Humectants,독일
+MKP-0006,1,Polyglycerin-3,폴리글리세린-3,56090-54-1,100,Humectants,중국
+MKS-0002,1,Quaternium 60,쿼터늄-60,-,67,Skin Conditioning Agent,대한민국
+MKS-0002,2,Propyiene Glycol,프로필렌글라이콜,57-55-6,33,Skin Conditioning Agent,대한민국
+MKS-0003,1,Glycerin,글리세린,56-81-5,41.5,Skin Conditioning Agent,대한민국
+MKS-0003,2,Water,정제수,7732-18-5,55,Skin Conditioning Agent,대한민국
+MKS-0003,3,Glyceryl Acrylate/Acrylic Acid Copolymer,글리세릴아크릴레이트/아크릴릭애씨드코폴리머,-,1.5,Skin Conditioning Agent,대한민국
+MKS-0003,4,"1,2-Hexanediol","1,2-헥산다이올",6920-22-5,2,Skin Conditioning Agent,대한민국
+MKS-0004,1,Sorbitol,솔비톨,50-70-4,70,Humectants,대한민국
+MKS-0004,2,Water,정제수,7732-18-5,30,Humectants,대한민국
+MKU-0001,1,Urea,우레아,57-13-6,100,Humectants,
+MKU-0002,1,PEG/PPG-17/6 Copolymer,피이지/피피지-17/6코폴리머,9003-11-6 (Generic),100,Solvent,
+MLL-0001,1,Glycol Stearate,글라이콜스테아레이트,111-60-4,100,Skin Conditioning Agent,
+MLM-0003,1,Glycol Distearate,글라이콜다이스테아레이트,627-83-8,100,Skin Conditioning Agent,
+MO2-0001,1,Ethylhexyl Isononanoate,에틸헥실아이소노나노에이트,70969-70-9,100,Skin Conditioning Agent,
+MOA-0005,1,Helianthus Annuus (Sunflower) Seed Oil,해바라기씨오일,8001-21-6,100,Skin Conditioning Agent,스웨덴
+MOA-0007,1,Canola Oil,카놀라오일,8002-13-9,100,Skin Conditioning Agent,
+MOA-0008,1,Argania Spinosa Kernel Oil,아르간커넬오일,223747-87-3,100,Skin Conditioning Agent,프랑스
+MOA-0009,1,Persea Gratissima (Avocado) Oil,아보카도오일,8024-32-6,100,Skin Conditioning Agent,미국
+MOA-0010,1,Bixa Orellana Seed Oil,아나토씨오일,-,0.33,Skin Conditioning Agent,브라질
+MOA-0010,2,Helianthus Annuus (Sunflower) Seed Oil,해바라기씨오일,164250-88-8,91.95,Skin Conditioning Agent,브라질
+MOA-0010,3,Glycine Soja (Soybean) Oil,돌콩오일,8001-22-7,7.67,Skin Conditioning Agent,브라질
+MOA-0010,4,Tocopherol,토코페롤,59-02-9,0.05,Skin Conditioning Agent,브라질
+MOA-0011,1,Prunus Armeniaca (Apricot) Kernel Oil,살구씨오일,72869-69-3,100,Skin Conditioning Agent,영국
+MOB-0002,1,Borago Officinalis Seed Oil,보리지씨오일,-,100,Skin Conditioning Agent,
+MOB-0004,1,Mauritia Flexuosa Fruit Oil,이테야자열매오일,-,100,Skin Conditioning Agent,
+MOB-0005,1,Hydrogenated Castor Oil Dimer Dilinoleate,하이드로제네이티드캐스터오일다이머디리놀리에이트,-,50,Skin Conditioning Agent,대한민국
+MOB-0005,2,Caprylic/Capric Triglyceride,카프릴릭/카프릭트라이글리세라이드,65381-09-1,50,Skin Conditioning Agent,대한민국
+MOC-0007,1,Di-C12-13 Alkyl Malate,다이-C12-13알킬말레이트,-,100,Skin Conditioning Agent,
+MOC-0008,1,Dicaprylyl Carbonate,다이카프릴릴카보네이트,1680-31-5,100,Skin Conditioning Agent,
+MOC-0009,1,Cocos Nucifera (Coconut) Oil,코코넛야자오일,8001-31-8,100,Skin Conditioning Agent,
+MOC-0010,1,Canola Oil,카놀라오일,8002-13-9,100,Skin conditioning agent,
+MOC-0011,1,Melia Azadirachta Leaf Extract,인도멀구슬나무잎추출물,84696-25-3/90063-92-6,40,Skin Conditioning Agent,싱가포르
+MOC-0011,2,Melia Azadirachta Flower Extract,인도멀구슬나무꽃추출물,90063-92-6,30,Skin Conditioning Agent,싱가포르
+MOC-0011,3,Coccinia Indica Fruit Extract,아이비고드열매추출물,-,15,Skin Conditioning Agent,싱가포르
+MOC-0011,4,Solanum Melongena (Eggplant) Fruit Extract,가지열매추출물,84012-19-1,5,Skin Conditioning Agent,싱가포르
+MOC-0011,5,Aloe Barbadensis Flower Extract,알로에베라꽃추출물,85507-69-3/94349-62-9,5,Skin Conditioning Agent,싱가포르
+MOC-0011,6,Simmondsia Chinensis (Jojoba) Seed Oil,호호바씨오일,90045-98-0,2,Skin Conditioning Agent,싱가포르
+MOC-0011,7,Ocimum Sanctum Leaf Extract,홀리바질잎추출물,91845-35-1,1,Skin Conditioning Agent,싱가포르
+MOC-0011,8,Curcuma Longa (Turmeric) Root Extract,울금뿌리추출물,84775-52-0,1,Skin Conditioning Agent,싱가포르
+MOC-0011,9,Corallina Officinalis Extract,참산호말추출물,89997-92-2,1,Skin Conditioning Agent,싱가포르
+MOC-0012,1,Eclipta Prostrata Extract,한련초추출물,93165-22-1,81,Skin Conditioning Agent,싱가포르
+MOC-0012,2,Melia Azadirachta Leaf Extract,인도멀구슬나무잎추출물,90063-92-6,16,Skin Conditioning Agent,싱가포르
+MOC-0012,3,Moringa Oleifera Seed Oil,드럼스틱씨오일,93165-54-9,3,Skin Conditioning Agent,싱가포르
+MOC-0013,1,Gardenia Florida Fruit Extract,치자추출물,92457-01-7,25,Skin Conditioning Agent,대한민국
+MOC-0013,2,Carthamus Tinctorius (Safflower) Flower Extract,잇꽃추출물,223749-52-8,50,Skin Conditioning Agent,대한민국
+MOC-0013,3,Dextrin,덱스트린,9004-53-9,25,Skin Conditioning Agent,대한민국
+MOD-0004,1,Dimethicone,다이메티콘,63148-62-9,100,"Antifoaming Agents, Skin Conditioning Agent",대한민국
+MOD-0006,1,Cyclopentasiloxane,사이클로펜타실록세인,541-02-6,66,"Hair Conditioning Agent, Skin Conditioning Agent",대한민국
+MOD-0006,2,Cyclohexasiloxane,사이클로헥사실록세인,540-97-6,34,"Hair Conditioning Agent, Skin Conditioning Agent",대한민국
+MOD-0008,1,Dimethicone,다이메티콘,63148-62-9,100,"Antifoaming Agents, Skin Conditioning Agent",대한민국
+MOD-0009,1,Neopentyl Glycol Diheptanoate,네오펜틸글라이콜다이헵타노에이트,-,100,Skin Conditioning Agent,프랑스
+MOD-0010,1,Butylene Glycol Dicaprylate/Dicaprate,부틸렌글라이콜다이카프릴레이트/다이카프레이트,-,100,Skin Conditioning Agent,독일
+MOD-0011,1,Dimethicone/Vinyl Dimethicone Crosspolymer,다이메티콘/비닐다이메티콘크로스폴리머,-,0,Skin Conditioning Agent,
+MOD-0011,2,Cyclomethicone,사이클로메티콘,69430-24-6,0,Skin Conditioning Agent,
+MOD-0012,1,Dimethicone,다이메티콘,9006-65-9,60,"Hair Conditioning Agent, Skin Conditioning Agent",대한민국
+MOD-0012,2,Water,정제수,7732-18-5,33.9,"Hair Conditioning Agent, Skin Conditioning Agent",대한민국
+MOD-0012,3,Laureth-23,라우레스-23,9002-92-0,2.1,"Hair Conditioning Agent, Skin Conditioning Agent",대한민국
+MOD-0012,4,Laureth-3,라우레스-3,3055-94-5,2.1,"Hair Conditioning Agent, Skin Conditioning Agent",대한민국
+MOD-0012,5,Xanthan Gum,잔탄검,11138-66-2,0.3,"Hair Conditioning Agent, Skin Conditioning Agent",대한민국
+MOD-0012,6,Phenoxyethanol,페녹시에탄올,122-99-6,1,"Hair Conditioning Agent, Skin Conditioning Agent",대한민국
+MOD-0012,7,Sodium benzoate,소듐벤조에이트,532-32-1,0.6,"Hair Conditioning Agent, Skin Conditioning Agent",대한민국
+MOD-0013,1,Cyclopentasiloxane,사이클로펜타실록세인,541-02-6,88,"Hair Conditioning Agent, Skin Conditioning Agent",대한민국
+MOD-0013,2,Dimethicone/Vinyl Dimethicone Crosspolymer,다이메티콘/비닐다이메티콘크로스폴리머,156065-02-0,12,"Hair Conditioning Agent, Skin Conditioning Agent",대한민국
+MOD-0014,1,Hydrogenated Polyisobuten,하이드로제네이티드폴리아이소부텐,68937-10-0,100,Skin Conditioning Agent,
+MOD-0015,1,Fragrance,향료,34590-94-8,100,"Fragrance, Solvent",
+MOD-0016,1,Camellia Japonica Seed Oil,동백나무씨오일,-,100,Skin Conditioning Agent,
+MOD-0017,1,Diisostearyl Malate,다이아이소스테아릴말레이트,67763-18-2,100,Skin Conditioning Agent,일본
+MOE-0002,1,Phenyl Trimethicone,페닐트라이메티콘,2116-84-9,0,"Antifoaming Agents, Hair Conditioning Agent, Skin Conditioning Agent",일본
+MOE-0002,2,Squalane,스쿠알란,111-01-3,0,"Antifoaming Agents, Hair Conditioning Agent, Skin Conditioning Agent",일본
+MOE-0002,3,Octyldodecanol,옥틸도데칸올,5333-42-6,0,"Antifoaming Agents, Hair Conditioning Agent, Skin Conditioning Agent",일본
+MOE-0003,1,Octyldodecanol,옥틸도데칸올,5333-42-6,100,Skin Conditioning Agent,
+MOF-0002,1,C12-15 Alkyl Benzoate,C12-15알킬벤조에이트,68411-27-8,100,Skin Conditioning Agent,
+MOF-0004,1,Perfluorodecalin,퍼플루오로데칼린,306-94-5,100,Skin Conditioning Agent,
+MOF-0005,1,Fragrance,향료,59259-38-0,100,Fragrance,Germany
+MOF-0006,1,Helianthus Annuus (Sunflower) Seed Oil,해바라기씨오일,8001-21-6,0,Skin Conditioning Agent,미국
+MOF-0006,2,Tocopherol,토코페롤,1406-18-4,0,Skin Conditioning Agent,미국
+MOH-0001,1,Cannabis Sativa (Hemp) Seed Oil,삼씨오일,8016-24-8,100,Skin Conditioning Agent,
+MOI-0001,1,Isododecane,아이소도데케인,13475-82-6,100,Skin Conditioning Agent,독일
+MOJ-0001,1,Simmondsia Chinensis (Jojoba) Seed Oil,호호바씨오일,61789-91-1,100,Skin Conditioning Agent,
+MOK-0003,1,Dimethicone,다이메티콘,9006-65-9,100,Skin Conditioning Agent,대한민국
+MOL-0002,1,White Mineral Oil,미네랄오일,8042-47-5,100,Skin Conditioning Agent,
+MOL-0003,1,Isopropyl Myristate,아이소프로필미리스테이트,110-27-0,100,Skin Conditioning Agent,싱카포르
+MOL-0005,1,Lavandula Angustifolia (Lavender) Oil,라벤더오일,8000-28-0,100,Skin Conditioning Agent,
+MOL-0007,1,Mineral Oil,미네랄오일,8012-95-1,100,Skin Conditioning Agent,
+MOM-0004,1,Cetyl ethyl hexanoate,,59130-69-7,100,Skin Conditioning Agent,
+MOM-0005,1,Macadamia Ternifolia Seed Oil,마카다미아씨오일,128497-20-1,100,Skin Conditioning Agent,
+MOM-0006,1,Tricaprylin,트라이카프릴린,538-23-8,100,Skin Conditioning Agent,
+MOM-0007,1,Horse Fat,말지방,-,100,Skin Conditioning Agent,
+MOM-0008,1,Moringa Oleifera Seed Oil,드럼스틱씨오일,-,100,Skin Conditioning Agent,
+MOM-0009,1,Phenyl Trimethicone,페닐트라이메티콘,2116-84-9,100,Skin Conditioning Agent,대한민국
+MOM-0010,1,Cyclopentasiloxane,사이클로펜타실록세인,541-02-6,50,Skin Conditioning Agent,대한민국
+MOM-0010,2,Polypropylsilsesquioxane,폴리프로필실세스퀴옥세인,36088-62-7,50,Skin Conditioning Agent,대한민국
+MON-0001,1,Caprylic/Capric Triglyceride,카프릴릭/카프릭트라이글리세라이드,65381-09-1,100,Skin Conditioning Agent,말레이시아
+MON-0004,1,Hydrogenated Polydecene,하이드로제네이티드폴리데센,68037-01-4,100,Skin Conditioning Agent,영국
+MOO-0001,1,Olea Europaea (Olive) Fruit Oil,올리브오일,8001-25-0,100,Skin Conditioning Agent,스페인
+MOO-0002,1,Organic virgin rapeseed oil,,8002-13-9,70,Skin Conditioning Agent,
+MOO-0002,2,Organic virgin olive extra oil,,8001-25-0,20,Skin Conditioning Agent,
+MOO-0002,3,Organic virgin flax oil,,8001-26-1,8,Skin Conditioning Agent,
+MOO-0002,4,Organic virgin wheatgerm oil,,8006-95-9,2,Skin Conditioning Agent,
+MOP-0002,1,Arachis Hypogaea (Peanut) Oil,땅콩오일,8002-03-07 00:00:00,100,Skin Conditioning Agent,
+MOP-0003,1,Polyisobutene,폴리아이소부텐,9003-27-4,100,Skin Conditioning Agent,대한민국
+MOP-0004,1,Ethylhexyl Palmitate,에틸헥실팔미테이트,29806-73-3,100,Skin Conditioning Agent,
+MOR-0001,1,Rosa Canina Fruit Oil,로즈힙열매오일,84696-47-9,100,Skin Conditioning Agent,
+MOS-0011,1,Squalane,스쿠알란,111-01-3,100,Skin Conditioning Agent,
+MOS-0021,1,Hydrogenated Polydecene,하이드로제네이티드폴리데센,68037-01-4,100,Skin Conditioning Agent,
+MOS-0024,1,Cyclopentasiloxane,사이클로펜타실록세인,541-02-6,70,Skin Conditioning Agent,
+MOS-0024,2,Dimethicone,다이메티콘,9006-65-9,30,Skin Conditioning Agent,
+MOS-0025,1,Water,정제수,7732-18-5,65.02,Skin Conditioning Agent,
+MOS-0025,2,Amodimethicone,아모다이메티콘,71750-79-3,23,Skin Conditioning Agent,
+MOS-0025,3,C12-14 Sec-Alketh-7,C12-14Sec-알케스-7,84133-50-6,9,Skin Conditioning Agent,
+MOS-0025,4,Propylene Glycol,프로필렌글라이콜,57-55-6,2,Skin Conditioning Agent,
+MOS-0025,5,Phenoxyethanol,페녹시에탄올,122-99-6,0.98,Skin Conditioning Agent,
+MOS-0026,1,Prunus Amygdalus Dulcis (Sweet Almond) Oil,스위트아몬드오일,8007-69-0,100,Skin Conditioning Agent,
+MOS-0027,1,Dimethicone,다이메티콘,63148-62-9,100,Skin Conditioning Agent,대한민국
+MOT-0001,1,Triethylhexanoin,트리에칠헥사노인,7360-38-5,100,Skin Conditioning Agent,
+MOT-0002,1,Melaleuca Alternifolia (Tea Tree) Leaf Oil,티트리잎오일,68647-73-4,100,Skin Conditioning Agent,이탈리아
+MOT-0003,1,Triethyl Citrate,트라이에틸시트레이트,77-93-0,100,Skin Conditioning Agent,인도
+MOH-0002,1,Polyglyceryl-2 Isostearate/Dimer Dilinoleate Copolymer,폴리글리세릴-2아이소스테아레이트/다이머다이리놀리에이트코폴리머,73296-86-3,100,Skin Conditioning Agent,일본
+MOR-0002,1,Polyglyceryl-2 Triisostearate,폴리글리세릴-2트라이아이소스테아레이트,120486-24-0,100,Skin Conditioning Agent,일본
+MOU-0001,1,Citrus Junos Seed Oil,유자씨오일,-,100,Skin Conditioning Agent,중국
+MOV-0001,1,Glyceryl Linoleate,글리세릴리놀리에이트,2277-28-3,0,Skin Conditioning Agent,독일
+MOV-0001,2,Glyceryl Linolenate,글리세릴리놀리네이트,18465-99-1,0,Skin Conditioning Agent,독일
+MOV-0001,3,Glyceryl Arachidonate,글리세릴아라키도네이트,35474-99-8,0,Skin Conditioning Agent,독일
+MPB-0001,1,BHT,비에이치티,128-37-0,100,Antioxidant,
+MPD-0001,1,Butylparaben,부틸파라벤,94-26-8,100,Preservatives,
+MPD-0002,1,Ethylparaben,에틸파라벤,120-47-8,100,Preservative,
+MPD-0003,1,Methylparaben,메틸파라벤,99-76-3,100,Preservative,일본
+MPD-0004,1,Propylparaben,프로필파라벤,94-13-3,100,Preservative,일본
+MPE-0001,1,Methyldibromo glutaronitrile,메칠디브로모글루타로나이트릴,35691-65-7,0,Preservatives,
+MPE-0001,2,Phenoxyethanol,페녹시에탄올,122-99-6,0,Preservatives,
+MPE-0002,1,Methylpropanediol,메틸프로판다이올,2163-42-0,91,Skin Conditioning Agent,
+MPE-0002,2,Laurylpyridinium Chloride,라우릴피리디늄클로라이드,104-74-5,6,Skin Conditioning Agent,
+MPE-0002,3,Allantoin,알란토인,97-59-6,3,Skin Conditioning Agent,
+MPE-0003,1,Water,정제수,7732-18-5,34,Skin Conditioning Agent,대한민국
+MPE-0003,2,Pentylene Glycol,펜틸렌글라이콜,5343-92-0,30,Skin Conditioning Agent,대한민국
+MPE-0003,3,Caprylyl glycol,카프릴릴글라이콜,1117-86-8,20,Skin Conditioning Agent,대한민국
+MPE-0003,4,Glycerin,글리세린,56-81-5,15,Skin Conditioning Agent,대한민국
+MPE-0003,5,Adipic acid,아디픽애씨드,124-04-9,1,Skin Conditioning Agent,대한민국
+MPG-0001,1,Imidazolidinyl Urea,이미다졸리디닐우레아,39236-46-9,100,Preservative,
+MPG-0002,1,DMDM Hydantoin,디엠디엠하이단토인,6440-58-0,100,Preservative,
+MPG-0005,1,DMDM Hydantoin,디엠디엠하이단토인,6440-58-0,100,Preservative,
+MPK-0001,1,Methylchloroisothiazolinone,메칠클로로이소치아졸리논,26172-55-4,0,Preservative,한국
+MPK-0001,2,Methylisothiazolinone,메칠이소치아졸리논,2682-20-4,0,Preservative,한국
+MPL-0001,1,Ethylhexylglycerin,에틸헥실글리세린,70445-33-9,100,Skin Conditioning Agent,
+MPP-0001,1,Chloroxylenol,클로로자일레놀,88-04-0,100,Deodorant,중국
+MPP-0005,1,Phenoxyethanol,페녹시에탄올,122-99-6,100,Preservative,인도
+MPP-0006,1,Phenoxyethanol,페녹시에탄올,122-99-6,0,Preservative,이스라엘
+MPP-0006,2,Methylparaben,메틸파라벤,99-76-3,0,Preservative,이스라엘
+MPP-0006,3,Ethylparaben,에틸파라벤,120-47-8,0,Preservative,이스라엘
+MPP-0006,4,Butylparaben,부틸파라벤,94-26-8,0,Preservative,이스라엘
+MPP-0006,5,Propylparaben,프로필파라벤,94-13-3,0,Preservative,이스라엘
+MPS-0001,1,Caprylhydroxamic Acid,카프릴하이드록사믹애씨드,7377-03-09,0,Skin Conditioning Agent,미국
+MPS-0001,2,Caprylyl Glycol,카프릴릴글라이콜,1117-86-8,0,Skin Conditioning Agent,미국
+MPS-0001,3,Glycerin,글리세린,56-81-5,0,Skin Conditioning Agent,미국
+MPS-0002,1,"1,2-Hexanediol","1,2-헥산다이올",6920-22-5,25,Skin Conditioning Agent,인도
+MPS-0002,2,Propanediol,프로판다이올,504-63-2,20,Skin Conditioning Agent,인도
+MPS-0002,3,Caprylyl Glycol,카프릴릴글라이콜,1117-86-8,52.5,Skin Conditioning Agent,인도
+MPS-0002,4,Illicium Verum (Anise) Fruit Extract,스타아니스추출물,84650-59-9,2.5,Skin Conditioning Agent,인도
+MPS-0003,1,Sodium Benzoate,소듐벤조에이트,532-32-1,100,Preservative,중국
+MPS-0004,1,Chlorphenesin,클로페네신,104-29-0,100,Preservative,인도
+MSA-0001,1,Sodium PCA,소듐피씨에이,28874-51-3,100,Skin Conditioning Agent,
+MSA-0002,1,TEA-Cocoyl Glutamate,티이에이-코코일글루타메이트,68187-29-1,100,Surfactant,
+MSA-0007,1,Glyceryl Stearate,글리세릴스테아레이트,123-94-4,50,Skin Conditioning Agent,
+MSA-0007,2,PEG-100 Stearate,피이지-100스테아레이트,9004-99-3,50,Skin Conditioning Agent,
+MSA-0008,1,Sorbitan Sesquioleate,솔비탄세스퀴올리에이트,8007-43-0,100,Surfactant,
+MSA-0014,1,Cetyl PEG/PPG-10/1 Dimethicone,세틸피이지/피피지-10/1다이메티콘,-,100,Surfactant,독일
+MSA-0017,1,Polyglyceryl-4 Isostearate,폴리글리세릴-4아이소스테아레이트,91824-88-3,0,Skin Conditioning Agent,
+MSA-0017,2,Cetyl PEG/PPG-10/1 Dimethicone,세틸피이지/피피지-10/1다이메티콘,-,0,Skin Conditioning Agent,
+MSA-0017,3,Hexyl Laurate,헥실라우레이트,34316-64-8,0,Skin Conditioning Agent,
+MSA-0018,1,Potassium Cocoyl Glycinate,포타슘코코일글리시네이트,301341-58-2,18,Surfactant,대한민국
+MSA-0018,2,Lauryl Hydroxysultaine,라우릴하이드록시설테인,13197-76-7,13,Surfactant,대한민국
+MSA-0018,3,Glycerin,글리세린,56-81-5,4,Surfactant,대한민국
+MSA-0018,4,Sodium Chloride,소듐클로라이드,7647-14-5,3,Surfactant,대한민국
+MSA-0018,5,Coco-Glucoside,코코-글루코사이드,110615-47-9,0.5,Surfactant,대한민국
+MSA-0018,6,Glyceryl Oleate,글리세릴올리에이트,91744-09-1,0.5,Surfactant,대한민국
+MSA-0018,7,Citric Acid,시트릭애씨드,77-92-9,0.5,Surfactant,대한민국
+MSA-0018,8,Water,정제수,7732-18-5,60.5,Surfactant,대한민국
+MSB-0003,1,Hydrogenated Lecithin,하이드로제네이티드레시틴,92128-87-5,0,Skin Conditioning Agent,
+MSB-0003,2,C12-16 Alcohols,C12-16알코올,68855-56-1,0,Skin Conditioning Agent,
+MSB-0003,3,Palmitic Acid,팔미틱애씨드,57-10-3,0,Skin Conditioning Agent,
+MSB-0004,1,Glycol Stearate Se,글라이콜스테아레이트에스이,86418-55-5,0,Skin Conditioning Agent,한국
+MSB-0004,2,Cetearyl Alcohol,세테아릴알코올,8005-44-5,0,Skin Conditioning Agent,한국
+MSB-0004,3,Stearic Acid,스테아릭애씨드,57-11-4,0,Skin Conditioning Agent,한국
+MSB-0004,4,Hydrogenated Lecithin,하이드로제네이티드레시틴,92128-87-5,0,Skin Conditioning Agent,한국
+MSB-0005,1,Propylene Glycol Laurate,프로필렌글라이콜라우레이트,27194-74-7,100,Surfactant,말레이시아
+MSC-0003,1,PEG-7 Glyceryl Cocoate,피이지-7글리세릴코코에이트,66105-29-1,100,Skin Conditioning Agent,
+MSC-0005,1,PEG-8 Beeswax,피이지-8비즈왁스,-,100,Surfactants,
+MSC-0006,1,PEG-40 Hydrogenated Castor Oil,피이지-40하이드로제네이티드캐스터오일,61788-85-0 (Generic),100,Surfactant,독일
+MSC-0007,1,PEG-6 Caprylic/Capric Glycerides,피이지-6카프릴릭/카프릭글리세라이즈,308067-11-0,100,Skin Conditioning Agent,한국
+MSE-0002,1,PEG-3 Oleate,피이지-3올리에이트,9004-96-0 (Generic) 10233-14-4,100,Surfactant,
+MSE-0006,1,PEG-150 Distearate,피이지-150다이스테아레이트,9005-08-7 (Generic),100,Surfactant,일본
+MSE-0008,1,PEG-5 Glyceryl Stearate,피이지-5글리세릴스테아레이트,-,100,Surfactant,일본
+MSE-0009,1,PEG-15 Glyceryl Isostearate,피이지-15글리세릴아이소스테아레이트,68958-58-7 (Generic),100,Surfactant,
+MSE-0013,1,PEG-40 Castor Oil,피이지-40캐스터오일,61791-12-6 (Generic),100,Surfactant,독일
+MSE-0023,1,Dimethicone Copolyol,디메티콘코폴리올,-,100,Surfactant,일본
+MSE-0024,1,PPG-2-Deceth-12,피피지-2데세스-12,-,100,Surfactant,
+MSE-0025,1,Coceth-7,코세스-7,61791-13-7,0,Surfactant,
+MSE-0025,2,PPG-1-PEG-9 Lauryl Glycol Ether,피피지-1-피이지-9라우릴글라이콜에터,-,0,Surfactant,
+MSE-0025,3,PEG-40 Hydrogenated Castor Oil,피이지-40하이드로제네이티드캐스터오일,61788-85-0,0,Surfactant,
+MSE-0026,1,PEG-20 Glyceryl Triisostearate,피이지-20글리세릴트라이아이소스테아레이트,,100,Surfactant,대한민국
+MSE-0027,1,Water,정제수,7732-18-5,60,Surfactant,대한민국
+MSE-0027,2,Sodium Cocoyl Alaninate,소듐코코일알라니네이트,90170-45-9,32,Surfactant,대한민국
+MSE-0027,3,Glycerin,글리세린,56-81-5,6,Surfactant,대한민국
+MSE-0027,4,Citric Acid,시트릭애씨드,77-92-9,2,Surfactant,대한민국
+MSE-0028,1,Ceteareth-25,세테아레스-25,68439-49-6(Generic),100,Emusifying Agent,이탈리아
+MSE-0029,1,Zea Mays (Corn) Starch,옥수수전분,9005-25-8,55.8,Surfactant,대한민국
+MSE-0029,2,Sodium Cocoyl Isethionate,소듐코코일이세티오네이트,61789-32-0,22,Surfactant,대한민국
+MSE-0029,3,Sodium Lauroyl Glutamate,소듐라우로일글루타메이트,29923-31-7,18,Surfactant,대한민국
+MSE-0029,4,Sorbitol,솔비톨,50-70-4,3,Surfactant,대한민국
+MSE-0029,5,Cellulose Gum,셀룰로오스검,9004-32-4,0.5,Surfactant,대한민국
+MSE-0029,6,"1,2-Hexanediol",,6920-22-5,0.5,Surfactant,대한민국
+MSE-0029,7,Papain,말토덱스트린,9001-73-4,0.1,Surfactant,대한민국
+MSE-0029,8,Maltodextrin,,9050-36-6,0.1,Surfactant,대한민국
+MSE-0030,1,Decyl Glucoside,C10-16알킬글루코사이드,110615-47-9,53,surfactant,대한민국
+MSE-0030,2,Water,정제수,7732-18-5,47,surfactant,대한민국
+MSF-0001,1,PTFE,,9005-25-8,100,Surfactant,대한민국
+MCH-0001,1,Iron Oxide Yellow,황색산화철,"11115-92-7
+2943-75-1",97,Colorant,대한민국
+MCH-0001,2,Triethoxycaprylylsilane,트라이에톡시카프릴릴실레인,,3,Colorant,대한민국
+MCH-0002,1,Iron Oxide Red,적색산화철,"1309-37-1
+2943-75-1",97,Colorant,대한민국
+MCH-0002,2,Triethoxycaprylylsilane,트라이에톡시카프릴릴실레인,,3,Colorant,대한민국
+MCH-0003,1,Iron Oxide Black,흑색산화철,"12227-89-3
+2943-75-1",97,Colorant,대한민국
+MCH-0003,2,Triethoxycaprylylsilane,트라이에톡시카프릴릴실레인,,3,Colorant,대한민국
+MSG-0004,1,PEG-120 Methyl Glucose Dioleate,피이지-120메틸글루코스디올리에이트,86893-19-8,100,Surfactant,
+MSG-0005,1,Methyl Glucose Dioleate,메틸글루코오스다이올리에이트,-,100,Surfactant,
+MSG-0006,1,Cyclopentasiloxane,사이클로펜타실록세인,541-02-6,0,Surfactant,
+MSG-0006,2,Polysilicone-11,폴리실리콘-11,63394-02-5,0,Surfactant,
+MSG-0006,3,Glyceryl Laurate,글리세릴라우레이트,142-18-7,0,Surfactant,
+MSG-0006,4,Cetyl PEG/PPG-10/1 Dimethicone,세틸피이지/피피지-10/1다이메티콘,-,0,Surfactant,
+MSG-0006,5,PEG/PPG-18/18 Dimethicone,피이지/피피지-18/18다이메티콘,-,0,Surfactant,
+MSI-0001,1,Sodium Lauroyl Methyl Isethionate,소듐라우로일메틸이세티오네이트,-,100,Surfactant,미국
+MSK-0001,1,Glyceryl Stearate,글리세릴스테아레이트,123-94-4,100,Emusifying Agent,대한민국
+MSK-0002,1,Sodium Cocoyl Isethionate,소듐코코일이세치오네이트,58969-27-0,100,Surfactant,중국
+MSL-0001,1,Hydrogenated Lecithin,하이드로제네이티드레시틴,92128-87-5,100,"Surfactant, Skin Conditioning Agent",일본
+MSM-0003,1,Sodium Lauryl Ether Sulfate,,3088-31-1,30,Surfactant,
+MSM-0003,2,Water,,7732-18-5,70,Surfactant,
+MSM-0004,1,Sodium Lauryl Sulfate,소듐라우릴설페이트,151-21-3,30,Surfactant,
+MSM-0004,2,Water,,7732-18-5,70,Surfactant,
+MSM-0004,3,Phenoxy ethanol,,122-99-6,0.5,Surfactant,
+MSM-0005,1,TEA-Lauryl Sulfate,티이에이-라우릴설페이트,139-96-8,30,Surfactant,
+MSM-0005,2,Water,,,70,Surfactant,
+MSM-0011,1,Lauramide DEA,라우라마이드디이에이,120-40-1,100,Surfactant,
+MSM-0013,1,Cocamidopropyl Betaine,코카미도프로필베타인,61789-40-0,30,Surfactant,대한민국
+MSM-0013,2,Sodium chloride,소듐클로라이드,7647-14-5,5,Surfactant,대한민국
+MSM-0013,3,Water,정제수,7732-18-5,65,Surfactant,대한민국
+MSM-0023,1,Disodium Cocoamphodiacetate,다이소듐코코암포다이아세테이트,68650-39-5,36.7,Surfactant,대한민국
+MSM-0023,2,Water,정제수,7732-18-5,50,Surfactant,대한민국
+MSM-0023,3,Sodium chloride,소듐클로라이드,7647-14-5,13,Surfactant,대한민국
+MSM-0023,4,Hexylene glycol,헥실렌글라이콜,107-41-5,0.3,Surfactant,대한민국
+MSM-0024,1,Propylene glycol,프로필렌글라이콜,"112-03-8
+57-55-6
+7732-18-5",60,"Antistatic Agents, Hair Conditioning Agent",
+MSM-0024,2,Steartrimonium chloride,스테아트라이모늄클로라이드,,30,"Antistatic Agents, Hair Conditioning Agent",
+MSM-0024,3,Water,정제수,,10,"Antistatic Agents, Hair Conditioning Agent",
+MSM-0025,1,Sodium Metabisulfite,,2235-54-3,100,Surfactant,
+MSM-0026,1,Ammonium Laureth Sulfate,암모늄라우레스설페이트,32612-48-9,25,Surfactant,대한민국
+MSM-0026,2,Sodium Benzoate,소듐벤조에이트,532-32-1,0.5,Surfactant,대한민국
+MSM-0026,3,Phenoxyethanol,페녹시에탄올,122-99-6,0.4,Surfactant,대한민국
+MSM-0026,4,Water,정제수,7732-18-5,74.1,Surfactant,대한민국
+MSM-0027,1,Cocamide MEA,코카마이드엠이에이,68140-00-1,100,Surfactant,
+MSM-0028,1,Sucrose Stearate,,68333-82-4,100,Surfactant,
+MSM-0029,1,Water,,39354-45-5,70,Surfactant,
+MSM-0029,2,Disodium Laureth Sulfosuccinate,다이소듐라우레스설포석시네이트,,30,Surfactant,
+MOS-0028,1,Hippophae Rhamnoides Fruit Oil,비타민나무열매오일,90106-68-6,100,Skin Conditioning Agent,중국
+MOS-0029,1,Caprylic/Capric Triglyceride,카프릴릭/카프릭트라이글리세라이드,73398-61-5,70,Skin Conditioning Agent,대한민국
+MOS-0029,2,Lithospermum Erythrorhizon Root Extract,지치뿌리추출물,223749-76-6 (generic),30,Skin Conditioning Agent,대한민국
+MSM-0030,1,Behentrimonium chloride,베헨트라이모늄클로라이드,17301-53-0,80,"Antistatic Agents, Hair Conditioning Agent",대한민국
+MSM-0030,2,Isopropyl alcohol,아이소프로필알코올,67-63-0,20,"Antistatic Agents, Hair Conditioning Agent",대한민국
+MSM-0031,1,Stearamidopropyl Dimethylamine,스테아라미도프로필다이메틸아민,7651-02-07 00:00:00,100,Surfactant,대한민국
+MSM-0032,1,Sodium Cocoyl Glycinate,소듐코코일글라이시네이트,90387-74-9,100,Surfactant,대한민국
+MSM-0033,1,Sodium Lauroyl Glutamate,소듐라우로일글루타메이트,29923-31-7,100,Surfactant,대한민국
+MSM-0034,1,Sorbitan Stearate,,866889-75-0,50,Surfactant,대한민국
+MSM-0034,2,Sucrose Cocoate,,56-81-5,50,Surfactant,대한민국
+MSM-0035,1,Sodium Methyl Cocoyl Taurate,,1847-58-1,100,Surfactant,대한민국
+MSM-0036,1,Water,정제수,68424-94-2,0,Surfactant,인도
+MSM-0036,2,Coco-Betaine,코코-베타인,7732-18-5,0,Surfactant,인도
+MSM-0036,3,Sodium Chloride,소듐클로라이드,,0,Surfactant,인도
+MSM-0037,1,Sodium C14-16 Olefin Sulfonate,소듐C14-16올레핀설포네이트,68439-57-6,35,Surfactant,대한민국
+MSM-0037,2,Tetradecene,테트라데센,1120-36-1,1.25,Surfactant,대한민국
+MSM-0037,3,Hexadecane,헥사데케인,544-76-3,1.25,Surfactant,대한민국
+MSM-0037,4,Water,정제수,7732-18-5,62.5,Surfactant,대한민국
+MSN-0001,1,Beheneth-10,베헤네스-10,-,100,Surfactant,
+MSN-0002,1,Cetyl Ethylhexanoate,세틸에틸헥사노에이트,59130-69-7,100,Skin Conditioning Agent,일본
+MSN-0003,1,Dihydrocholeth-30,다이하이드로콜레스-30,42766-91-6,100,Emusifying Agents,일본
+MSN-0011,1,PEG-60 Hydrogenated Castor Oil,피이지-60하이드로제네이티드캐스터오일,61788-85-0,100,Emusifying Agents,일본
+MSO-0003,1,Olive Oil PEG-7 Esters,올리브오일피이지-7에스터,-,100,Emusifying Agents,
+MSO-0004,1,Sorbitan Olivate,솔비탄올리베이트,223706-40-9,100,Emusifying Agents,이탈리아
+MSO-0005,1,PEG-4 Olivate,피이지-4올리베이트,-,100,Emusifying Agents,
+MSO-0006,1,Cetearyl Olivate,세테아릴올리베이트,-,60,Emusifying Agents,이탈리아
+MSO-0006,2,Sorbitan Olivate,솔비탄올리베이트,223706-40-9,40,Emusifying Agents,이탈리아
+MSP-0001,1,PEG-32,피이지-32,25322-68-3 (Generic),100,Humectants,일본
+MSP-0002,1,PEG-400,피이지-400,25322-68-3 (Generic),100,Humectants,
+MSP-0003,1,PEG-75,피이지-75,25322-68-3 (Generic),100,Humectants,
+MSP-0004,1,Decyl Glucoside,데실글루코사이드,58846-77-8 68515-73-1 141464-42-8,100,Surfactant,중국
+MSP-0005,1,Potassium Cocoyl Glycinate,포타슘코코일글리시네이트,301341-58-2,28,Surfactant,대한민국
+MSP-0005,2,Water,정제수,7732-18-5,72,Surfactant,대한민국
+MSP-0006,1,Sodium Methyl Cocoyl Taurate,소듐메틸코코일타우레이트,12765-39-8,100,Surfactant,영국
+MSP-0007,1,Polyglyceryl-2 Stearate,폴리글리세릴-2스테아레이트,9009-32-9,45,Emusifying Agents,미국
+MSP-0007,2,Glyceryl Stearate,글리세릴스테아레이트,11099-07-3,30,Emusifying Agents,미국
+MSP-0007,3,Stearyl Alcohol,스테아릴알코올,112-92-5,25,Emusifying Agents,미국
+MSP-0008,1,Polyglyceryl-4 Laurate,폴리글리세릴-4라우레이트,74504-64-6,60,Emusifying Agents,미국
+MSP-0008,2,Polyglyceryl-6 Laurate,폴리글리세릴-6라우레이트,51033-38-6,40,Emusifying Agents,미국
+MSP-0009,1,Stearoyl Glutamic Acid,,63705-03-3,100,Emusifying Agents,프랑스
+MSR-0002,1,Polysorbate 20,폴리솔베이트20,9005-64-5 (Generic),100,Emusifying Agents,일본
+MSR-0003,1,Sorbeth-30 Tetraoleate,솔베스-30테트라올리에이트,63089-86-1,100,Emusifying Agents,일본
+MSS-0003,1,PEG-75 Lanolin,피이지-75라놀린,8039-09-6,100,Skin Conditioning Agent,
+MSS-0006,1,Sodium Stearoyl Lactylate,,9005-25-8,100,Surfactant,대한민국
+MSS-0007,1,Polyglyceryl-10 Laurate,폴리글리세릴-10라우레이트,34406-66-1,37.5,Emusifying Agents,대한민국
+MSS-0007,2,Polyglyceryl-4 Laurate,폴리글리세릴-4라우레이트,74504-64-6,27.5,Emusifying Agents,대한민국
+MSS-0007,3,Caprylyl/Capryl Glucoside,카프릴릴/카프릴글루코사이드,68515-73-1,17.5,Emusifying Agents,대한민국
+MSS-0007,4,Water,정제수,7732-18-5,17.5,Emusifying Agents,대한민국
+MSS-0008,1,Sodium Stearoyl Glutamate,,9005-25-8,100,Surfactant,대한민국
+MSS-0009,1,"PEG-11 Methyl Ether 
+Dimethicone",피이지-11메틸에터다이메티콘,68938-54-5,100,Hair Conditioning Agent,대한민국
+MSS-0010,1,Cetyl PEG/PPG-10/1 Dimethicone,세틸피이지/피피지-10/1다이메티콘,144243-53-8,100,Surfactant,대한민국
+MST-0001,1,Polysorbate 60,폴리솔베이트60,9005-67-8 (Generic),100,Emusifying Agents,싱카포르
+MST-0002,1,Polysorbate 80,폴리솔베이트80,9005-65-6 (Generic),100,Emusifying Agents,일본
+MST-0004,1,Polyglyceryl-3 Methylglucose Distearate,폴리글리세릴-3메틸글루코오스다이스테아레이트,-,100,Emusifying Agents,독일
+MSX-0001,1,C12-20 Acid PEG-8 Ester,C12-20애씨드피이지-8에스터,68908-68-9,100,Surfactant,이탈리아
+MUA-0001,1,Benzophenone-3,벤조페논-3,131-57-7,100,UV Absorber,대한민국
+MUC-0001,1,Titanium Dioxide,티타늄디옥사이드,13463-67-7,44,Sunscreen Agents,"3, 1, 1, 1, 1"
+MUC-0001,2,Aluminum Hydroxide,알루미늄하이드록사이드,21645-51-2,4,Sunscreen Agents,"3, 1, 1, 1, 1"
+MUC-0001,3,Stearic acid,스테아릭애씨드,57-11-4,5,Sunscreen Agents,"3, 1, 1, 1, 1"
+MUC-0001,4,C12-15 Alkyl Benzoate,C12-15알킬벤조에이트,68411-27-8,42,Sunscreen Agents,"3, 1, 1, 1, 1"
+MUC-0001,5,Polyhydroxystearic Acid,폴리하이드록시스테아릭애씨드,27924-99-8,5,Sunscreen Agents,"3, 1, 1, 1, 1"
+MUC-0002,1,Zinc Oxide,징크옥사이드,1314-13-2,62,Sunscreen Agents,"3, -, -, 1"
+MUC-0002,2,Triethoxycaprylylsilane,트라이에톡시카프릴릴실레인,2943-75-1,3,Sunscreen Agents,"3, -, -, 1"
+MUC-0002,3,Coco-Caprylate/Caprate,코코-카프릴레이트/카프레이트,2306-88-9 2306-89-0 1654-86-0 2306-92-5 129677-93-6,30,Sunscreen Agents,"3, -, -, 1"
+MUC-0002,4,Polyhydroxystearic Acid,폴리하이드록시스테아릭애씨드,27924-99-8,5,Sunscreen Agents,"3, -, -, 1"
+MUM-0001,1,Benzophenone-9,벤조페논-9,76656-36-5,100,UV Absorber,
+MUN-0002,1,Isoamyl p-Methoxycinnamate,이소아밀p-메톡시신나메이트,71617-10-2,100,Sunscreen Agents,
+MUP-0002,1,Ethylhexyl Methoxycinnamate,에칠헥실메톡시신나메이트,5466-77-3,100,Sunscreen Agents,대만
+MUP-0003,1,4-Methylbenzylidene Camphor,4-메칠벤질리덴캠퍼,"36861-47-9 
+38102-62-4",100,Sunscreen Agents,대만
+MUP-0004,1,Ethylhexyl Salicylate,에칠헥실살리실레이트,118-60-5,100,Sunscreen Agents,중국
+MUP-0005,1,Octocrylene,옥토크릴렌,6197-30-4,100,Sunscreen Agents,
+MUT-0001,1,Bis-Ethylhexyloxyphenol Methoxyphenyl Triazine,비스-에칠헥실옥시페놀메톡시페닐트리아진,187393-00-6,100,Sunscreen Agents,
+MUT-0002,1,Titanium Dioxide,티타늄디옥사이드,13463-67-7,0,Sunscreen Agents,
+MUT-0002,2,Diethylhexyl Carbonate,다이에틸헥실카보네이트,14858-73-2,0,Sunscreen Agents,
+MUT-0002,3,Polyglyceryl-6 Polyhydroxystearate,폴리글리세릴-6폴리하이드록시스테아레이트,-,0,Sunscreen Agents,
+MUT-0002,4,Trimethoxycaprylylsilane,트라이메톡시카프릴릴실레인,3069-40-7,0,Sunscreen Agents,
+MUZ-0001,1,C12-15 Alkyl Benzoate,C12-15알킬벤조에이트,68411-27-8,0,Sunscreen Agents,대한민국
+MUZ-0001,2,Zinc Oxide,징크옥사이드,1314-13-2,0,Sunscreen Agents,대한민국
+MUZ-0001,3,Polyhydroxystearic Acid,폴리하이드록시스테아릭애씨드,27924-99-8,0,Sunscreen Agents,대한민국
+MUZ-0001,4,Triethoxycaprylylsilane,트라이에톡시카프릴릴실레인,2943-75-1,0,Sunscreen Agents,대한민국
+MUZ-0002,1,Zinc Oxide,징크옥사이드,1314-13-2,100,"Bulking agents, Sunscreen Agents",벨기에
+MV6-0001,1,Bentonite,벤토나이트,1302-78-9,100,Viscosity Increasing Agent,
+MVA-0005,1,Ammonium Acryloyldimethyltaurate/VP Copolymer,암모늄아크릴로일다이메틸타우레이트/브이피코폴리머,-,100,Viscosity increasing agent,스페인
+MVA-0006,1,Acrylates Copolymer,아크릴레이트코폴리머,25035-69-2,100,Viscosity Increasing Agent,
+MVA-0007,1,PEG-240/HDI Copolymer Bis-Decyltetradeceth-20 Ether,피이지-240/에이치디아이코폴리머비스-데실테트라데세스-20에터,-,0,Viscosity Increasing Agent,대한민국
+MVA-0007,2,Butylene Glycol,부틸렌글라이콜,107-88-0,0,Viscosity Increasing Agent,대한민국
+MVA-0007,3,Water,정제수,7732-18-5,0,Viscosity Increasing Agent,대한민국
+MVA-0008,1,Ammonium Acryloyldimethyltaurate/Beheneth-25 Methacrylate Crosspolymer,암모늄아크릴로일다이메틸타우레이트/베헤네스-25메타크라일레이트크로스폴리머,-,100,Viscosity Increasing Agent,스페인
+MVA-0009,1,Sodium Polyacrylate,소듐폴리아크릴레이트,9003-04-7/25549-84-2,100,Viscosity Increasing Agent,일본
+MVB-0001,1,Sodium Hyaluronate,소듐하이알루로네이트,9067-32-7,100,Skin Conditioning Agent,
+MVB-0003,1,Cyclopentasiloxane,사이클로펜타실록세인,541-02-6,0,Skin Conditioning Agent,미국
+MVB-0003,2,Disteardimonium Hectorite,다이스테아다이모늄헥토라이트,-,0,Skin Conditioning Agent,미국
+MVB-0003,3,Propylene Carbonate,프로필렌카보네이트,108-32-7,0,Skin Conditioning Agent,미국
+MVC-0001,1,Cellulose Gum,셀룰로오스검,9004-32-4,100,Viscosity Increasing Agents,
+MVC-0003,1,Carbomer,카보머,9003-01-4,100,Viscosity Increasing Agents,대한민국
+MVC-0004,1,Carbomer,카보머,9003-01-4,100,Viscosity Increasing Agents,대한민국
+MVC-0009,1,Acrylates/C10-30 Alkyl Acrylate Crosspolymer,아크릴레이트/C10-30알킬아크릴레이트크로스폴리머,-,100,Viscosity Increasing Agents,
+MVC-0010,1,Guar Hydroxypropyltrimonium Chloride,구아하이드록시프로필트라이모늄클로라이드,65497-29-2,0,Viscosity Increasing Agent,
+MVC-0010,2,Water,정제수,7732-18-5,0,Viscosity Increasing Agent,
+MVE-0001,1,Dibutyl Ethylhexanoyl Glutamide,다이부틸에틸헥사노일글루타마이드,861390-34-3,100,Viscosity Increasing Agent,
+MVE-0002,1,Tocopherol,,13475-82-6,100,Skin Conditioning Agent,대한민국
+MVG-0003,1,Dibutyl Lauroyl Glutamide,다이부틸라우로일글루타마이드,63663-21-8,100,Viscosity Increasing Agent,
+MVH-0002,1,Agar,아가,9002-18-0,100,Viscosity Increasing Agent,한국
+MVK-0001,1,Xanthan Gum,잔탄검,11138-66-2,100,Viscosity Increasing Agent,
+MVK-0002,1,Hydrogenated Styrene/Isoprene Copolymer,하이드로제네이티드스타이렌/아이소프렌코폴리머,68648-89-5,100,Viscosity Increasing Agent,
+MVL-0001,1,Water,정제수,7732-18-5,0,Skin Conditioning Agent,미국
+MVL-0001,2,Glycerin,글리세린,56-81-5,0,Skin Conditioning Agent,미국
+MVL-0001,3,Glyceryl Acrylate/Acrylic Acid Copolymer,글리세릴아크릴레이트/아크릴릭애씨드코폴리머,-,0,Skin Conditioning Agent,미국
+MVL-0001,4,Propylene Glycol,프로필렌글라이콜,57-55-6,0,Skin Conditioning Agent,미국
+MVL-0002,1,Water,정제수,7732-18-5,0,Skin Conditioning Agent,
+MVL-0002,2,Glycerin,글리세린,56-81-5,0,Skin Conditioning Agent,
+MVL-0002,3,Glyceryl Acrylate/Acrylic Acid Copolymer,글리세릴아크릴레이트/아크릴릭애씨드코폴리머,-,0,Skin Conditioning Agent,
+MVL-0002,4,Propylene Glycol,프로필렌글라이콜,57-55-6,0,Skin Conditioning Agent,
+MVL-0003,1,Water,정제수,7732-18-5,0,Skin Conditioning Agent,
+MVL-0003,2,Glycerin,글리세린,56-81-5,0,Skin Conditioning Agent,
+MVL-0003,3,Glyceryl Acrylate/Acrylic Acid Copolymer,글리세릴아크릴레이트/아크릴릭애씨드코폴리머,-,0,Skin Conditioning Agent,
+MVL-0003,4,Propylene Glycol,피브이엠/엠에이코폴리머,57-55-6,0,Skin Conditioning Agent,
+MVL-0003,5,PVM/MA Copolymer,프로필렌글라이콜,9011-16-9,0,Skin Conditioning Agent,
+MVL-0004,1,Lithium Magnesium Sodium Silicate,리튬마그네슘소듐실리케이트,53320-86-8,100,Viscosity Increasing Agent,
+MVM-0002,1,Sodium Polyacrylate Starch,소듐폴리아크릴레이트스타치,60323-79-7,100,Viscosity Increasing Agent,일본
+MVN-0001,1,Tocopheryl Acetate,,9004-62-0,100,Viscosity Increasing Agent,벨기에
+MVN-0002,1,Cellulose,셀룰로오스,9004-34-6,100,Bulking Agents,프랑스
+MVN-0003,1,Polyglyceryl-10  Behenate/Eicosadioate,폴리글리세릴-10베헤네이트/에이코사디오에이트,-,100,Viscosity Increasing Agent,
+MVN-0004,1,Glyceryl Behenate/Eicosadioate,글리세릴베헤네이트/에이코사디오에이트,-,100,Viscosity Increasing Agent,
+MVP-0003,1,PEG-14M,피이지-14M,25322-68-3,100,Viscosity Increasing Agent,미국
+MVP-0005,1,PVP,피브이피,9003-39-8,100,"Binders, Film Formers",홍콩
+MVP-0006,1,Acrylates/C10-30 Alkyl Acrylate Crosspolymer,아크릴레이트/C10-30알킬아크릴레이트크로스폴리머,-,100,Viscosity Increasing Agent,벨기에
+MVP-0009,1,Polyquaternium-10,폴리쿼터늄-10,68610-92-4,100,"Antistatic Agents, Hair Fixatives",대한민국
+MVS-0001,1,C13-14 Isoparaffin,C13-14아이소파라핀,-,0,Viscosity Increasing Agent,
+MVS-0001,2,Laureth-7,라우레스-7,3055-97-8,0,Viscosity Increasing Agent,
+MVS-0001,3,Polyacrylamide,폴리아크릴아마이드,9003-05-08,0,Viscosity Increasing Agent,
+MVS-0004,1,Magnesium Aluminum Silicate,마그네슘알루미늄실리케이트,"12199-37-0 
+12511-31-8",100,Viscosity Increasing Agent,Japan
+MVS-0005,1,Hydroxyethyl Acrylate/Sodium Acryloyldimethyl Taurate Copolymer,하이드록시에틸아크릴레이트/소듐아크릴로일다이메틸타우레이트코폴리머,111286-86-3,100,Viscosity Increasing Agent,프랑스
+MVS-0006,1,Hydroxypropyl Starch Phosphate,하이드록시프로필스타치포스페이트,113894-92-1,100,Viscosity Increasing Agent,네덜란드
+MVS-0007,1,Tocopheryl Acetate,,8001-78-3,100,Viscosity Increasing Agent,중국
+MVT-0001,1,Trihydroxystearin,트라이하이드록시스테아린,139-44-6,100,Viscosity Increasing Agent,
+MVV-0001,1,Magnesium Aluminum Silicate,마그네슘알루미늄실리케이트,"12199-37-0 
+12511-31-8",100,Viscosity Increasing Agent,
+MVV-0004,1,Sodium Polyacryloyldimethyl Taurate,소듐폴리아크릴로일다이메틸타우레이트,ㅡ,40,Viscosity Increasing Agent,홍콩
+MVV-0004,2,Hydrogenated Polydecene,하이드로제네이티드폴리데센,68037-01-4,18,Viscosity Increasing Agent,홍콩
+MVV-0004,3,Caprylyl/Capryl Glucoside,카프릴릴/카프릴글루코사이드,68515-73-1,2,Viscosity Increasing Agent,홍콩
+MVV-0004,4,Water,정제수,7732-18-5,40,Viscosity Increasing Agent,홍콩
+MVV-0005,1,Hydroxypropyl Methylcellulose,하이드록시프로필메틸셀룰로오스,9004-65-3,100,Viscosity Increasing Agent,독일
+MVZ-0001,1,Glycerin,글리세린,56-81-5,0,Humectants,
+MVZ-0001,2,Water,정제수,7732-18-5,0,Humectants,
+MVZ-0001,3,Sodium Polyacrylate,소듐폴리아크릴레이트,9003-04-7,0,Humectants,
+MVZ-0001,4,PVM/MA Copolymer,피브이엠/엠에이코폴리머,9011-16-9,0,Humectants,
+MWA-0003,1,Cetyl Dimethicone,세틸다이메티콘,191044-49-2,100,"Antifoaming Agents, Skin Conditioning Agent",독일
+MWC-0007,1,Stearyl Dimethicone,스테아릴다이메티콘,67762-83-8,100,Skin Conditioning Agent,중국
+MWC-0008,1,Hydrogenated Palm Glyceride,하이드로제네이티드팜글리세라이드,"91744-73-9 
+91744-66-0",100,Surfactants,
+MWC-0009,1,Soy WaX,소이 왁스,,100,,미국
+MWD-0001,1,Bis-PEG-18 Methyl Ether Dimethyl Silane,비스-피이지-18메틸에터다이메틸실레인,67846-47-3,100,Skin Conditioning Agent,대한민국
+MWE-0001,1,Stearic Acid,스테아릭애씨드,57-11-4,100,Surfactants,말레이시아
+MWE-0002,1,Stearyl Alcohol,스테아릴알코올,112-92-5,100,"Emulsion Stabilizer, Surfactants",대한민국
+MWE-0004,1,Cetyl Alcohol,세틸알코올,36653-82-4,100,"Emulsion Stabilizer, Surfactants",대한민국
+MWI-0001,1,Synthetic Wax,합성왁스,8002-74-2,100,"Binders, Emulsion Stabilizer",케나다
+MWK-0001,1,Cetyl Alcohol,세틸알코올,36653-82-4,100,"Emulsion Stabilizer, Opacifying Agents",일본
+MWK-0002,1,Stearyl Alcohol,스테아릴알코올,112-92-5,100,"Emulsion Stabilizer, Opacifying Agents",
+MWK-0003,1,Ozokerite,오조케라이트,12198-93-5,100,"Emulsion Stabilizer, Opacifying Agents",
+MWL-0001,1,Cetearyl Alcohol,세테아릴알코올,67762-27-0,100,"Emulsion Stabilizer, Opacifying Agents",필리핀
+MWL-0003,1,Lauric Acid,라우릭애씨드,143-07-7,100,"Emulsion Stabilizer, Opacifying Agents",
+MWL-0004,1,Myristyl Alcohol,미리스틸알코올,112-72-1,100,"Emulsion Stabilizer, Opacifying Agents",대한민국
+MWM-0001,1,Microcrystalline Wax,마이크로크리스탈린왁스,63231-60-7,100,Emulsion Stabilizer,
+MWM-0002,1,Microcrystalline Wax,마이크로크리스탈린왁스,63231-60-7,100,Emulsion Stabilizer,미국
+MWM-0005,1,Mangifera Indica (Mango) Seed Butter,망고씨버터,"90063-86-8
+(generic)",100,Skin Conditioning Agent,인도
+MWM-0006,1,Myristic Acid,미리스틱애씨드,544-63-8,100,"Emulsion Stabilizer, Opacifying Agents",말레이시아
+MWO-0002,1,Cetyl Palmitate,세틸팔미테이트,540-10-3,0,Skin Conditioning Agent,
+MWO-0002,2,Sorbitan Palmitate,소르비탄팔미테이트,15050-91-9,0,Skin Conditioning Agent,
+MWO-0002,3,Sorbitan Olivate,소르비탄올리베이트,223706-40-9,0,Skin Conditioning Agent,
+MWP-0004,1,Cetearyl Alcohol,세테아릴알코올,8005-44-5,0,"Emulsion Stabilizer, Opacifying Agents",싱카포르
+MWP-0004,2,PEG-20 Stearate,피이지-20스테아레이트,9004-99-3,0,"Emulsion Stabilizer, Opacifying Agents",싱카포르
+MWP-0006,1,Lauric Acid,라우릭애씨드,143-07-7,100,"Emulsion Stabilizer, Surfactants",말레이시아
+MWP-0007,1,Myristic Acid,미리스틱애씨드,544-63-8,100,"Emulsion Stabilizer, Surfactants",
+MWP-0008,1,Palmitic Acid,팔미틱애씨드,057-10-03,100,"Emulsion Stabilizer, Surfactants",
+MWP-0009,1,Hydrogenated Polydecene,,57-11-4,100,"Emulsion Stabilizer, Surfactants",말레이시아
+MWP-0011,1,Synthetic Wax,합성왁스,68527-08-2,100,Viscosity controlling agents,미국
+MWS-0001,1,Butyrospermum Parkii (Shea) Butter,시어버터,194043-92-0,100,Skin Conditioning Agent,스웨덴
+MWV-0001,1,Petrolatum,페트롤라툼,8009-03-8 (NF),100,Skin Conditioning Agent,
+MWW-0001,1,Beeswax,비즈왁스,8006-40-4,100,"Emulsion Stabilizer, Skin Conditioning Agent",독일
+MXA-0003,1,Zeolite,제올라이트,1318-02-1,100,Bulking Agent,
+MXA-0004,1,Styrene/VP Copolymer,스타이렌/브이피코폴리머,25086-29-7,100,Film Formers,
+MXA-0005,1,Malachite Extract,말라카이트추출물,-,6,Skin Conditioning Agent,대한민국
+MXA-0005,2,Water,정제수,7732-18-5,73.8,Skin Conditioning Agent,대한민국
+MXA-0005,3,Arginine,알지닌,74-79-3,0.1,Skin Conditioning Agent,대한민국
+MXA-0005,4,Glycine,글라이신,56-40-6,0.1,Skin Conditioning Agent,대한민국
+MXA-0005,5,Tromethamine,트로메타민,77-86-1,10,Skin Conditioning Agent,대한민국
+MXA-0005,6,Tetrahydroxypropyl Ethylenediamine,테트라하이드록시프로필에틸렌다이아민,102-60-3,10,Skin Conditioning Agent,대한민국
+MXB-0001,1,Black Strap Powder,흑당밀가루,-,100,Humectants,
+MXB-0002,1,Sucrose,수크로오스,57-50-1,100,Skin Conditioning Agent,
+MXB-0004,1,Capryloyl Salicylic Acid,카프릴로일살리실릭애씨드,78418-01-6,100,Skin Conditioning Agent,중국
+MXB-0005,1,Hydrolyzed Sponge,하이드롤라이즈드해면,-,91,Skin Conditioning Agent,대한민국
+MXB-0005,2,Bisabolol,비사보롤,23089-26-1,9,Skin Conditioning Agent,대한민국
+MXB-0006,1,Water,정제수,7732-18-5,48,Skin Conditioning Agent,대한민국
+MXB-0006,2,Octadecane,옥타데케인,593-45-3,30,Skin Conditioning Agent,대한민국
+MXB-0006,3,Lactic Acid/Glycolic Acid Copolymer,락틱애씨드/글라이콜릭애씨드코폴리머,-,20,Skin Conditioning Agent,대한민국
+MXB-0006,4,"1,2-Hexanediol","1,2-헥산다이올",6920-22-5,2,Skin Conditioning Agent,대한민국
+MXB-0006,5,Caprylyl Glycol,카프릴릴글라이콜,1117-86-8,0.1,Skin Conditioning Agent,대한민국
+MXB-0006,6,Xanthan Gum,잔탄검,11138-66-2,0.1,Skin Conditioning Agent,대한민국
+MXC-0001,1,Citric Acid,시트릭애씨드,77-92-9,100,pH Adjuster,호주
+MXC-0002,1,Climbazole,클림바졸,38083-17-9,100,Anti-dandruff,
+MXC-0004,1,Chlorhexidine Digluconate,클로헥시딘다이글루코네이트,-,100,Preservative,인도
+MXC-0005,1,Coffea Arabica (Coffee) Seed Powder,커피콩가루,-,100,Scrubs,아프리카
+MXC-0006,1,Camphor,캠퍼,"76-22-2 
+464-49-3",100,Skin Conditioning Agent,중국
+MXC-0007,1,Cyclodextrin,사이클로덱스트린,"7585-39-9 
+12619-70-4",100,"Absorbents, Chelating Agents",
+MXC-0008,1,Calcium dichloride,칼슘클로라이드,10043-52-4,100,Astringents,대한민국
+MXC-0009,1,Methyl Diisopropyl Propionamide,메틸다이아이소프로필프로피온아마이드,51115-67-4,100,Skin Conditioning Agent,중국
+MXC-0010,1,Ceramide NP,세라마이드엔피,100403-19-8,5.5,Skin Conditioning Agent,중국
+MXC-0010,2,Ceramide AP,세라마이드에이피,-,2.2,Skin Conditioning Agent,중국
+MXC-0010,3,Ceramide EOP,세라마이드이오피,-,0.3,Skin Conditioning Agent,중국
+MXC-0010,4,Phytosphingosine,피토스핑고신,554-62-1,2,Skin Conditioning Agent,중국
+MXC-0010,5,Hexyldecanol,헥실데칸올,2425-77-6,6,Skin Conditioning Agent,중국
+MXC-0010,6,Behenyl Alcohol,베헤닐알코올,661-19-8,21.8,Skin Conditioning Agent,중국
+MXC-0010,7,Stearyl Alcohol,스테아릴알코올,112-92-5,19,Skin Conditioning Agent,중국
+MXC-0010,8,Cetyl Alcohol,세틸알코올,36653-82-4,7,Skin Conditioning Agent,중국
+MXC-0010,9,Phytosterols,피토스테롤,?,9.8,Skin Conditioning Agent,중국
+MXC-0010,10,Glyceryl Stearate,글리세릴스테아레이트,?,14.7,Skin Conditioning Agent,중국
+MXC-0010,11,Stearic Acid,스테아릭애씨드,?,4.27,Skin Conditioning Agent,중국
+MXC-0010,12,Hydrogenated Lecithin,하이드로제네이티드레시틴,92128-87-5,7.43,Skin Conditioning Agent,중국
+MXD-0001,1,Panthenol,판테놀,"81-13-0 (D-Form) 
+16485-10-2",100,"Hair Conditioning Agent, Skin Conditioning Agent",중국
+MXD-0002,1,Water,정제수,7732-18-5,100,Solvent,한국
+MXD-0004,1,Distearyldimonium Chloride,다이스테아릴다이모늄클로라이드,107-64-2,100,"Hair Conditioning Agent, Antistatic Agents",
+MXD-0005,1,Dihydroxyacetone,다이하이드록시아세톤,96-26-4,100,Skin Conditioning Agent,독일
+MXE-0001,1,Disodium EDTA,다이소듐이디티에이,139-33-3,100,Chelating Agent,일본
+MXE-0002,1,Water,정제수,7732-18-5,63,Skin Conditioning Agent,
+MXE-0002,2,Cetearyl Isononanoate,세테아릴아이소노나노에이트,-,15,Skin Conditioning Agent,
+MXE-0002,3,Ceteareth-20,세테아레스-20,68439-49-6(Generic),7.5,Skin Conditioning Agent,
+MXE-0002,4,Cetearyl Alcohol,세테아릴알코올,8005-44-5,7.5,Skin Conditioning Agent,
+MXE-0002,5,Glyceryl Stearate,글리세릴스테아레이트,85251-77-0 (generic),3,Skin Conditioning Agent,
+MXE-0002,6,Glycerin,글리세린,56-81-5,3,Skin Conditioning Agent,
+MXE-0002,7,Cetyl Palmitate,세틸팔미테이트,540-10-3,0.5,Skin Conditioning Agent,
+MXE-0002,8,Ceteareth-12,세테아레스-12,68439-49-6(Generic),0.5,Skin Conditioning Agent,
+MXG-0002,1,Gold,금,7440-57-5,100,Skin Conditioning Agent,
+MXG-0003,1,Glycolic Acid,글라이콜릭애씨드,79-14-1,70,pH Adjuster,
+MXG-0003,2,Water,정제수,7732-18-5,30,pH Adjuster,
+MXG-0004,1,Gluconic Acid,글루코닉애씨드,133-42-6,100,pH Adjuster,
+MXH-0002,1,Sodium Chloride,소듐클로라이드,7647-14-5,100,Skin Conditioning Agent,대한민국
+MXH-0003,1,Sea Salt,씨솔트,7647-14-5,100,Skin Conditioning Agent,호주
+MXI-0001,1,Triclosan,트리클로산,3380-34-5,100,Preservatives,
+MXK-0002,1,Potassium Hydroxide,포타슘하이드록사이드,1310-58-3,100,pH Adjuster,
+MXL-0001,1,Lactic Acid,락틱애씨드,79-33-4,70,pH Adjuster,
+MXL-0001,2,Water,정제수,7732-18-5,30,pH Adjuster,
+MXL-0002,1,Aluminum Chlorohydrate,알루미늄클로로하이드레이트,"1327-41-9 
+7784-13-6 
+12042-91-0",100,Cosmetic Astringents,
+MXL-0003,1,Xylitylglucoside,,7732-18-5,50,Film Formers,독일
+MXL-0003,2,Anhydroxylitol,,38139-93-4,25,Film Formers,독일
+MXL-0003,3,Xylitol,,,25,Film Formers,독일
+MXM-0001,1,Menthol,멘톨,"89-78-1 
+1490-04-6",100,Skin Conditioning Agent,인도
+MXM-0002,1,Sodium Chloride,소듐클로라이드,7647-14-5,100,Sweetener,
+MXM-0003,1,Polyquaternium-11,폴리쿼터늄-11,53633-54-8,20,"Film Formers, Hair Fixatives",
+MXM-0003,2,Water,,,80,"Film Formers, Hair Fixatives",
+MXM-0003,3,Phenoxyethanol,,,0.5,"Film Formers, Hair Fixatives",
+MXM-0004,1,Xanthan Gum,,-,100,Film Formers,일본
+MXM-0005,1,Magnesium sulfate,마그네슘설페이트,7487-88-9,0,Emulsion Stabilizer,
+MXM-0005,2,Water,정제수,7732-18-5,0,Emulsion Stabilizer,
+MXM-0006,1,Methyl Perfluoroisobutyl Ether,메틸퍼플루오로아이소부틸에터,163702-08-7,100,Viscosity decreasing Agent,중국
+MXN-0003,1,Sodium Chloride,소듐클로라이드,7647-14-5,100,Viscosity-Increasing Agent,대한민국
+MXN-0004,1,Sodium Hydroxide,소듐하이드록사이드,1310-73-2,100,pH Adjuster,대한민국
+MXO-0001,1,Zea Mays (Corn) Starch,옥수수전분,9005-25-8,100,Skin Conditioning Agent,대한민국
+MXP-0001,1,Xylose,,25213-24-5,50,"Binder, Film Formers",일본
+MXP-0001,2,Sodium Anisate,,,50,"Binder, Film Formers",일본
+MXP-0002,1,Phytic Acid,파이틱애씨드,83-86-3,50,Skin Conditioning Agent,일본
+MXP-0002,2,water,,,50,Skin Conditioning Agent,일본
+MXP-0003,1,Papain,파파인,9001-73-4,100,Skin Conditioning Agent,대한민국
+MXS-0001,1,Salicylic Acid,살리실릭애씨드,69-72-7,100,Skin Conditioning Agent,프랑스
+MXS-0008,1,Sodium Citrate,소듐시트레이트,68-04-2,100,Buffering Agent,
+MXS-0009,1,Sodium Metabisulfite,소듐메타바이설파이트,7681-57-4,100,Antioxidants,
+MXS-0010,1,Capsicum Annuum Fruit Extract,고추열매추출물,-,100,"Antioxidants, Cosmetic Astringents",
+MXS-0011,1,Sodium Bicarbonate,소듐바이카보네이트,144-55-8,100,Buffering Agent,대한민국
+MXS-0012,1,Sodium Sulfite,소듐설파이트,7757-83-7,100,Antioxidants,대한민국
+MXS-0013,1,Sucrose,수크로오스,57-50-1,100,Skin Conditioning Agent,
+MXS-0014,1,Sodium Guaiazulene Sulfonate,소듐구아이아줄렌설포네이트,6223-35-4,100,Skin Conditioning Agent,중국
+MXS-0015,1,Sodium DNA,소듐디엔에이,9007-49-2,100,Skin Conditioning Agent,대한민국
+MXT-0001,1,Triethanolamine,트라이에탄올아민,102-71-6,100,pH Adjuster,
+MXT-0005,1,Tromethamine,트로메타민,77-86-1,100,pH Adjuster,중국
+MXV-0001,1,Vanillyl Butyl Ether,바닐릴부틸에터,82654-98-6,100,Skin Conditioning Agent,
+MXV-0002,1,Vermiculite,질석,1318-00-9,100,Bulking Agent,대한민국
+MXV-0003,1,Microcrystalline Cellulose,마이크로크리스탈린셀룰로오스,9004-34-6,70,"Bulking Agents, Emulsion Stabilizer",
+MXV-0003,2,Cellulose,셀룰로오스,9004-34-6,30,"Bulking Agents, Emulsion Stabilizer",
+MXW-0001,1,Juglans Regia (Walnut) Shell Powder,호두나무열매껍질가루,-,100,"Scrubs, Bulking Agents",대한민국
+ZMM-0042,1,Phellinus Linteus Mycelium Extract,진흙버섯균사체추출물,-,0,Skin Conditioning Agent,
+ZMM-0042,2,Aloe Barbadensis Leaf Juice,알로에베라잎즙,,0,Skin Conditioning Agent,
