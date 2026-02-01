@@ -1,0 +1,237 @@
+"use client";
+
+import { useState, useEffect, useCallback } from "react";
+import { useParams } from "next/navigation";
+import { supabase } from "@/lib/supabase";
+import { Loader2, AlertCircle, Printer } from "lucide-react";
+import type { Product } from "@/types/database";
+
+interface TestSpec {
+  id: string;
+  order: number;
+  test_item: string;
+  specification: string;
+  test_method: string;
+  remarks: string;
+}
+
+// 기본 반제품 시험 항목
+const DEFAULT_SEMI_TESTS: Omit<TestSpec, 'id'>[] = [
+  { order: 1, test_item: "성        상", specification: "", test_method: "EV-F-1003(0)", remarks: "" },
+  { order: 2, test_item: "향        취", specification: "표 준 품 에 준 함", test_method: "EV-F-1002(0)", remarks: "" },
+  { order: 3, test_item: "P         H", specification: "(25℃)", test_method: "EV-F-1006(0)", remarks: "" },
+  { order: 4, test_item: "점        도", specification: "Cps", test_method: "EV-F-1008(0)", remarks: "" },
+  { order: 5, test_item: "사   용   감", specification: "표 준 품 에 준 함", test_method: "EV-F-1004(0)", remarks: "" },
+  { order: 6, test_item: "안   정   성", specification: "37℃,45℃ 3일 이상 안정", test_method: "EV-F-1005(0)", remarks: "" },
+  { order: 7, test_item: "미   생   물", specification: "100 CFU/g 이하", test_method: "EV-F-1014(0)", remarks: "" },
+];
+
+export default function SemiProductSpecsPage() {
+  const { productCode } = useParams<{ productCode: string }>();
+  const decodedProductCode = decodeURIComponent(productCode);
+
+  const [product, setProduct] = useState<Product | null>(null);
+  const [testSpecs, setTestSpecs] = useState<TestSpec[]>([]);
+  const [loading, setLoading] = useState(true);
+  const [error, setError] = useState<string | null>(null);
+  const [author, setAuthor] = useState("—");
+
+  const fetchData = useCallback(async () => {
+    setLoading(true);
+    setError(null);
+    try {
+      const { data: productData, error: productErr } = await supabase
+        .from("labdoc_products")
+        .select("*")
+        .eq("product_code", decodedProductCode)
+        .single();
+
+      if (productErr) {
+        if (productErr.code === "PGRST116") {
+          setError("품목을 찾을 수 없습니다");
+        } else {
+          throw productErr;
+        }
+        setLoading(false);
+        return;
+      }
+
+      setProduct(productData);
+
+      // 시험기준 데이터 조회 시도
+      try {
+        const { data: specsData } = await supabase
+          .from("labdoc_test_specs")
+          .select("*")
+          .eq("product_code", decodedProductCode)
+          .eq("spec_type", "semi")
+          .order("display_order", { ascending: true });
+
+        if (specsData && specsData.length > 0) {
+          // eslint-disable-next-line @typescript-eslint/no-explicit-any
+          setTestSpecs(specsData.map((s: any) => ({
+            id: s.id,
+            order: s.display_order || 0,
+            test_item: s.test_item || '',
+            specification: s.specification || '',
+            test_method: s.test_method || '',
+            remarks: s.remarks || '',
+          })));
+          // eslint-disable-next-line @typescript-eslint/no-explicit-any
+          if ((specsData[0] as any)?.author) {
+            // eslint-disable-next-line @typescript-eslint/no-explicit-any
+            setAuthor((specsData[0] as any).author);
+          }
+        } else {
+          setTestSpecs(DEFAULT_SEMI_TESTS.map((t, idx) => ({ ...t, id: `default-${idx}` })));
+        }
+      } catch {
+        setTestSpecs(DEFAULT_SEMI_TESTS.map((t, idx) => ({ ...t, id: `default-${idx}` })));
+      }
+    } catch (e) {
+      setError(e instanceof Error ? e.message : "데이터 로드 실패");
+    } finally {
+      setLoading(false);
+    }
+  }, [decodedProductCode]);
+
+  useEffect(() => {
+    fetchData();
+  }, [fetchData]);
+
+  const handlePrint = () => window.print();
+
+  if (loading) {
+    return (
+      <div className="flex items-center justify-center py-24">
+        <Loader2 size={22} className="animate-spin text-amber-500" />
+      </div>
+    );
+  }
+
+  if (error || !product) {
+    return (
+      <div className="bg-white rounded-xl border border-slate-200 p-12 text-center">
+        <AlertCircle size={48} className="mx-auto text-red-400 mb-3" />
+        <p className="text-red-500 text-sm">{error || "품목을 찾을 수 없습니다"}</p>
+      </div>
+    );
+  }
+
+  return (
+    <div className="max-w-5xl mx-auto">
+      {/* 인쇄 버튼 */}
+      <div className="flex justify-end mb-4 print:hidden">
+        <button
+          onClick={handlePrint}
+          className="inline-flex items-center gap-2 px-4 py-2 bg-slate-100 text-slate-600 rounded-lg text-sm hover:bg-slate-200"
+        >
+          <Printer size={16} />
+          인쇄
+        </button>
+      </div>
+
+      {/* 반제품 시험기준 */}
+      <div className="bg-white border-2 border-slate-800 print:border-black">
+        {/* 헤더 */}
+        <div className="text-center py-4 border-b-2 border-slate-800">
+          <h1 className="text-lg font-bold tracking-wider text-slate-800">반제품 시험기준 및 시험방법</h1>
+        </div>
+
+        {/* 제품 정보 헤더 */}
+        <div className="grid grid-cols-4 border-b border-slate-300 text-sm">
+          <div className="col-span-1 px-4 py-2 bg-slate-100 border-r border-slate-300 text-center font-semibold text-slate-600">
+            제 품 명
+          </div>
+          <div className="col-span-1 px-4 py-2 bg-slate-100 border-r border-slate-300 text-center font-semibold text-slate-600">
+            제품코드
+          </div>
+          <div className="col-span-1 px-4 py-2 bg-slate-100 border-r border-slate-300 text-center font-semibold text-slate-600">
+            작성일자
+          </div>
+          <div className="col-span-1 px-4 py-2 bg-slate-100 text-center font-semibold text-slate-600">
+            작성자
+          </div>
+        </div>
+        <div className="grid grid-cols-4 border-b border-slate-300 text-sm">
+          <div className="col-span-1 px-4 py-3 border-r border-slate-300 text-slate-800">
+            {product.korean_name || "—"}
+          </div>
+          <div className="col-span-1 px-4 py-3 border-r border-slate-300 font-mono text-slate-700">
+            {product.product_code}
+          </div>
+          <div className="col-span-1 px-4 py-3 border-r border-slate-300 text-slate-700">
+            {product.created_date || "—"}
+          </div>
+          <div className="col-span-1 px-4 py-3 text-slate-700">
+            {author}
+          </div>
+        </div>
+
+        {/* 시험 항목 테이블 */}
+        <table className="w-full text-sm border-collapse">
+          <thead>
+            <tr className="bg-slate-100 border-b border-slate-300">
+              <th className="px-3 py-2 text-center font-semibold text-slate-600 border-r border-slate-300 w-12">순번</th>
+              <th className="px-3 py-2 text-center font-semibold text-slate-600 border-r border-slate-300 w-28">항 목</th>
+              <th className="px-3 py-2 text-center font-semibold text-slate-600 border-r border-slate-300">시 험 기 준</th>
+              <th className="px-3 py-2 text-center font-semibold text-slate-600 border-r border-slate-300 w-32">시 험 방 법</th>
+              <th className="px-3 py-2 text-center font-semibold text-slate-600 w-24">비 고</th>
+            </tr>
+          </thead>
+          <tbody>
+            {testSpecs.map((spec) => (
+              <tr key={spec.id} className="border-b border-slate-200 hover:bg-amber-50/30">
+                <td className="px-3 py-2 text-center text-slate-500 border-r border-slate-200">{spec.order}</td>
+                <td className="px-3 py-2 text-center text-slate-700 border-r border-slate-200">{spec.test_item}</td>
+                <td className="px-3 py-2 text-slate-700 border-r border-slate-200">{spec.specification || "—"}</td>
+                <td className="px-3 py-2 text-center font-mono text-xs text-slate-600 border-r border-slate-200">{spec.test_method}</td>
+                <td className="px-3 py-2 text-slate-600 text-xs">{spec.remarks}</td>
+              </tr>
+            ))}
+          </tbody>
+        </table>
+
+        {/* 참고사항 */}
+        <div className="border-t border-slate-300 px-6 py-4 bg-slate-50">
+          <p className="text-xs text-slate-600 mb-1">* 참 고 사 항 :</p>
+          <p className="text-xs text-slate-600 ml-4">시 험 방 법</p>
+          <p className="text-xs text-slate-600 ml-4">1. 화장품 기준 및 시험방법에 의거.</p>
+        </div>
+
+        {/* 서명란 */}
+        <div className="border-t border-slate-300 px-6 py-6">
+          <div className="flex justify-end gap-12">
+            <div className="text-center">
+              <div className="w-24 border-b border-slate-400 mb-1 h-10"></div>
+              <span className="text-xs text-slate-500">작 성</span>
+            </div>
+            <div className="text-center">
+              <div className="w-24 border-b border-slate-400 mb-1 h-10"></div>
+              <span className="text-xs text-slate-500">검 토</span>
+            </div>
+            <div className="text-center">
+              <div className="w-24 border-b border-slate-400 mb-1 h-10"></div>
+              <span className="text-xs text-slate-500">승 인</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      {/* 인쇄 스타일 */}
+      <style jsx global>{`
+        @media print {
+          body * { visibility: hidden; }
+          .max-w-5xl, .max-w-5xl * { visibility: visible; }
+          .max-w-5xl {
+            position: absolute;
+            left: 0; top: 0;
+            width: 100%;
+            max-width: 100%;
+            padding: 15mm;
+          }
+        }
+      `}</style>
+    </div>
+  );
+}
