@@ -7,7 +7,7 @@ import { supabase } from "@/lib/supabase";
 import { 
   FileText, List, Globe, FileBox, AlertTriangle, Layers, BarChart3, 
   ClipboardCheck, FlaskConical, Package, Search, Loader2, ChevronLeft, ChevronRight,
-  ChevronsLeft, ChevronsRight
+  ChevronsLeft, ChevronsRight, ClipboardList
 } from "lucide-react";
 
 const PAGE_SIZE = 100;
@@ -42,6 +42,7 @@ const docLinks: DocLink[] = [
   // 기타
   { href: "raw-materials/coa", label: "원료 COA", icon: FileBox, group: "기타" },
   { href: "msds", label: "MSDS", icon: AlertTriangle, group: "기타" },
+  { href: "manufacturing-process", label: "제조공정기록서", icon: ClipboardList, group: "기타" },
 ];
 
 export default function DocsLayout({ children }: { children: React.ReactNode }) {
