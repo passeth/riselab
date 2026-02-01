@@ -1,7 +1,7 @@
 # Supabase 테이블 구조 가이드
 
 **프로젝트**: 에바스코스메틱 제품표준서 시스템
-**작성일**: 2026-02-01
+**작성일**: 2026-02-01 (최종 수정: 2026-02-02)
 **테이블 Prefix**: `labdoc_` (기존 `lab_` 테이블과 충돌 방지)
 
 ---
@@ -20,22 +20,24 @@
 
 ### 테이블 분류
 
-| 분류                | 테이블                                  | 설명                      |
-| ------------------- | --------------------------------------- | ------------------------- |
-| **마스터**    | `labdoc_products`                     | 제품 마스터 (핵심 테이블) |
-|                     | `labdoc_ingredients`                  | 원료 마스터 + 문서 URLs   |
-|                     | `labdoc_fragrances`                   | 향료 마스터               |
-|                     | `labdoc_allergens`                    | 알러젠 마스터             |
-| **제품 상세** | `labdoc_product_bom`                  | 제품별 원료 구성 (BOM)    |
-|                     | `labdoc_product_qc_specs`             | 제품별 QC 시험 규격       |
-|                     | `labdoc_product_english_specs`        | 영문 규격 (수출용)        |
-|                     | `labdoc_product_revisions`            | 제품 개정 이력            |
-|                     | `labdoc_product_work_specs`           | 작업 명세서               |
-|                     | `labdoc_product_subsidiary_materials` | 부자재 정보               |
-| **제조공정**  | `labdoc_manufacturing_processes`      | 제조공정 헤더             |
-|                     | `labdoc_manufacturing_process_steps`  | 제조공정 단계             |
-| **원료 상세** | `labdoc_ingredient_specs`             | 원료 품질 규격            |
-|                     | `labdoc_fragrance_allergens`          | 향료-알러젠 연결          |
+| 분류                    | 테이블                                  | 설명                           |
+| ----------------------- | --------------------------------------- | ------------------------------ |
+| **마스터**        | `labdoc_products`                     | 제품 마스터 (핵심 테이블)      |
+|                         | `labdoc_ingredients`                  | 원료 마스터 + 문서 URLs        |
+|                         | `labdoc_fragrances`                   | 향료 마스터                    |
+|                         | `labdoc_allergens`                    | 알러젠 마스터                  |
+| **제품 상세**     | `labdoc_product_bom`                  | 제품별 원료 구성 (BOM)         |
+|                         | `labdoc_product_qc_specs`             | 제품별 QC 시험 규격            |
+|                         | `labdoc_product_english_specs`        | 영문 규격 (수출용)             |
+|                         | `labdoc_product_revisions`            | 제품 개정 이력                 |
+|                         | `labdoc_product_work_specs`           | 작업 명세서                    |
+|                         | `labdoc_product_subsidiary_materials` | 부자재 정보                    |
+| **제조공정**      | `labdoc_manufacturing_processes`      | 제조공정 헤더                  |
+|                         | `labdoc_manufacturing_process_steps`  | 제조공정 단계                  |
+| **원료 상세**     | `labdoc_ingredient_specs`             | 원료 품질 규격                 |
+|                         | `labdoc_fragrance_allergens`          | ~~향료-알러젠 연결~~ (레거시) |
+| **알러젠 (신규)** | `labdoc_allergen_regulations`         | EU 공식 81개 알러젠 규정 ✨    |
+|                         | `labdoc_fragrance_allergen_contents`  | 향료별 알러젠 함량 ✨          |
 
 ### 핵심 식별자
 
@@ -306,8 +308,10 @@
 
 ---
 
-### 3.9 labdoc_fragrance_allergens (향료-알러젠 연결)
+### 3.9 labdoc_fragrance_allergens (향료-알러젠 연결) - 레거시
 
+> ⚠️ **이 테이블은 레거시입니다.** 아래 3.15, 3.16의 신규 구조로 대체되었습니다.
+>
 > **용도**: 향료에 포함된 알러젠 함량 정보. N:M 관계 테이블.
 
 | 컬럼                     | 타입    | 설명                            |
@@ -370,7 +374,7 @@
 | 컬럼                | 타입 | 설명                                                |
 | ------------------- | ---- | --------------------------------------------------- |
 | `id`              | UUID | Primary Key (**process_steps에서 참조**)      |
-| `product_code`    | TEXT | 제품코드 (NOT NULL, **FK 없음** - orphan 허용) |
+| `product_code`    | TEXT | 제품코드 (NOT NULL,**FK 없음** - orphan 허용) |
 | `source_filename` | TEXT | 원본 파일명                                         |
 | `product_name`    | TEXT | 제품명                                              |
 | `batch_number`    | TEXT | 배치번호                                            |
@@ -430,6 +434,96 @@
 
 ---
 
+### 3.15 labdoc_allergen_regulations (EU 알러젠 규정) ✨ NEW
+
+> **용도**: EU 화장품 규정(EC No 1223/2009)에 따른 공식 알러젠 목록 및 라벨링 임계값.
+>
+> **배경**: EU는 화장품에 포함된 알러젠이 특정 농도를 초과할 경우 성분 표시를 의무화함.
+>
+> - Leave-on 제품: 0.001% (10 ppm) 초과 시 표시
+> - Rinse-off 제품: 0.01% (100 ppm) 초과 시 표시
+
+| 컬럼                    | 타입      | 설명                               |
+| ----------------------- | --------- | ---------------------------------- |
+| `id`                  | SERIAL    | Primary Key (자동 증가)            |
+| `allergen_name`       | TEXT      | 알러젠명 (영문, NOT NULL, UNIQUE)  |
+| `inci_name`           | TEXT      | INCI 명칭                          |
+| `cas_no`              | TEXT      | CAS 번호                           |
+| `threshold_leave_on`  | DECIMAL   | Leave-on 임계값 (기본값: 0.001%)   |
+| `threshold_rinse_off` | DECIMAL   | Rinse-off 임계값 (기본값: 0.01%)   |
+| `annex_ref`           | TEXT      | EU Cosmetics Regulation Annex 참조 |
+| `created_at`          | TIMESTAMP | 생성일시                           |
+
+**레코드 수**: 81개 (EU 공식 알러젠)
+
+**주요 알러젠 예시**:
+
+- LINALOOL (78-70-6) - 라벤더, 베르가못 등에 포함
+- LIMONENE (5989-27-5) - 감귤류 향에 포함
+- CITRONELLOL (106-22-9) - 장미, 제라늄 향에 포함
+- GERANIOL (106-24-1) - 장미 향에 포함
+- HEXYL CINNAMAL (101-86-0) - 재스민 향에 포함
+
+---
+
+### 3.16 labdoc_fragrance_allergen_contents (향료별 알러젠 함량) ✨ NEW
+
+> **용도**: 공급업체별 향료에 포함된 알러젠 함량 데이터. 단순화된 flat 구조.
+>
+> **설계 철학**: 기존 정규화 구조(fragrances → fragrance_allergens → allergens)를 단순화하여
+> 실무에서 바로 활용 가능한 형태로 저장. JOIN 없이 직접 조회 가능.
+
+| 컬럼                     | 타입      | 설명                           |
+| ------------------------ | --------- | ------------------------------ |
+| `id`                   | SERIAL    | Primary Key (자동 증가)        |
+| `supplier`             | TEXT      | 공급업체명 (고려에프엔에프 등) |
+| `fragrance_code`       | TEXT      | 향료코드 (NOT NULL)            |
+| `fragrance_name`       | TEXT      | 향료명                         |
+| `allergen_name`        | TEXT      | 알러젠명 (영문, NOT NULL)      |
+| `cas_no`               | TEXT      | CAS 번호                       |
+| `content_in_fragrance` | DECIMAL   | 향료 중 함량 (%, NOT NULL)     |
+| `source_filename`      | TEXT      | 원본 파일명                    |
+| `created_at`           | TIMESTAMP | 생성일시                       |
+
+**레코드 수**: 1,843개
+
+**UNIQUE**: (`fragrance_code`, `fragrance_name`, `allergen_name`)
+
+> ⚠️ 동일 향료코드에 여러 변형 존재 (예: 29954/BF, 29954/LF, 29954)
+
+**인덱스**: `fragrance_code`, `allergen_name`, `supplier`
+
+**사용 예시**:
+
+```sql
+-- 특정 향료의 알러젠 정보 조회
+SELECT 
+    allergen_name,
+    cas_no,
+    content_in_fragrance
+FROM labdoc_fragrance_allergen_contents
+WHERE fragrance_code = 'A63454'
+ORDER BY content_in_fragrance DESC;
+
+-- 라벨링 필요 여부 판단 (향료 1% 함유 제품 기준)
+SELECT 
+    fac.allergen_name,
+    fac.content_in_fragrance,
+    fac.content_in_fragrance * 0.01 AS content_in_product,  -- 향료 1% 함유 시
+    ar.threshold_leave_on,
+    CASE 
+        WHEN fac.content_in_fragrance * 0.01 > ar.threshold_leave_on 
+        THEN '라벨링 필요'
+        ELSE '불필요'
+    END AS leave_on_labeling
+FROM labdoc_fragrance_allergen_contents fac
+JOIN labdoc_allergen_regulations ar 
+    ON UPPER(fac.allergen_name) = UPPER(ar.allergen_name)
+WHERE fac.fragrance_code = 'A63454';
+```
+
+---
+
 ## 4. 주요 쿼리 예시
 
 ### 4.1 제품 정보 조회
@@ -471,10 +565,50 @@ WHERE product_code = 'FJSL002'
 ORDER BY sequence_no;
 ```
 
-### 4.4 알러젠 정보 조회
+### 4.4 알러젠 정보 조회 (신규 구조) ✨
 
 ```sql
--- 특정 향료의 알러젠 정보
+-- 특정 향료의 알러젠 정보 (단순 조회)
+SELECT 
+    fragrance_name,
+    allergen_name,
+    cas_no,
+    content_in_fragrance
+FROM labdoc_fragrance_allergen_contents
+WHERE fragrance_code = 'A63454'
+ORDER BY content_in_fragrance DESC;
+
+-- 라벨링 필요 여부 판단 (향료 함량 기반)
+-- 예: 제품에 향료가 0.5% 함유된 경우
+SELECT 
+    fac.allergen_name,
+    fac.content_in_fragrance AS "향료중함량(%)",
+    ROUND(fac.content_in_fragrance * 0.005, 6) AS "제품중함량(%)",  -- 0.5% 향료 함유
+    ar.threshold_leave_on AS "Leave-on임계값",
+    CASE 
+        WHEN fac.content_in_fragrance * 0.005 > ar.threshold_leave_on 
+        THEN '✅ 필요'
+        ELSE '❌ 불필요'
+    END AS "라벨링필요"
+FROM labdoc_fragrance_allergen_contents fac
+LEFT JOIN labdoc_allergen_regulations ar 
+    ON UPPER(TRIM(fac.allergen_name)) = UPPER(TRIM(ar.allergen_name))
+WHERE fac.fragrance_code = 'A63454'
+  AND fac.content_in_fragrance * 0.005 > 0.001  -- 유의미한 함량만
+ORDER BY fac.content_in_fragrance DESC;
+
+-- EU 규정 알러젠 목록 조회
+SELECT allergen_name, inci_name, cas_no, threshold_leave_on, threshold_rinse_off
+FROM labdoc_allergen_regulations
+ORDER BY allergen_name;
+```
+
+### 4.4.1 알러젠 정보 조회 (레거시 구조)
+
+> ⚠️ 아래 쿼리는 레거시 테이블 구조용입니다. 신규 프로젝트는 위 4.4 쿼리를 사용하세요.
+
+```sql
+-- 특정 향료의 알러젠 정보 (레거시)
 SELECT 
     f.fragrance_name,
     a.allergen_name,
@@ -542,23 +676,25 @@ ORDER BY p.product_code;
 
 ### 테이블별 레코드 수
 
-| 테이블                              |        레코드 수 | 비고                  |
-| ----------------------------------- | ---------------: | --------------------- |
-| labdoc_products                     |            1,571 | 제품 마스터           |
-| labdoc_ingredients                  |            1,066 | 원료 마스터           |
-| labdoc_product_bom                  |           22,524 | 제품당 평균 14개 원료 |
-| labdoc_product_qc_specs             |           32,736 | 제품당 평균 21개 항목 |
-| labdoc_product_english_specs        |           11,857 | 수출용 영문규격       |
-| labdoc_product_revisions            |              199 | 개정 이력             |
-| labdoc_fragrances                   |              211 | 향료 마스터           |
-| labdoc_allergens                    |              299 | 알러젠 마스터         |
-| labdoc_fragrance_allergens          |            6,274 | 향료-알러젠 연결      |
-| labdoc_product_work_specs           |              377 | 작업명세서            |
-| labdoc_product_subsidiary_materials |            1,030 | 부자재                |
+| 테이블                              |        레코드 수 | 비고                          |
+| ----------------------------------- | ---------------: | ----------------------------- |
+| labdoc_products                     |            1,571 | 제품 마스터                   |
+| labdoc_ingredients                  |            1,066 | 원료 마스터                   |
+| labdoc_product_bom                  |           22,524 | 제품당 평균 14개 원료         |
+| labdoc_product_qc_specs             |           32,736 | 제품당 평균 21개 항목         |
+| labdoc_product_english_specs        |           11,857 | 수출용 영문규격               |
+| labdoc_product_revisions            |              199 | 개정 이력                     |
+| labdoc_fragrances                   |              211 | 향료 마스터                   |
+| labdoc_allergens                    |              299 | 알러젠 마스터                 |
+| labdoc_fragrance_allergens          |            6,274 | 향료-알러젠 연결              |
+| labdoc_product_work_specs           |              377 | 작업명세서                    |
+| labdoc_product_subsidiary_materials |            1,030 | 부자재                        |
 | labdoc_manufacturing_processes      |            1,232 | 제조공정 헤더 (1:N 펼침 적용) |
 | labdoc_manufacturing_process_steps  |            9,221 | 제조공정 단계 (1:N 펼침 적용) |
-| labdoc_ingredient_specs             |            4,106 | 원료 규격             |
-| **총계**                      | **92,703** |                       |
+| labdoc_ingredient_specs             |            4,106 | 원료 규격                     |
+| labdoc_allergen_regulations         |               81 | EU 알러젠 규정 ✨             |
+| labdoc_fragrance_allergen_contents  |            1,843 | 향료별 알러젠 함량 ✨         |
+| **총계**                      | **94,627** |                               |
 
 ### 주요 관계 통계
 
@@ -573,9 +709,7 @@ ORDER BY p.product_code;
 
 전체 스키마는 `migration_docs/schema_labdoc_v2.sql` 파일 참조.
 
-
-
-## 나중에 BOM 코드로 수정하는 쿼리
+## fragrance db 나중에 BOM 코드로 수정하는 쿼리
 
 -- Bergamot Oil -> ZMM-0046
 UPDATE labdoc_fragrances SET fragrance_code = 'ZMM-0046' WHERE fragrance_code = 'Bergamot Oil';
@@ -596,13 +730,15 @@ UPDATE labdoc_fragrances SET fragrance_code = 'MFC-0022' WHERE fragrance_code = 
 
 ## 변경 이력
 
-| 날짜       | 버전 | 변경 내용                                                                                         |
-| ---------- | ---- | ------------------------------------------------------------------------------------------------- |
-| 2026-02-01 | 1.0  | 초기 작성                                                                                         |
-| 2026-02-01 | 1.1  | 제조공정 테이블 스키마 변경: (1) `source_filename` UNIQUE → `(product_code, source_filename)` 복합 UNIQUE, (2) `(process_id, step_num)` UNIQUE 제약 삭제. 1:N 품목코드 매핑 데이터 반영 (359→1,232행, 2,511→9,221행) |
+| 날짜       | 버전  | 변경 내용                                                                                                                                                                                                                                               |
+| ---------- | ----- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 2026-02-01 | 1.0   | 초기 작성                                                                                                                                                                                                                                               |
+| 2026-02-01 | 1.1   | 제조공정 테이블 스키마 변경: (1)`source_filename` UNIQUE → `(product_code, source_filename)` 복합 UNIQUE, (2) `(process_id, step_num)` UNIQUE 제약 삭제. 1:N 품목코드 매핑 데이터 반영 (359→1,232행, 2,511→9,221행)                            |
+| 2026-02-02 | 1.2   | 알러젠 테이블 재구조화: (1)`labdoc_allergen_regulations` 추가 (EU 공식 81개 알러젠), (2) `labdoc_fragrance_allergen_contents` 추가 (향료별 알러젠 함량 1,843행), (3) 기존 정규화 테이블(fragrances, allergens, fragrance_allergens)은 레거시로 표시 |
+| 2026-02-02 | 1.2.1 | `labdoc_fragrance_allergen_contents` UNIQUE 제약 변경: `(fragrance_code, allergen_name)` → `(fragrance_code, fragrance_name, allergen_name)`. 동일 향료코드에 변형(BF/LF) 존재로 인한 중복 오류 해결                                             |
 
 ---
 
 **작성자**: Claude AI
-**최종 수정**: 2026-02-01
-**버전**: 1.1
+**최종 수정**: 2026-02-02
+**버전**: 1.2.1

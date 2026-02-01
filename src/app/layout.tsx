@@ -40,12 +40,23 @@ export default function RootLayout({
       <body
         className={`${notoSansKr.variable} ${cormorantGaramond.variable} font-sans antialiased`}
       >
-        <div className="flex h-screen bg-slate-50">
+        <div className="flex h-screen bg-slate-50 relative">
+          {/* Sidebar Toggle Button (외부 배치 - 항상 보임) */}
+          <button
+            onClick={() => setSidebarOpen(!sidebarOpen)}
+            className={`absolute top-1/2 -translate-y-1/2 w-6 h-6 bg-slate-800 border border-slate-700 rounded-full flex items-center justify-center text-slate-400 hover:text-amber-400 hover:border-amber-400 transition-all duration-300 shadow-md z-50 ${
+              sidebarOpen ? "left-[248px]" : "left-0"
+            }`}
+            title={sidebarOpen ? "사이드바 접기" : "사이드바 펼치기"}
+          >
+            {sidebarOpen ? <ChevronLeft size={12} /> : <ChevronRight size={12} />}
+          </button>
+
           {/* Sidebar */}
           <aside
             className={`${
-              sidebarOpen ? "w-64" : "w-0 overflow-hidden"
-            } bg-gradient-to-b from-[#0f1623] via-[#111d2e] to-[#0d1420] text-white flex-shrink-0 transition-all duration-300 flex flex-col border-r border-slate-800 relative`}
+              sidebarOpen ? "w-64" : "w-0"
+            } bg-gradient-to-b from-[#0f1623] via-[#111d2e] to-[#0d1420] text-white flex-shrink-0 transition-all duration-300 flex flex-col border-r border-slate-800 overflow-hidden`}
           >
             {/* Logo */}
             <div className="px-5 pt-6 pb-5">
@@ -90,14 +101,6 @@ export default function RootLayout({
             <div className="px-5 py-4 border-t border-slate-800/60">
               <p className="text-xs text-slate-600 tracking-wider">v0.1.0</p>
             </div>
-
-            {/* Toggle chevron */}
-            <button
-              onClick={() => setSidebarOpen(!sidebarOpen)}
-              className="absolute -right-3 top-1/2 -translate-y-1/2 w-6 h-6 bg-slate-800 border border-slate-700 rounded-full flex items-center justify-center text-slate-400 hover:text-amber-400 hover:border-amber-400 transition-colors shadow-md"
-            >
-              {sidebarOpen ? <ChevronLeft size={12} /> : <ChevronRight size={12} />}
-            </button>
           </aside>
 
           {/* Main */}

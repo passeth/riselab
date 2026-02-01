@@ -1,7 +1,7 @@
 "use client";
 
 import { useState, useEffect, useCallback, useRef } from "react";
-import { usePathname, useParams } from "next/navigation";
+import { usePathname, useParams, useSearchParams, useRouter } from "next/navigation";
 import Link from "next/link";
 import { supabase } from "@/lib/supabase";
 import { 
@@ -46,18 +46,24 @@ const docLinks: DocLink[] = [
 
 export default function DocsLayout({ children }: { children: React.ReactNode }) {
   const pathname = usePathname();
+  const router = useRouter();
+  const searchParams = useSearchParams();
   const { productCode } = useParams<{ productCode: string }>();
   const decodedProductCode = decodeURIComponent(productCode);
   const basePath = `/products/${productCode}/docs`;
+  
+  // URL에서 검색어와 페이지 읽기
+  const urlSearch = searchParams.get("q") || "";
+  const urlPage = parseInt(searchParams.get("p") || "0", 10);
   
   // 사이드바 상태
   const [sidebarOpen, setSidebarOpen] = useState(true);
   const [products, setProducts] = useState<ProductItem[]>([]);
   const [totalCount, setTotalCount] = useState(0);
   const [loading, setLoading] = useState(true);
-  const [search, setSearch] = useState("");
-  const [debouncedSearch, setDebouncedSearch] = useState("");
-  const [page, setPage] = useState(0);
+  const [search, setSearch] = useState(urlSearch);
+  const [debouncedSearch, setDebouncedSearch] = useState(urlSearch);
+  const [page, setPage] = useState(urlPage);
   
   // 현재 탭 경로 추출 (예: standard, ingredients/ko 등)
   const currentDocPath = pathname.replace(basePath + "/", "").split("/").slice(0, 2).join("/");
@@ -66,14 +72,33 @@ export default function DocsLayout({ children }: { children: React.ReactNode }) 
   const activeItemRef = useRef<HTMLAnchorElement>(null);
   const listContainerRef = useRef<HTMLDivElement>(null);
 
-  // Debounce search
+  // URL 파라미터 업데이트 함수
+  const updateUrlParams = useCallback((newSearch: string, newPage: number) => {
+    const params = new URLSearchParams();
+    if (newSearch) params.set("q", newSearch);
+    if (newPage > 0) params.set("p", String(newPage));
+    const queryString = params.toString();
+    router.replace(`${pathname}${queryString ? `?${queryString}` : ""}`, { scroll: false });
+  }, [pathname, router]);
+
+  // Debounce search & URL 동기화
   useEffect(() => {
     const timer = setTimeout(() => {
-      setDebouncedSearch(search);
-      setPage(0); // 검색 시 첫 페이지로
+      if (search !== debouncedSearch) {
+        setDebouncedSearch(search);
+        setPage(0);
+        updateUrlParams(search, 0);
+      }
     }, 300);
     return () => clearTimeout(timer);
-  }, [search]);
+  }, [search, debouncedSearch, updateUrlParams]);
+
+  // 페이지 변경 시 URL 동기화
+  useEffect(() => {
+    if (page !== urlPage) {
+      updateUrlParams(debouncedSearch, page);
+    }
+  }, [page, urlPage, debouncedSearch, updateUrlParams]);
 
   // Fetch products
   const fetchProducts = useCallback(async () => {
@@ -127,27 +152,38 @@ export default function DocsLayout({ children }: { children: React.ReactNode }) 
   const hasPrev = page > 0;
 
   return (
-    <div className="flex gap-0 -m-6">
+    <div className="flex gap-0 -m-6 relative">
+      {/* 품목 사이드바 토글 버튼 (aside 외부에 배치) */}
+      <button
+        onClick={() => setSidebarOpen(!sidebarOpen)}
+        className={`absolute top-1/2 -translate-y-1/2 w-6 h-6 bg-white border border-slate-200 rounded-full flex items-center justify-center text-slate-400 hover:text-amber-500 hover:border-amber-400 transition-all duration-300 shadow-sm z-20 ${
+          sidebarOpen ? "left-[248px]" : "left-0"
+        }`}
+        title={sidebarOpen ? "사이드바 접기" : "사이드바 펼치기"}
+      >
+        {sidebarOpen ? <ChevronLeft size={12} /> : <ChevronRight size={12} />}
+      </button>
+
       {/* 품목 사이드바 */}
       <aside
         className={`${
           sidebarOpen ? "w-64" : "w-0"
-        } flex-shrink-0 bg-white border-r border-slate-200 flex flex-col transition-all duration-300 overflow-hidden relative h-[calc(100vh-3.5rem)]`}
+        } flex-shrink-0 bg-white border-r border-slate-200 flex flex-col transition-all duration-300 overflow-hidden h-[calc(100vh-3.5rem)]`}
       >
         {/* 검색 헤더 */}
         <div className="p-3 border-b border-slate-100 flex-shrink-0">
           <div className="relative">
-            <Search size={14} className="absolute left-2.5 top-1/2 -translate-y-1/2 text-slate-400" />
+            <Search size={14} className="absolute left-2.5 top-1/2 -translate-y-1/2 text-slate-500" />
             <input
               type="text"
               placeholder="품목 검색..."
               value={search}
               onChange={(e) => setSearch(e.target.value)}
-              className="w-full pl-8 pr-3 py-2 text-xs border border-slate-200 rounded-lg focus:outline-none focus:ring-1 focus:ring-amber-400 focus:border-amber-400"
+              className="w-full pl-8 pr-3 py-2 text-xs text-slate-800 border border-slate-200 rounded-lg focus:outline-none focus:ring-1 focus:ring-amber-400 focus:border-amber-400 placeholder:text-slate-400"
             />
           </div>
-          <p className="text-[10px] text-slate-400 mt-2 px-0.5">
-            {loading ? "로딩중..." : `${products.length}개 품목`}
+          <p className="text-[10px] text-slate-500 mt-2 px-0.5">
+            {loading ? "로딩중..." : `${totalCount}개 품목`}
           </p>
         </div>
         
@@ -165,7 +201,12 @@ export default function DocsLayout({ children }: { children: React.ReactNode }) 
             <nav className="py-1">
               {products.map((p) => {
                 const isActive = p.product_code === decodedProductCode;
-                const href = `/products/${encodeURIComponent(p.product_code)}/docs/${currentDocPath || "standard"}`;
+                // 검색어와 페이지 유지하면서 품목 이동
+                const params = new URLSearchParams();
+                if (debouncedSearch) params.set("q", debouncedSearch);
+                if (page > 0) params.set("p", String(page));
+                const queryString = params.toString();
+                const href = `/products/${encodeURIComponent(p.product_code)}/docs/${currentDocPath || "standard"}${queryString ? `?${queryString}` : ""}`;
                 return (
                   <Link
                     key={p.product_code}
@@ -228,14 +269,6 @@ export default function DocsLayout({ children }: { children: React.ReactNode }) 
             </div>
           </div>
         )}
-        
-        {/* 사이드바 토글 버튼 */}
-        <button
-          onClick={() => setSidebarOpen(!sidebarOpen)}
-          className="absolute -right-3 top-1/2 -translate-y-1/2 w-6 h-6 bg-white border border-slate-200 rounded-full flex items-center justify-center text-slate-400 hover:text-amber-500 hover:border-amber-400 transition-colors shadow-sm z-10"
-        >
-          {sidebarOpen ? <ChevronLeft size={12} /> : <ChevronRight size={12} />}
-        </button>
       </aside>
 
       {/* 메인 콘텐츠 */}
