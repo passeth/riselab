@@ -12,19 +12,7 @@ interface TestSpec {
   test_item: string;
   specification: string;
   test_method: string;
-  remarks: string;
 }
-
-// 기본 반제품 시험 항목
-const DEFAULT_SEMI_TESTS: Omit<TestSpec, 'id'>[] = [
-  { order: 1, test_item: "성        상", specification: "", test_method: "EV-F-1003(0)", remarks: "" },
-  { order: 2, test_item: "향        취", specification: "표 준 품 에 준 함", test_method: "EV-F-1002(0)", remarks: "" },
-  { order: 3, test_item: "P         H", specification: "(25℃)", test_method: "EV-F-1006(0)", remarks: "" },
-  { order: 4, test_item: "점        도", specification: "Cps", test_method: "EV-F-1008(0)", remarks: "" },
-  { order: 5, test_item: "사   용   감", specification: "표 준 품 에 준 함", test_method: "EV-F-1004(0)", remarks: "" },
-  { order: 6, test_item: "안   정   성", specification: "37℃,45℃ 3일 이상 안정", test_method: "EV-F-1005(0)", remarks: "" },
-  { order: 7, test_item: "미   생   물", specification: "100 CFU/g 이하", test_method: "EV-F-1014(0)", remarks: "" },
-];
 
 export default function SemiProductSpecsPage() {
   const { productCode } = useParams<{ productCode: string }>();
@@ -34,7 +22,6 @@ export default function SemiProductSpecsPage() {
   const [testSpecs, setTestSpecs] = useState<TestSpec[]>([]);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);
-  const [author, setAuthor] = useState("—");
 
   const fetchData = useCallback(async () => {
     setLoading(true);
@@ -58,35 +45,29 @@ export default function SemiProductSpecsPage() {
 
       setProduct(productData);
 
-      // 시험기준 데이터 조회 시도
-      try {
-        const { data: specsData } = await supabase
-          .from("labdoc_test_specs")
-          .select("*")
-          .eq("product_code", decodedProductCode)
-          .eq("spec_type", "semi")
-          .order("display_order", { ascending: true });
+      // labdoc_product_qc_specs 테이블에서 반제품 시험기준 데이터 조회
+      // eslint-disable-next-line @typescript-eslint/no-explicit-any
+      const { data: specsData, error: specsErr } = await (supabase as any)
+        .from("labdoc_product_qc_specs")
+        .select("*")
+        .eq("product_code", decodedProductCode)
+        .eq("qc_type", "반제품")
+        .order("sequence_no", { ascending: true });
 
-        if (specsData && specsData.length > 0) {
-          // eslint-disable-next-line @typescript-eslint/no-explicit-any
-          setTestSpecs(specsData.map((s: any) => ({
-            id: s.id,
-            order: s.display_order || 0,
-            test_item: s.test_item || '',
-            specification: s.specification || '',
-            test_method: s.test_method || '',
-            remarks: s.remarks || '',
-          })));
-          // eslint-disable-next-line @typescript-eslint/no-explicit-any
-          if ((specsData[0] as any)?.author) {
-            // eslint-disable-next-line @typescript-eslint/no-explicit-any
-            setAuthor((specsData[0] as any).author);
-          }
-        } else {
-          setTestSpecs(DEFAULT_SEMI_TESTS.map((t, idx) => ({ ...t, id: `default-${idx}` })));
-        }
-      } catch {
-        setTestSpecs(DEFAULT_SEMI_TESTS.map((t, idx) => ({ ...t, id: `default-${idx}` })));
+      if (specsErr) {
+        console.error("Semi product specs fetch error:", specsErr);
+        setTestSpecs([]);
+      } else if (specsData && specsData.length > 0) {
+        // eslint-disable-next-line @typescript-eslint/no-explicit-any
+        setTestSpecs(specsData.map((s: any) => ({
+          id: s.id,
+          order: s.sequence_no || 0,
+          test_item: s.test_item || '',
+          specification: s.specification || '',
+          test_method: s.test_method || '',
+        })));
+      } else {
+        setTestSpecs([]);
       }
     } catch (e) {
       setError(e instanceof Error ? e.message : "데이터 로드 실패");
@@ -164,7 +145,7 @@ export default function SemiProductSpecsPage() {
             {product.created_date || "—"}
           </div>
           <div className="col-span-1 px-4 py-3 text-slate-700">
-            {author}
+            —
           </div>
         </div>
 
@@ -180,15 +161,23 @@ export default function SemiProductSpecsPage() {
             </tr>
           </thead>
           <tbody>
-            {testSpecs.map((spec) => (
-              <tr key={spec.id} className="border-b border-slate-200 hover:bg-amber-50/30">
-                <td className="px-3 py-2 text-center text-slate-500 border-r border-slate-200">{spec.order}</td>
-                <td className="px-3 py-2 text-center text-slate-700 border-r border-slate-200">{spec.test_item}</td>
-                <td className="px-3 py-2 text-slate-700 border-r border-slate-200">{spec.specification || "—"}</td>
-                <td className="px-3 py-2 text-center font-mono text-xs text-slate-600 border-r border-slate-200">{spec.test_method}</td>
-                <td className="px-3 py-2 text-slate-600 text-xs">{spec.remarks}</td>
+            {testSpecs.length === 0 ? (
+              <tr>
+                <td colSpan={5} className="px-3 py-8 text-center text-slate-400">
+                  이 품목의 반제품 시험기준 데이터가 없습니다
+                </td>
               </tr>
-            ))}
+            ) : (
+              testSpecs.map((spec) => (
+                <tr key={spec.id} className="border-b border-slate-200 hover:bg-amber-50/30">
+                  <td className="px-3 py-2 text-center text-slate-500 border-r border-slate-200">{spec.order}</td>
+                  <td className="px-3 py-2 text-center text-slate-700 border-r border-slate-200">{spec.test_item}</td>
+                  <td className="px-3 py-2 text-slate-700 border-r border-slate-200">{spec.specification || "—"}</td>
+                  <td className="px-3 py-2 text-center font-mono text-xs text-slate-600 border-r border-slate-200">{spec.test_method}</td>
+                  <td className="px-3 py-2 text-slate-600 text-xs"></td>
+                </tr>
+              ))
+            )}
           </tbody>
         </table>
 

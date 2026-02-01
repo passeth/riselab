@@ -11,21 +11,12 @@ interface TestSpec {
   test_item: string;
   specification: string;
   result: string;
-  display_order: number;
 }
 
-// 기본 시험 항목 (데이터 없을 때 표시)
-const DEFAULT_TESTS: Omit<TestSpec, 'id'>[] = [
-  { test_item: "Appearance", specification: "", result: "PASSED TO THE TEST", display_order: 1 },
-  { test_item: "Color", specification: "", result: "PASSED TO THE TEST", display_order: 2 },
-  { test_item: "Odor", specification: "Fragrance", result: "PASSED TO THE TEST", display_order: 3 },
-  { test_item: "pH ( 25℃ )", specification: "", result: "", display_order: 4 },
-  { test_item: "Mercury", specification: "≤1 ppm", result: "PASSED TO THE TEST", display_order: 5 },
-  { test_item: "Specific Gravity", specification: "", result: "", display_order: 6 },
-  { test_item: "Microorganism", specification: "MAX. 100 CFU/g", result: "MAX. 10 CFU/g", display_order: 7 },
-  { test_item: "Stability (5,37,45℃,72HR)", specification: "STABLE", result: "PASSED TO THE TEST", display_order: 8 },
-  { test_item: "Content", specification: "", result: "PASSED TO THE TEST", display_order: 9 },
-];
+interface EnglishSpecMeta {
+  management_code: string;
+  product_name: string;
+}
 
 export default function TechnicalSpecsEnPage() {
   const { productCode } = useParams<{ productCode: string }>();
@@ -33,6 +24,7 @@ export default function TechnicalSpecsEnPage() {
 
   const [product, setProduct] = useState<Product | null>(null);
   const [testSpecs, setTestSpecs] = useState<TestSpec[]>([]);
+  const [specMeta, setSpecMeta] = useState<EnglishSpecMeta | null>(null);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);
 
@@ -58,30 +50,30 @@ export default function TechnicalSpecsEnPage() {
 
       setProduct(productData);
 
-      // 시험기준 데이터 조회 시도 (테이블이 없을 수 있음)
-      try {
-        const { data: specsData } = await supabase
-          .from("labdoc_test_specs")
-          .select("*")
-          .eq("product_code", decodedProductCode)
-          .eq("spec_type", "en")
-          .order("display_order", { ascending: true });
+      // labdoc_product_english_specs 테이블에서 영문 성적서 데이터 조회
+      const { data: specsData, error: specsErr } = await supabase
+        .from("labdoc_product_english_specs")
+        .select("*")
+        .eq("product_code", decodedProductCode);
 
-        if (specsData && specsData.length > 0) {
-          // eslint-disable-next-line @typescript-eslint/no-explicit-any
-          setTestSpecs(specsData.map((s: any) => ({
-            id: s.id,
-            test_item: s.test_item || '',
-            specification: s.specification || '',
-            result: s.result || '',
-            display_order: s.display_order || 0,
-          })));
-        } else {
-          setTestSpecs(DEFAULT_TESTS.map((t, idx) => ({ ...t, id: `default-${idx}` })));
-        }
-      } catch {
-        // 테이블이 없으면 기본 템플릿 사용
-        setTestSpecs(DEFAULT_TESTS.map((t, idx) => ({ ...t, id: `default-${idx}` })));
+      if (specsErr) {
+        console.error("English specs fetch error:", specsErr);
+        setTestSpecs([]);
+      } else if (specsData && specsData.length > 0) {
+        // 첫 번째 레코드에서 메타정보 추출
+        setSpecMeta({
+          management_code: specsData[0].management_code || '',
+          product_name: specsData[0].product_name || '',
+        });
+        
+        setTestSpecs(specsData.map((s) => ({
+          id: s.id,
+          test_item: s.test_item || '',
+          specification: s.specification || '',
+          result: s.result || '',
+        })));
+      } else {
+        setTestSpecs([]);
       }
     } catch (e) {
       setError(e instanceof Error ? e.message : "Failed to load data");
@@ -170,13 +162,21 @@ export default function TechnicalSpecsEnPage() {
             </tr>
           </thead>
           <tbody>
-            {testSpecs.map((spec) => (
-              <tr key={spec.id} className="border-b border-slate-200 hover:bg-amber-50/30">
-                <td className="px-4 py-3 text-slate-700 border-r border-slate-200">{spec.test_item}</td>
-                <td className="px-4 py-3 text-slate-600 border-r border-slate-200">{spec.specification || "—"}</td>
-                <td className="px-4 py-3 text-slate-700 font-medium">{spec.result || "—"}</td>
+            {testSpecs.length === 0 ? (
+              <tr>
+                <td colSpan={3} className="px-4 py-8 text-center text-slate-400">
+                  No test specification data available for this product
+                </td>
               </tr>
-            ))}
+            ) : (
+              testSpecs.map((spec) => (
+                <tr key={spec.id} className="border-b border-slate-200 hover:bg-amber-50/30">
+                  <td className="px-4 py-3 text-slate-700 border-r border-slate-200">{spec.test_item}</td>
+                  <td className="px-4 py-3 text-slate-600 border-r border-slate-200">{spec.specification || "—"}</td>
+                  <td className="px-4 py-3 text-slate-700 font-medium">{spec.result || "—"}</td>
+                </tr>
+              ))
+            )}
           </tbody>
         </table>
 
