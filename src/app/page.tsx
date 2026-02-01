@@ -39,7 +39,8 @@ export default function Home() {
       const from = page * PAGE_SIZE;
       const to = from + PAGE_SIZE - 1;
 
-      let query = supabase
+      // eslint-disable-next-line @typescript-eslint/no-explicit-any
+      let query = (supabase as any)
         .from("labdoc_ingredients")
         .select("ingredient_code, ingredient_name, manufacturer, coa_urls", { count: "exact" });
 
