@@ -256,14 +256,12 @@ export default function MsdsPage() {
 
         {/* 4. PHYSICAL AND CHEMICAL PROPERTIES */}
         <div className="border-b border-slate-300">
-          <div className="bg-slate-100 px-4 py-2 font-bold text-slate-700">4. PHYSICAL AND CHEMICAL PROPERTIES</div>
-          <div className="px-4 py-3 space-y-1">
+          <div className="bg-slate-100 px-4 py-2 font-bold text-black">4. PHYSICAL AND CHEMICAL PROPERTIES</div>
+          <div className="px-4 py-3 space-y-1 text-black">
             {physicalProps.map((prop, idx) => (
               <p key={idx}>
                 <span className="font-medium">{prop.label} : </span>
-                <span className={prop.label === 'Appearance' || prop.label === 'pH(25℃)' ? 'text-amber-600' : 'text-cyan-600'}>
-                  {prop.value}
-                </span>
+                <span>{prop.value}</span>
               </p>
             ))}
           </div>
@@ -271,17 +269,17 @@ export default function MsdsPage() {
 
         {/* 5. HAZARD IDENTIFICATION */}
         <div className="border-b border-slate-300">
-          <div className="bg-slate-100 px-4 py-2 font-bold text-slate-700">5. HAZARD IDENTIFICATION</div>
-          <div className="px-4 py-3 space-y-3 text-xs">
+          <div className="bg-slate-100 px-4 py-2 font-bold text-black">5. HAZARD IDENTIFICATION</div>
+          <div className="px-4 py-3 space-y-3 text-xs text-black">
             <div>
               <p className="font-bold">EMERGENCY OVERVIEW :</p>
-              <p className="text-slate-600 mt-1">
+              <p className="mt-1">
                 This is a personal care or cosmetic product that is safe for consumers and other users under intended and reasonably foreseeable use. Additional information on toxicological endpoints is available from the supplier upon request.
               </p>
             </div>
             <div>
               <p className="font-bold">POTENTIAL HEALTH EFFECTS :</p>
-              <ul className="mt-1 space-y-0.5 text-slate-600">
+              <ul className="mt-1 space-y-0.5">
                 <li>● <span className="font-medium">EYE</span> : Exposure may cause mild eye irritation.</li>
                 <li>● <span className="font-medium">Skin</span> : May cause irritation or sensitization in sensitive individuals.</li>
                 <li>● <span className="font-medium">Inhalation</span> : May cause mild, transient respiratory irritation.</li>
@@ -293,96 +291,96 @@ export default function MsdsPage() {
 
         {/* 6. FIRST AID MEASURES */}
         <div className="border-b border-slate-300">
-          <div className="bg-slate-100 px-4 py-2 font-bold text-slate-700">6. FIRST AID MEASURES</div>
-          <div className="px-4 py-3 space-y-2 text-xs text-slate-600">
+          <div className="bg-slate-100 px-4 py-2 font-bold text-black">6. FIRST AID MEASURES</div>
+          <div className="px-4 py-3 space-y-2 text-xs text-black">
             <p>
-              <span className="font-bold text-slate-700">Eye</span> : Following accidental eye exposure, thorough rinsing of the affected area for 15-20 minutes with clean cold water is recommended. If discomfort or irritation persists, contact a physician.
+              <span className="font-bold">Eye</span> : Following accidental eye exposure, thorough rinsing of the affected area for 15-20 minutes with clean cold water is recommended. If discomfort or irritation persists, contact a physician.
             </p>
             <p>
-              <span className="font-bold text-slate-700">Skin Problem</span> : Thoroughly rinse with water. Discontinue use of product. If discomfort persists and/or the skin reaction worsens, contact a physician immediately.
+              <span className="font-bold">Skin Problem</span> : Thoroughly rinse with water. Discontinue use of product. If discomfort persists and/or the skin reaction worsens, contact a physician immediately.
             </p>
             <p>
-              <span className="font-bold text-slate-700">Inhalation</span> : If respiratory irritation occurs, remove individual to fresh air.
+              <span className="font-bold">Inhalation</span> : If respiratory irritation occurs, remove individual to fresh air.
             </p>
             <p>
-              <span className="font-bold text-slate-700">Ingestion</span> : Accidental ingestion of product may necessitate medical attention. In case of accidental ingestion dilute with fluids (Water or milk) and treat symptomatically. Do not induce vomiting.
+              <span className="font-bold">Ingestion</span> : Accidental ingestion of product may necessitate medical attention. In case of accidental ingestion dilute with fluids (Water or milk) and treat symptomatically. Do not induce vomiting.
             </p>
           </div>
         </div>
 
         {/* 7. FIRE – FIGHTING MEASURES */}
         <div className="border-b border-slate-300">
-          <div className="bg-slate-100 px-4 py-2 font-bold text-slate-700">7. FIRE – FIGHTING MEASURES</div>
-          <div className="px-4 py-3 space-y-2 text-xs text-slate-600">
-            <p><span className="font-bold text-slate-700">Flash Point</span> : Not applicable.</p>
-            <p><span className="font-bold text-slate-700">Extinguishing Media</span> : Use chemical foam, dry chemical, carbon dioxide or water.</p>
-            <p><span className="font-bold text-slate-700">Explosion Hazard</span> : No applicable information has been found</p>
-            <p><span className="font-bold text-slate-700">Fire Fighting Instructions</span> : Contact emergency personnel. Use self-contained breathing apparatus and full protective gear, if large quantities of product are involved.</p>
+          <div className="bg-slate-100 px-4 py-2 font-bold text-black">7. FIRE – FIGHTING MEASURES</div>
+          <div className="px-4 py-3 space-y-2 text-xs text-black">
+            <p><span className="font-bold">Flash Point</span> : Not applicable.</p>
+            <p><span className="font-bold">Extinguishing Media</span> : Use chemical foam, dry chemical, carbon dioxide or water.</p>
+            <p><span className="font-bold">Explosion Hazard</span> : No applicable information has been found</p>
+            <p><span className="font-bold">Fire Fighting Instructions</span> : Contact emergency personnel. Use self-contained breathing apparatus and full protective gear, if large quantities of product are involved.</p>
           </div>
         </div>
 
         {/* 8. ACCIDENTAL RELEASE MEASURES */}
         <div className="border-b border-slate-300">
-          <div className="bg-slate-100 px-4 py-2 font-bold text-slate-700">8. ACCIDENTAL RELEASE MEASURES</div>
-          <div className="px-4 py-3 space-y-1 text-xs text-slate-600">
-            <p><span className="font-bold text-slate-700">Personal protection</span> : Not required</p>
-            <p><span className="font-bold text-slate-700">Environmental protection</span> : No special measures required</p>
+          <div className="bg-slate-100 px-4 py-2 font-bold text-black">8. ACCIDENTAL RELEASE MEASURES</div>
+          <div className="px-4 py-3 space-y-1 text-xs text-black">
+            <p><span className="font-bold">Personal protection</span> : Not required</p>
+            <p><span className="font-bold">Environmental protection</span> : No special measures required</p>
           </div>
         </div>
 
         {/* 9-16 (Condensed) */}
         <div className="border-b border-slate-300">
-          <div className="bg-slate-100 px-4 py-2 font-bold text-slate-700">9. HANDLING AND STORAGE</div>
-          <div className="px-4 py-2 text-xs text-slate-600">
+          <div className="bg-slate-100 px-4 py-2 font-bold text-black">9. HANDLING AND STORAGE</div>
+          <div className="px-4 py-2 text-xs text-black">
             <p>Store in a cool, dry place away from direct sunlight. Keep container tightly closed when not in use.</p>
           </div>
         </div>
 
         <div className="border-b border-slate-300">
-          <div className="bg-slate-100 px-4 py-2 font-bold text-slate-700">10. EXPOSURE CONTROLS / PERSONAL PROTECTION</div>
-          <div className="px-4 py-2 text-xs text-slate-600">
+          <div className="bg-slate-100 px-4 py-2 font-bold text-black">10. EXPOSURE CONTROLS / PERSONAL PROTECTION</div>
+          <div className="px-4 py-2 text-xs text-black">
             <p>No special protective equipment required for normal consumer use.</p>
           </div>
         </div>
 
         <div className="border-b border-slate-300">
-          <div className="bg-slate-100 px-4 py-2 font-bold text-slate-700">11. STABILITY AND REACTIVITY</div>
-          <div className="px-4 py-2 text-xs text-slate-600">
+          <div className="bg-slate-100 px-4 py-2 font-bold text-black">11. STABILITY AND REACTIVITY</div>
+          <div className="px-4 py-2 text-xs text-black">
             <p><span className="font-bold">Stability</span> : Stable under normal conditions. <span className="font-bold">Hazardous Polymerization</span> : Will not occur.</p>
           </div>
         </div>
 
         <div className="border-b border-slate-300">
-          <div className="bg-slate-100 px-4 py-2 font-bold text-slate-700">12. TOXICOLOGICAL INFORMATION</div>
-          <div className="px-4 py-2 text-xs text-slate-600">
+          <div className="bg-slate-100 px-4 py-2 font-bold text-black">12. TOXICOLOGICAL INFORMATION</div>
+          <div className="px-4 py-2 text-xs text-black">
             <p>This product is not expected to produce any significant adverse health effects when used as intended.</p>
           </div>
         </div>
 
         <div className="border-b border-slate-300">
-          <div className="bg-slate-100 px-4 py-2 font-bold text-slate-700">13. ECOLOGICAL INFORMATION</div>
-          <div className="px-4 py-2 text-xs text-slate-600">
+          <div className="bg-slate-100 px-4 py-2 font-bold text-black">13. ECOLOGICAL INFORMATION</div>
+          <div className="px-4 py-2 text-xs text-black">
             <p>No specific environmental data available. Dispose of in accordance with local regulations.</p>
           </div>
         </div>
 
         <div className="border-b border-slate-300">
-          <div className="bg-slate-100 px-4 py-2 font-bold text-slate-700">14. DISPOSAL CONSIDERATIONS</div>
-          <div className="px-4 py-2 text-xs text-slate-600">
+          <div className="bg-slate-100 px-4 py-2 font-bold text-black">14. DISPOSAL CONSIDERATIONS</div>
+          <div className="px-4 py-2 text-xs text-black">
             <p>Dispose of contents/container in accordance with local/regional/national/international regulations.</p>
           </div>
         </div>
 
         <div className="border-b border-slate-300">
-          <div className="bg-slate-100 px-4 py-2 font-bold text-slate-700">15. TRANSPORT INFORMATION</div>
-          <div className="px-4 py-2 text-xs text-slate-600">
+          <div className="bg-slate-100 px-4 py-2 font-bold text-black">15. TRANSPORT INFORMATION</div>
+          <div className="px-4 py-2 text-xs text-black">
             <p>Not classified as dangerous goods for transport.</p>
           </div>
         </div>
 
         <div>
-          <div className="bg-slate-100 px-4 py-2 font-bold text-slate-700">16. REGULATORY INFORMATION</div>
-          <div className="px-4 py-2 text-xs text-slate-600">
+          <div className="bg-slate-100 px-4 py-2 font-bold text-black">16. REGULATORY INFORMATION</div>
+          <div className="px-4 py-2 text-xs text-black">
             <p>This product complies with all applicable cosmetic regulations in the country of sale.</p>
           </div>
         </div>
