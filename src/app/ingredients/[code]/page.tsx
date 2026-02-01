@@ -37,7 +37,8 @@ export default function IngredientDetail() {
     setError(null);
     try {
       // 원료 기본 정보
-      const { data: ingData, error: ingErr } = await supabase
+      // eslint-disable-next-line @typescript-eslint/no-explicit-any
+      const { data: ingData, error: ingErr } = await (supabase as any)
         .from("labdoc_ingredients")
         .select("ingredient_code, ingredient_name, manufacturer, origin_country")
         .eq("ingredient_code", decodedCode)
@@ -56,7 +57,8 @@ export default function IngredientDetail() {
       setIngredient(ingData);
 
       // 성분 목록
-      const { data: compData, error: compErr } = await supabase
+      // eslint-disable-next-line @typescript-eslint/no-explicit-any
+      const { data: compData, error: compErr } = await (supabase as any)
         .from("labdoc_ingredient_components")
         .select("id, component_order, inci_name_en, inci_name_kr, cas_number, composition_ratio, function")
         .eq("ingredient_code", decodedCode)

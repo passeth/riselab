@@ -183,29 +183,29 @@ export default function MsdsPage() {
         <div className="border-b border-slate-300 p-4">
           <div className="flex justify-between items-start">
             <div>
-              <div className="text-xs text-slate-500 italic">EVAS</div>
-              <h1 className="text-2xl font-bold text-slate-800">EVAS Cosmetics Co., Ltd.</h1>
-              <p className="text-xs text-slate-500 mt-1">
+              <div className="text-xs text-black italic">EVAS</div>
+              <h1 className="text-2xl font-bold text-black">EVAS Cosmetics Co., Ltd.</h1>
+              <p className="text-xs text-black mt-1">
                 35-5, Sandan-Ro, Pyeongtaek-Si, Gyeonggi-Do, Korea<br />
                 Tel : +82-31-611-7252 &nbsp; Fax : +82-31-611-5764
               </p>
             </div>
           </div>
-          <h2 className="text-xl font-bold text-center text-slate-800 mt-4">Material Safety Data Sheet</h2>
-          <p className="text-right text-xs text-slate-500 mt-2">DATE : {today}</p>
+          <h2 className="text-xl font-bold text-center text-black mt-4">Material Safety Data Sheet</h2>
+          <p className="text-right text-xs text-black mt-2">DATE : {today}</p>
         </div>
 
         {/* 1. IDENTITY OF PRODUCT AND COMPANY */}
         <div className="border-b border-slate-300">
-          <div className="bg-slate-100 px-4 py-2 font-bold text-slate-700">1. IDENTITY OF PRODUCT AND COMPANY</div>
-          <div className="px-4 py-3 space-y-2">
+          <div className="bg-slate-100 px-4 py-2 font-bold text-black">1. IDENTITY OF PRODUCT AND COMPANY</div>
+          <div className="px-4 py-3 space-y-2 text-black">
             <p>
               <span className="font-medium">Finished Product Name : </span>
-              <span className="text-cyan-600">{product.english_name || product.korean_name || "—"}</span>
+              <span>{product.english_name || product.korean_name || "—"}</span>
             </p>
             <div className="mt-3">
               <p className="font-medium">Company Information:</p>
-              <ul className="ml-4 mt-1 space-y-0.5 text-slate-600">
+              <ul className="ml-4 mt-1 space-y-0.5">
                 <li>● Company Name : EVAS Cosmetics Co., Ltd.</li>
                 <li>● Adress : 35-5, Sandan-Ro, Pyeongtaek-Si, Gyeonggi-Do, Korea</li>
                 <li>● Telephone : +82-31-611-7252</li>
@@ -217,20 +217,20 @@ export default function MsdsPage() {
 
         {/* 2. PRODUCT APPLICATION */}
         <div className="border-b border-slate-300">
-          <div className="bg-slate-100 px-4 py-2 font-bold text-slate-700">2. PRODUCT APPLICATION</div>
+          <div className="bg-slate-100 px-4 py-2 font-bold text-black">2. PRODUCT APPLICATION</div>
           <div className="px-4 py-3">
-            <p className="text-cyan-600">{product.cosmetic_type || "Skin care cosmetics"}</p>
+            <p className="text-black">{product.cosmetic_type || "Skin care cosmetics"}</p>
           </div>
         </div>
 
         {/* 3. COMPOSITION AND INGREDIENTS */}
         <div className="border-b border-slate-300">
-          <div className="bg-slate-100 px-4 py-2 font-bold text-slate-700">3. COMPOSITION AND INGREDIENTS</div>
+          <div className="bg-slate-100 px-4 py-2 font-bold text-black">3. COMPOSITION AND INGREDIENTS</div>
           <div className="px-4 py-3">
             {ingredients.length === 0 ? (
-              <p className="text-slate-400 py-4 text-center">No ingredient data available</p>
+              <p className="text-black py-4 text-center">No ingredient data available</p>
             ) : (
-              <table className="w-full text-xs border border-slate-300">
+              <table className="w-full text-xs border border-slate-300 text-black">
                 <thead>
                   <tr className="bg-slate-50">
                     <th className="border border-slate-300 px-2 py-1.5 text-left font-semibold">INGREDIENT NAME</th>
