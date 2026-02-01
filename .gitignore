@@ -36,6 +36,17 @@ yarn-error.log*
 # vercel
 .vercel
 
+# opencode session data
+.sisyphus/
+opencode.json
+
+# Windows reserved names
+nul
+
+# Python
+__pycache__/
+*.pyc
+
 # typescript
 *.tsbuildinfo
 next-env.d.ts

@@ -1,0 +1,12 @@
+migration/
+├── README.md              # 전체 개요 및 빠른 시작 (한글)
+├── GUIDE.md               # 상세 작업 및 설정 가이드 (한글)
+├── TROUBLESHOOTING.md     # 문제 해결 방법 안내 (한글)
+├── export_to_csv.py       # 메인 변환 스크립트 (상세 주석 포함)
+├── config.example.py      # 설정 예제 파일 (설정 시 config.py로 복사)
+├── requirements.txt       # 필요한 라이브러리 목록
+├── run.bat                # Windows 자동 실행 배치 파일
+├── config.py              # (사용자가 생성) 실제 작업용 설정 파일
+├── csv_output/            # (스크립트가 생성) 결과 CSV 파일 저장소
+└── examples/              # 참고용 샘플 데이터
+    └── sample_output.txt  # 스크립트 실행 시 예상 출력 예시

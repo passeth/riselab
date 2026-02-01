@@ -1,0 +1,300 @@
+﻿id,allergen_name,inci_name,cas_no
+006bd578-91fd-4e0e-a536-e211e02c5cec,ALPHA-ISOMETHYL IONONE,ALPHA-ISOMETHYL IONONE,127-51-5
+6f4e1b11-60e9-4e71-a82e-4b0f949a89a9,AMYL CINNAMAL,AMYL CINNAMAL,122-40-7
+39d9f0e6-a6cf-42a2-9004-08120c481715,AMYL CINNAMYL ALCOHOL,AMYL CINNAMYL ALCOHOL,101-85-9
+868617cd-6b4a-4590-bd7f-ef3fa22f6eb5,ANISYL ALCOHOL,ANISYL ALCOHOL,105-13-5
+b5e5bde2-8b68-4fb3-a28b-de83cfb5043f,BENZYL ALCOHOL,BENZYL ALCOHOL,100-51-6
+2e68ac4c-8245-4888-a4ab-06f1bf242951,BENZYL BENZOATE,BENZYL BENZOATE,120-51-4
+0ad50bb3-9160-4173-8032-a777e06c7c5b,BENZYL CINNAMATE,BENZYL CINNAMATE,103-41-3
+23a994db-a09f-4f2d-aacc-9d2d642c4c78,BENZYL SALICYLATE,BENZYL SALICYLATE,118-58-1
+a114d5fa-0d0f-41c7-b52c-bcb03e6b7bcf,CINNAMAL,CINNAMAL,104-55-2
+d69421e4-4000-460f-ba00-bcb9937a260b,CINNAMYL ALCOHOL,CINNAMYL ALCOHOL,104-54-1
+67c99f15-167a-4aa8-b7a2-68d3faf1370e,CITRAL,CITRAL,5392-40-5
+a1161fa5-075b-4ca4-a73a-f5e258486013,CITRONELLOL,CITRONELLOL,106-22-9
+b31608e4-37b0-48fe-9dc3-8ef901b12896,COUMARINE,COUMARINE,91-64-5
+e763595d-2870-4bcb-9e14-7743d4f1e5e1,d-LIMONENE,d-LIMONENE,5989-27-5
+db165cd9-51d1-4fc4-91c3-4df66c93f4fe,EUGENOL,EUGENOL,97-53-0
+6b6a877a-3260-4923-8695-c6e6f2b5cf0e,FARNESOL,FARNESOL,4602-84-0
+fd80214f-d96e-4023-805a-e80740ef8e27,GERANIOL,GERANIOL,106-24-1
+b09f97f1-7b86-4138-bff6-006574200b05,HEXYL CINNAM-ALDEHYDE,HEXYL CINNAM-ALDEHYDE,101-86-0
+3e129410-5f1a-455f-a411-7ce2cb4fab72,HYDROXYCITRONELLAL,HYDROXYCITRONELLAL,107-75-5
+a4b0f562-51cf-4b61-bb17-668ca92afe2f,ISOEUGENOL,ISOEUGENOL,97-54-1
+7f1910f0-0e8f-4cb3-8c8b-59af3eec22d2,LINALOOL,LINALOOL,78-70-6
+0758c966-c761-4a2e-8d90-e819995343aa,LYRAL,LYRAL,31906-04-4
+ad91248d-c692-49e7-8610-b50344f74a54,LYSMERAL,LYSMERAL,80-54-6
+3b9366e2-f191-46f8-877d-04f1c8a0a86e,METHYL HEPTIN CARBONATE,METHYL HEPTIN CARBONATE,111-12-6
+a441ba50-6b22-4212-ae49-8db580ce6964,OAK MOSS EXTRACT,OAK MOSS EXTRACT,90028-68-5
+9c50fb09-2f88-41e8-9ade-bd95352e2fd0,TREEMOSS EXTRACT,TREEMOSS EXTRACT,90028-67-4
+5a3a9378-02bd-4973-919a-e92eb708058c,ANISYL ALCOHOL (Anise Alcohol),ANISYL ALCOHOL (Anise Alcohol),105-13-5
+79d7a47d-451c-4c52-9133-d71d0a4f41c2,COUMARINE (Coumarin),COUMARINE (Coumarin),91-64-5
+885d3436-469e-4179-8af4-d69e5a5b3200,d-LIMONENE (Limonene),d-LIMONENE (Limonene),5989-27-5
+2ef6f567-7013-40ca-a2e7-eb452d661f53,HEXYL CINNAM-ALDEHYDE (Hexyl Cinnamal),HEXYL CINNAM-ALDEHYDE (Hexyl Cinnamal),101-86-0
+1411bfcb-4726-46cd-a3d6-d50918cec1d6,LYRAL (Hydroxyisohexyl 3- Cyclohexene Carboxaldehyde),LYRAL (Hydroxyisohexyl 3- Cyclohexene Carboxaldehyde),31906-04-4
+0cfa05ac-f4c9-4ec3-abdf-3cc7333e237d,LYSMERAL (Butylphenyl Methylpropional),LYSMERAL (Butylphenyl Methylpropional),80-54-6
+2cfb5e30-cd0f-408a-8d3d-9afb41b355d0,METHYL HEPTIN CARBONATE (Methyl 2-Octynoate),METHYL HEPTIN CARBONATE (Methyl 2-Octynoate),111-12-6
+77b96512-a244-4d1a-b3a2-1c3de9e7e155,OAK MOSS EXTRACT (Evernia Prunastri (Oakmoss) Extract,OAK MOSS EXTRACT (Evernia Prunastri (Oakmoss) Extract,90028-68-5
+5d4f1026-a838-4921-98e0-a5e93f0e683f,TREEMOSS EXTRACT (Evernia Furfuracea (Treemoss) Extract,TREEMOSS EXTRACT (Evernia Furfuracea (Treemoss) Extract,90028-67-4
+0da8075a-ee98-4aa6-b473-4c624c04d926,*함량이 0으로 표기된 경우라도 사용된 원료의 BY-PRODUCT나 IMPURITY로부터 소량의 ALLERGEN 성분이 검출될 수 있습니다.,*함량이 0으로 표기된 경우라도 사용된 원료의 BY-PRODUCT나 IMPURITY로부터 소량의 ALLERGEN 성분이 검출될 수 있습니다.,
+6993d07c-d19a-4fda-823a-138a99ac6d02,3-Propylidenephthalide,3-Propylidenephthalide,17369-59-4
+6e96542c-b4de-4539-beb4-b88a84f127dd,6-Methyl Coumarin,6-Methyl Coumarin,92-48-8
+2f3a6c2e-ddea-4700-ba76-4687c35e348c,Acetyl Cedrene,Acetyl Cedrene,32388-55-9
+a09a8fef-1194-47a6-8bfa-0bded6f9181a,Alpha-Isomethyl Ionone,Alpha-Isomethyl Ionone,127-51-5
+9eca719a-809c-47b2-9c2a-4d07e49d3229,Alpha-Terpinene,Alpha-Terpinene,99-86-5
+876c81de-65d5-4180-8485-f705a2fd8291,Amyl Cinnamal,Amyl Cinnamal,122-40-7
+a1dc3b7d-c270-4514-b248-564960638fda,Amyl Cinnamyl Alcohol,Amyl Cinnamyl Alcohol,101-85-9
+ca792007-55f9-4875-a471-46b7dc7b2eb8,Amyl Salicylate,Amyl Salicylate,2050-08-0
+e3510e86-513d-4eec-b563-6c78a3060ba6,Anethole,Anethole,104-46-1 4180-23-8
+b43a8400-411f-4207-9581-2276a10465b2,Anisyl Alcohol,Anisyl Alcohol,105-13-5
+721e1422-b214-4ca4-8db2-b9721f6c61c3,Benzaldehyde,Benzaldehyde,100-52-7
+b527fb4c-248c-4f7a-b2cd-c06a1c47372c,Benzyl Alcohol,Benzyl Alcohol,100-51-6
+cc996c4d-7d90-47fd-87e9-c6aac321234d,Benzyl Benzoate,Benzyl Benzoate,120-51-4
+645e336e-fded-4f65-974d-6451d1fd9723,Benzyl Cinnamate,Benzyl Cinnamate,103-41-3
+1b3b1476-75f1-46a4-a2f5-3c1d14a59e0b,Benzyl Salicylate,Benzyl Salicylate,118-58-1
+2f3c6409-792e-4a4c-af4e-8b321facf6dc,Beta-Caryophyllene,Beta-Caryophyllene,87-44-5
+f29144d7-c449-4193-830a-a78e8b205d16,Butylphenyl Methylpropional,Butylphenyl Methylpropional,80-54-6
+58acde22-ba1e-4236-a49b-86cc6e7a9435,Camphor,Camphor,76-22-2 464-48-2 464-49-3 21368-68-3
+6fd6cfa6-fdb0-4b07-801f-5c1f89c3ae74,Cananga Odorata Flower Oil,Cananga Odorata Flower Oil,8006-81-3 68606-83-7 83863-30-3 93686-30-7
+8e6c1ead-e427-4fdc-b255-93f59792e3bf,Carvone,Carvone,99-49-0 2244-16-8 6485-40-1
+2a5cb04c-9f29-4e06-87ee-293a39297f9e,Cedrus Atlantica Wood Oil,Cedrus Atlantica Wood Oil,8023-85-6 92201-55-3
+add0612e-4915-4d7b-98ca-3d2eeeb54461,Cinnamal,Cinnamal,104-55-2
+8cca3761-73ab-4d0c-a875-5db4375da490,Cinnamomum Cassia Leaf Oil,Cinnamomum Cassia Leaf Oil,8007-80-5 84961-46-6
+47f38da5-9c53-4374-858e-9fb33ae4aef3,Cinnamomum Zeylanicum Bark Oil,Cinnamomum Zeylanicum Bark Oil,8015-91-6 84649-98-9
+7b3e6b2c-5e7d-487f-8048-bdff45b41027,Cinnamyl Alcohol,Cinnamyl Alcohol,104-54-1
+7949dbf5-fddc-4597-9f67-b0ae4b9ac200,Citral,Citral,106-26-3 141-27-5 5392-40-5
+ea6206c9-3085-44f3-ad53-444630b173c9,Citronellol,Citronellol,106-22-9 1117-61-9 7540-51-4 26489-01-0
+9a034efa-91b4-4f7b-9ae3-131248e1b9ca,Citrus Aurantium Bergamia Peel Oil,Citrus Aurantium Bergamia Peel Oil,8007-75-8 68648-33-9 85049-52-1 89957-91-5
+089e4aa5-adb0-4b2c-9c11-28ca7d95e8b9,Citrus Aurantium Dulcis Flower Oil,Citrus Aurantium Dulcis Flower Oil,8016-38-4 8028-48-6 72968-50-4
+a40c6e69-2e7c-4bf7-abb0-89d59c844afa,Citrus Aurantium Dulcis Peel Oil,Citrus Aurantium Dulcis Peel Oil,8008-57-9 8028-48-6 68916-04-1 72968-50-4 97766-30-8
+e9816a4a-54a1-478a-9440-d7083821fed4,Citrus Limon Peel Oil,Citrus Limon Peel Oil,8008-56-8 84929-31-7
+6bde2d73-33d0-4808-ae89-e0f7248bd56c,Coumarin,Coumarin,91-64-5
+7600c94c-9ec8-4b1e-95a6-cc9b7e896673,Cymbopogon Citratus Leaf Oil,Cymbopogon Citratus Leaf Oil,8007-02-1 89998-16-3 91844-92-7
+f0603acc-1690-4395-b66a-2352b438bf3f,Dimethyl Phenethyl Acetate,Dimethyl Phenethyl Acetate,151-05-3
+56ea4617-40d0-4623-aba8-95d4743f0a64,Ebanol,Ebanol,67801-20-1
+907c4626-41da-48d1-bedb-83b0ff3538b9,Eucalyptus Globulus Leaf Oil,Eucalyptus Globulus Leaf Oil,8000-48-4 97926-40-4
+69166516-1f11-459c-b5a3-dfae1f053da3,Eugenia Caryophyllus Leaf Oil,Eugenia Caryophyllus Leaf Oil,8000-34-8 8015-97-2 84961-50-2
+48294e40-8abf-4be7-ae66-9455a4a1fbf7,Eugenol,Eugenol,97-53-0
+5f55a9a9-3a4b-48be-8f77-ac0d779a754c,Eugenyl Acetate,Eugenyl Acetate,93-28-7
+3956ab8c-751a-4bf7-a2a1-51c3385d1ff0,Evernia Furfuracea (Treemoss) Extract,Evernia Furfuracea (Treemoss) Extract,90028-67-4
+e392e785-a5f0-4f44-999e-4507f9c4a7be,Evernia Prunastri (Oakmoss) Extract,Evernia Prunastri (Oakmoss) Extract,90028-68-5
+ecf70ba0-366b-46a7-ad30-f493fbe34760,Farnesol,Farnesol,4602-84-0
+0aac1be2-8d6e-46d0-9aa8-230a9c92eb4e,Geraniol,Geraniol,106-24-1
+943a6f0d-f3c9-4c3c-b7ff-58aa97b42322,Geranyl Acetate,Geranyl Acetate,105-87-3
+d8eb5cfa-20c5-4710-9906-c7ede275a0eb,Hexadecanolactone,Hexadecanolactone,109-29-5
+950ab6d3-c56e-404a-8b4f-878fc64d6edd,Hexamethylindanopyran,Hexamethylindanopyran,1222-05-5
+ba7eda29-6e24-4f2c-b642-cb845480443f,Hexyl Cinnamal,Hexyl Cinnamal,101-86-0
+83b85ed4-1e37-43da-90ab-47b6b2392d8d,Hydroxycitronellal,Hydroxycitronellal,107-75-5
+084f5648-b0fc-4726-bc23-b779f0f50f9a,Isoeugenol,Isoeugenol,97-54-1 5912-86-7 5932-68-3
+630f4eb9-2b7d-40bb-a3b3-6438ef0c6023,Isoeugenyl Acetate,Isoeugenyl Acetate,93-29-8
+7e695a2a-2677-43b1-9d27-32b0d07255dd,Jasminum Officinale Oil,Jasminum Officinale Oil,8022-96-6 8024-43-9 84776-64-7 90045-94-6
+6a31e66f-0a5f-4ed2-a261-9b27191ddffe,Juniperus Virginiana Wood Oil,Juniperus Virginiana Wood Oil,8000-27-9 85085-41-2
+3ae93037-94d7-49a2-82df-37a110b3e5ab,Laurus Nobilis Leaf Oil,Laurus Nobilis Leaf Oil,8002-41-3 8007-48-5 84603-73-6
+485fb2eb-da2e-421d-8f26-c1d5f5b511b3,Lavandula Hybrida Oil,Lavandula Hybrida Oil,8000-28-0 8022-15-9 84776-65-8 90063-37-9 91722-69-9 92623-76-2 93455-96-0 93455-97-1
+6856ba51-3758-4481-a480-a664954a6691,Limonene,Limonene,138-86-3 5989-27-5 5989-54-8 7705-14-8
+771e3016-86b7-4718-9a3b-9c42ebacdc6e,Linalool,Linalool,78-70-6
+9fba2a64-41bb-45c1-a4ff-7f2a14993578,Linalyl Acetate,Linalyl Acetate,115-95-7
+5eb54337-10e9-46ea-a238-49914425556f,Lippia Citriodora Absolute,Lippia Citriodora Absolute,8024-12-2 85116-63-8
+f6afa453-9ab1-4f8a-bf90-258c8b9f365e,Lyral,Lyral,31906-04-4
+497a2a04-4d50-42e9-94e3-6ae5a39f65ee,Mentha Piperita Oil,Mentha Piperita Oil,8006-90-4 84082-70-2
+af687b94-7bc4-426b-968a-9af1ea1862b2,Mentha Viridis Leaf Oil,Mentha Viridis Leaf Oil,8008-79-5 84696-51-5
+6f336134-67ff-446f-916c-12e6bec6137d,Menthol,Menthol,89-78-1 1490-04-6 2216-51-5 15356-60-2
+e5e291e7-a656-4cfb-a83a-4ce7ff08bd3a,Methyl 2-Octynoate,Methyl 2-Octynoate,111-12-6
+ec81a228-2dd3-4dc2-8661-ee939c5da716,Methyl Salicylate,Methyl Salicylate,119-36-8
+88da3d73-3329-4f7a-82d8-8fe09f6035e8,Myroxylon Pereirae Resin,Myroxylon Pereirae Resin,8007-00-9
+0d4c91bc-761d-4c50-ba7c-277356f0d86a,Narcissus Poeticus Extract,Narcissus Poeticus Extract,68917-12-4 90064-25-8 90064-26-9 90064-27-0
+37aaa429-f0c1-45b2-9b5e-d75f6da279ab,Pelargonium Graveolens Flower Oil,Pelargonium Graveolens Flower Oil,8000-46-2 90082-51-2
+6b45a67a-2613-4778-97e2-c86857e8ace7,Pinene,Pinene,80-56-8 127-91-3 7785-70-8 18172-67-3
+eea73642-0827-4702-b099-1fde2afe986c,Pinus Mugo Leaf Oil,Pinus Mugo Leaf Oil,90082-72-7
+c5c42f37-186d-4c2a-b69f-c7a25dce4756,Pinus Pumila Twig Leaf Oil,Pinus Pumila Twig Leaf Oil,97676-05-6
+26817863-bccb-4c7a-b34b-3276173130b5,Pogostemon Cablin Oil,Pogostemon Cablin Oil,8014-09-3 84238-39-1
+01c3e293-e01a-47cb-b18a-c201479294fd,Rosa Damascena Flower Oil,Rosa Damascena Flower Oil,8007-01-0 84604-12-6 84604-13-7 84696-47-9 90106-38-0 92347-25-6 93334-48-6
+9502716f-56f0-48e1-becf-a42998925322,Rose Ketone,Rose Ketone,23696-85-7 23726-91-2 23726-92-3 23726-94-5 24720-09-0 43052-87-5 57378-68-4 71048-82-3
+ab8c25b0-2e9e-4457-8e9b-6299592e6f8b,Salicylaldehyde,Salicylaldehyde,90-02-8
+1d52e739-653b-4d2f-abed-e4b6eb08a1af,Santalol,Santalol,77-42-9 115-71-9 11031-45-1
+93383f9b-7085-47c2-a93a-62e36830134d,Santalum Album Oil,Santalum Album Oil,8006-87-9 84787-70-2
+e5e7b065-3764-476d-a582-33a6d112b700,Sclareol,Sclareol,515-03-7
+7d6514e8-3d5d-4958-91e3-c877969aa47a,Terpineol,Terpineol,98-55-5 138-87-4 586-81-2 8000-41-7
+eeb21008-fe6e-4d11-bdec-6242621f79e7,Terpinolene,Terpinolene,586-62-9
+9e5cd2fe-e8c9-41c3-bbe6-fe176af0d51a,Tetramethylacetyloctahydronaphthalenes,Tetramethylacetyloctahydronaphthalenes,54464-57-2 54464-59-4 68155-66-8 68155-67-9
+3fe7a663-5fe1-4792-be36-0dd3d9c84e43,Trimethylbenzenepropanol,Trimethylbenzenepropanol,103694-68-4
+d982dd3d-ff5a-4f8d-bad8-2a59957712e8,Turpentine,Turpentine,8006-64-2 8052-14-0 9005-90-7
+601ebebe-2638-47fd-9fbe-f1b2718fd7b3,Vanillin,Vanillin,121-33-5
+155317bf-1c64-45b2-805f-de4c6f018882,ALPHA-ISOMETHYL IONONE,ALPHA-ISOMETHYL IONONE,
+a0c86b48-4d1b-4d0f-8310-1ce5a60832d1,AMYL CINNAMAL,AMYL CINNAMAL,
+1e302544-ba07-4531-a7c7-14bfc3723564,AMYL CINNAMYL ALCOHOL,AMYL CINNAMYL ALCOHOL,
+179838b2-7154-45e5-a0e7-25139a7764de,ANISYL ALCOHOL,ANISYL ALCOHOL,
+ced61f42-52d5-444e-89a5-d135304ddc58,BENZYL ALCOHOL,BENZYL ALCOHOL,
+db075877-0aef-419e-bb3d-58afc437f94b,BENZYL BENZOATE,BENZYL BENZOATE,
+2752c3b5-063f-4758-9c63-6f93fc5fcc1c,BENZYL CINNAMATE,BENZYL CINNAMATE,
+7a0611d4-0f5c-4388-aa83-6ba96da0b194,BENZYL SALICYLATE,BENZYL SALICYLATE,
+7c493070-3874-4569-843d-6d88bb498e4d,CINNAMAL,CINNAMAL,
+c8399fd6-c097-4b9d-aa6c-19e8a115a7ea,CINNAMYL ALCOHOL,CINNAMYL ALCOHOL,
+73e2b013-97c6-422d-94ba-e3e9be9f4096,CITRAL,CITRAL,
+f01e7805-bada-43d6-9ba9-752a352e1bd6,CITRONELLOL,CITRONELLOL,
+86dac0ac-4843-47c1-9dc0-8154aa60ed9e,COUMARINE,COUMARINE,
+26300c75-80ac-47ea-a631-daec7e1e4aa7,d-LIMONENE,d-LIMONENE,
+b54ae166-aae3-4c69-8b17-e6ee2479f712,EUGENOL,EUGENOL,
+717c0697-04dc-4c89-8683-1323ee56d6fc,FARNESOL,FARNESOL,
+be1eb1f5-f3a4-48fe-81b0-518ba490147e,GERANIOL,GERANIOL,
+4e6da6b5-1798-4fad-ba36-ff662f778ec9,HEXYL CINNAM-ALDEHYDE,HEXYL CINNAM-ALDEHYDE,
+0b6c0c6f-723f-4b87-8423-f5a6ed43d0c9,HYDROXYCITRONELLAL,HYDROXYCITRONELLAL,
+39dc7d58-5ad6-497f-84ad-087035c0fe76,ISOEUGENOL,ISOEUGENOL,
+8530cab9-5b01-4f4f-8acf-7b0dcd4d5cc8,LINALOOL,LINALOOL,
+90090058-91f1-451e-b677-00b93e182cb6,LYRAL,LYRAL,
+f1d1c7ff-b94a-46e4-9259-54414060df0c,LYSMERAL,LYSMERAL,
+777d8176-2b7f-4b8e-9a0b-54b67ac91c03,METHYL HEPTIN CARBONATE,METHYL HEPTIN CARBONATE,
+9afd05ab-4129-497c-8080-8799af0ceaed,OAK MOSS EXTRACT,OAK MOSS EXTRACT,
+6fe0c523-6b55-41df-9432-9c6c8496a432,TREEMOSS EXTRACT,TREEMOSS EXTRACT,
+926d497c-84f5-4f8e-ab27-deeb9fd340e4,d-LIMONENE,d-LIMONENE,"BERGAMOT OIL [0.63], ORANGE OIL [0.95], TANGERINE OIL [0.64]"
+fe0a2428-5adb-4310-abd3-c3cece4e38c7,LINALOOL,LINALOOL,BERGAMOT OIL [0.27]
+f050686a-2d91-447f-b5b0-8bb69aaff8fd,d-LIMONENE,d-LIMONENE,GRAPEFRUIT OIL [0.95]
+64a04312-1052-420f-9f97-9d04eb0faab8,CITRAL,CITRAL,LEMON OIL [0]
+66bf947f-e3d2-4337-bb80-62f31b6d12a1,CITRONELLOL,CITRONELLOL,GERANIUM OIL [0.1]
+39e434b2-9b43-4586-88a1-e9ef1b2b9f27,d-LIMONENE,d-LIMONENE,"BERGAMOT OIL [0.1], LEMON OIL [0.08], ORANGE OIL [0.09]"
+8293bf34-c50f-45a7-a483-d65e1769890a,GERANIOL,GERANIOL,GERANIUM OIL [0.05]
+275f461f-6bcc-46b0-997d-fdd162c3f5a4,LINALOOL,LINALOOL,BERGAMOT OIL [0.04]
+796e34d8-cb50-4c35-b8a4-a57d0f10c31f,CITRONELLOL,CITRONELLOL,GERANIUM OIL [0.23]
+53fca74e-5908-4f60-bc5e-f66ae0e42172,GERANIOL,GERANIOL,GERANIUM OIL [0.1]
+779d2fc1-a21a-4a87-b53c-45e74b5e5113,COUMARIN,COUMARIN,91-64-5
+53b24061-d859-495a-9bb0-52063a5176e4,d-LIMONENE,d-LIMONENE,ORANGE OIL [1.01]
+f2f0ca3f-8cea-4256-be8d-216daba72f7c,d-LIMONENE,d-LIMONENE,TANGERINE OIL [0.4]
+7df21084-3bbd-435d-81bc-e81896f23cd3,d-LIMONENE,d-LIMONENE,"BERGAMOT OIL [0.11], TANGERINE OIL [0.25]"
+2153f9c0-e251-481d-b0fc-e67cd258897b,LINALOOL,LINALOOL,"BERGAMOT OIL [0.05], LAVANDIN OIL [0.05]"
+c0cd8f78-7e7d-4dd8-aaff-3218151819e6,d-LIMONENE,d-LIMONENE,"BERGAMOT OIL [0.5], TANGERINE OIL [0.76]"
+34f2a2ff-884a-4e5b-9890-2416c9c3d6f0,LINALOOL,LINALOOL,BERGAMOT OIL [0.21]
+acaca733-aadf-42dc-80d3-c7993b206a99,d-LIMONENE,d-LIMONENE,"ORANGE OIL [0.1], TANGERINE OIL [0.08]"
+84ab12a5-7461-4122-9bc6-aae24edc0b6c,*함량이 빈 칸으로 표기된 경우라도 사용된 원료의 BY-PRODUCT나 IMPURITY로부터 소량의 ALLERGEN 성분이 검출될 수 있습니다.,*함량이 빈 칸으로 표기된 경우라도 사용된 원료의 BY-PRODUCT나 IMPURITY로부터 소량의 ALLERGEN 성분이 검출될 수 있습니다.,
+7540e6b6-1bd3-4920-8e47-c7d4c29af7b1,AMYLCINNAMYL ALCOHOL,AMYLCINNAMYL ALCOHOL,101-85-9
+93847469-970f-4f61-8e38-8a89561304fe,HEXYL CINNAMAL,HEXYL CINNAMAL,101-86-0
+8648eef6-81f5-43bc-8f66-700a038e8705,METHYL HEPTINE CARBONATE,METHYL HEPTINE CARBONATE,111-12-6
+dcc0487e-bb79-4f7d-9f74-e12043be92ac,OAKMOSS EXTRACT,OAKMOSS EXTRACT,90028-68-5
+7d8f4607-189f-4cb9-bcd6-9f55178a6957,Alpha-isomethyl Ionone,Alpha-isomethyl Ionone,127-51-5
+524ded0e-ac4a-4ec0-b46a-380eb3b9e652,Amyl Cinamyl Alcohol,Amyl Cinamyl Alcohol,101-85-9
+e59f3155-702b-4755-8ef3-d4145d111a28,Anise Alcohol,Anise Alcohol,105-13-5
+51fb83a0-9c62-4faf-ba10-ad835730eaff,Citral,Citral,5392-40-5
+f21d51bc-413b-4bdd-8816-a5a2b4b7dea2,Citronellol,Citronellol,106-22-9
+cfb55dd9-c65b-45be-8e2c-2adcca2359f6,Evernia furfuracea (Treemoss) Extract,Evernia furfuracea (Treemoss) Extract,90028-67-4
+37a84087-fa3b-4822-b128-688c80ec711d,Evernia prunastri (Oakmoss) Extract,Evernia prunastri (Oakmoss) Extract,90028-68-5
+662a4c22-a69a-424c-aa12-a7e80c64041a,Hydroxyisohexyl 3-cyclohexene Carboxaldehyde,Hydroxyisohexyl 3-cyclohexene Carboxaldehyde,31906-04-4
+10b9b0e6-2dd4-44f0-b7d6-1a3caf2473af,Isoeugenol,Isoeugenol,97-54-1
+def5c1ef-8efd-417e-9f75-bc6eb56401b8,Limonene,Limonene,5989-27-5
+09c39519-b6ea-45e8-a5fe-e2451b90fad5,※ 아트라놀 (CAS No 526-37-4)과 클로로아트라놀 (CAS No 57074-21-2)은 참나무이끼추출물(CAS No 90028-68-5)과 나무이끼추출물(CAS No 90028-67-4)의 구성성분이다.,※ 아트라놀 (CAS No 526-37-4)과 클로로아트라놀 (CAS No 57074-21-2)은 참나무이끼추출물(CAS No 90028-68-5)과 나무이끼추출물(CAS No 90028-67-4)의 구성성분이다.,
+35919e2d-6550-41e5-840b-38f0a513d49c,Citral,Citral,5392-40-5 106-26-3 141-27-5
+cc798206-5638-43d5-9d77-35ad422561ce,Acetyl cedrene,Acetyl cedrene,32388-55-9
+18e17f4c-da67-4ba1-91ae-f785868b4d59,6-Methyl coumarin,6-Methyl coumarin,92-48-8
+db3412dc-9501-4c54-bfc5-0d9f4398c823,Anethole,Anethole,4180-23-8
+49ef6042-7957-437c-be56-736b1bab1458,Camphor,Camphor,76-22-2
+43530b90-1382-41e9-af49-bf8f1763f2d3,Cananga Odorata Oil/Extract,Cananga Odorata Oil/Extract,8006-81-3
+8fa6d187-ab03-4f74-a4fb-af0e8515c148,Carvone,Carvone,99-49-0
+895708ef-cace-453d-8301-02a678adc015,Cedrus Atlantica Oil/ Extract,Cedrus Atlantica Oil/ Extract,8023-85-6
+6b95eaf1-791b-4d68-acd8-601620a2a557,Cinnamomum Cassia Leaf Oil,Cinnamomum Cassia Leaf Oil,8007-80-5
+ca87d7b4-3eba-428e-9c07-392bdc221471,Cinnamomum Zeylanicum Bark Oil,Cinnamomum Zeylanicum Bark Oil,8015-91-6
+55edb008-380a-4407-922a-adb32310a68d,Citrus Aurantium Bergamia Peel Oil,Citrus Aurantium Bergamia Peel Oil,8007-75-8
+62ae2394-a4bf-441d-ab5e-7dcc6b548232,Citrus Aurantium Flower Oil,Citrus Aurantium Flower Oil,8016-38-4
+a272c185-65f3-4212-ae97-b6046aea44fc,Citrus Aurantium Peel Oil,Citrus Aurantium Peel Oil,8028-48-6
+e1261cbf-20a1-4615-9f70-737b634cbda4,Citrus Limon Peel Oil,Citrus Limon Peel Oil,8008-56-8
+d7bab2d7-12f0-45b7-a72b-7d86631b7b9a,Eucalyptus Globulus Oil,Eucalyptus Globulus Oil,8000-48-4
+7c24dbc5-5f3d-4809-9e3b-5990ae240531,Eugenia Caryophyllus Oil,Eugenia Caryophyllus Oil,8000-34-8
+a3a7c663-c263-4eb9-bc35-5c5a7c523d1e,Eugenyl acetate,Eugenyl acetate,93-28-7
+98741fbc-8bb7-4c03-8ae7-db31614c19cb,Geranyl acetate,Geranyl acetate,105-87-3
+bede73b4-e76a-4961-8adf-cd0b0d17c74a,Isoeugenyl acetate,Isoeugenyl acetate,93-29-8
+d84af1c7-182d-4a31-8c48-90af9c0f7e9e,Jasmine Oil/Extract,Jasmine Oil/Extract,8022-96-6
+1fcec231-888f-4f2e-a190-f1cdef6bf959,Juniperus Virginiana Oil,Juniperus Virginiana Oil,8000-27-9
+2b16c032-2dca-48c5-a095-389d978a83d6,Laurus Nobilis Leaf Oil,Laurus Nobilis Leaf Oil,8002-41-3
+540211bf-48e4-4d50-80ad-587fdc1f478d,Lemongrass Oil,Lemongrass Oil,8007-02-1
+42a7cb1f-da95-4b7f-90c0-293a3b72f600,Lippia citriodora absolute,Lippia citriodora absolute,8024-12-2
+dc72bd3a-b01c-457e-9d8d-c45dda7b155f,Mentha Piperita Oil,Mentha Piperita Oil,8006-90-4
+489c477f-beae-4b9d-9cfe-7ac7f8156d96,Mentha Viridis Leaf Oil,Mentha Viridis Leaf Oil,8008-79-5
+1b649814-2aa9-4494-bb39-d06a97fda3fc,Menthol,Menthol,2216-51-5
+97888fcf-662a-417a-b513-4389e8373450,Methyl salicylate,Methyl salicylate,119-36-8
+1dae7a0b-ae84-4cf7-9753-e2b58fd4186e,Myroxylon Pereirae Oil/ Extract,Myroxylon Pereirae Oil/ Extract,8007-00-9
+78ff8495-4dba-4a87-bfa6-5f8d51cad144,Narcissus Extract,Narcissus Extract,68917-12-4
+849e2e3b-2a5d-4555-9ba7-09cb1cbf062d,Pelargonium Graveolens Flower Oil,Pelargonium Graveolens Flower Oil,8000-46-2
+e27dc611-f0bd-448a-9c78-1a63f05fd935,Pinene,Pinene,80-56-8 127-91-3
+432e92a1-ea4c-42d1-9293-c40e7bddb791,Pinus Mugo,Pinus Mugo,90082-72-7
+e852ae27-4063-40ea-a766-49d34b73f640,Pinus Pumila,Pinus Pumila,97676-05-6
+77983db5-2b9e-4013-9098-09050a33317e,Pogostemon Cablin Oil,Pogostemon Cablin Oil,8014-09-3
+f6f8e09a-8bbf-42b1-b37a-1ac69733ef9d,Rose Flower Oil/Extract,Rose Flower Oil/Extract,8007-01-0
+57ebdddc-4b69-463d-95da-f6a235db6261,Santalol,Santalol,11031-45-1
+23583fb8-1c40-4674-b55e-f6c169e33809,Santalum Album Oil,Santalum Album Oil,8006-87-9
+842ae84b-a1cb-4e01-a60e-752f7d56ee5e,Terpineol,Terpineol,8000-41-7
+4c9e39d0-5b71-40f5-999a-864747110a75,Tetramethyl acetyloctahydronaphthalenes,Tetramethyl acetyloctahydronaphthalenes,54464-57-2
+8fb6e91d-f82d-454e-9e6a-4dfe34e2a5e8,Trimethylcyclopentenyl Methylisopentenol,Trimethylcyclopentenyl Methylisopentenol,67801-20-1
+45d9a98a-e8c8-44fc-9a5c-e9f3595da84b,Turpentine,Turpentine,9005-90-7
+90e64a87-6c9c-43a4-8612-0b1699fe4a68,Lavandula oil/Extract,Lavandula oil/Extract,8000-28-0 8022-15-9
+496757a8-5e03-4bae-9879-755cb14d276e,Rose Ketones,Rose Ketones,24720-09-0 57378-68-4 43052-87-5 23696-85-7 23726-93-4
+673cdcfa-40ee-49d9-83d0-4cec456874a2,AMYLCINNAMYL ALCOHOL,AMYLCINNAMYL ALCOHOL,
+7d998de3-df6e-425c-bdc0-3453f4a173b3,HEXYL CINNAMAL,HEXYL CINNAMAL,
+0c150a7e-397f-4819-8ec3-f8c6c331e68c,METHYL HEPTINE CARBONATE,METHYL HEPTINE CARBONATE,
+7f43db3b-6b9d-491f-b406-d99e1887db6e,OAKMOSS EXTRACT,OAKMOSS EXTRACT,
+c6db1312-2fd7-445c-a172-e3bceada8cb5,Amyl Cinnamic Aldehyde,Amyl Cinnamal,122-40-7
+0f8bee07-f631-424a-975c-12aa41079211,Cinnamic Alcohol,Cinnamyl Alcohol,104-54-1
+68503f9d-1435-4382-a2e6-07c14af10acb,Amyl Cinnamic Alcohol,Amyl Cinamyl Alcohol,101-85-9
+d351de56-2dd0-4bf4-acdc-bbe5a3a0c947,Cinnamic Aldehyde,Cinnamal,104-55-2
+63c39335-9c0e-4200-a598-47734a5906ce,Lyral,Hydroxyisohexyl 3-Cyclohexene Carboxaldehyde,31906-04-4
+43f25223-0435-4ec7-b1f3-4967991ff30d,Lilial ; 2-(4-tert-Butylbenzyl)Propionaldehyde,Butylphenyl Methylpropional,80-54-6
+224f2d47-5ebe-4ac2-a768-3906aab96a5e,Hexyl Cinnamic Aldehyde,Hexyl cinnam-aldehyde,101-86-0
+38981f2c-013e-4b20-aeda-4595f27803af,Folione,Methyl 2-Octynoate,111-12-6
+b15180ab-c924-42a1-9388-e184d39dbbfa,"3-Methyl-4-(2,6,6-tri-methyl-2-cyclohexen-1-yl)-3-buten-2-one",Alpha-Isomethyl Ionone,127-51-5
+49170f07-8f49-45f6-b2c9-6f4c39246504,Oakmoss Extract,Evernia Prunastri (Oakmoss) Extract,90028-68-5
+c06e8194-ad58-41a0-aa47-872684342f54,Amyl Cinnamic Alcohol,Amylcinnamyl Alcohol,101-85-9
+0396389c-c065-46fa-8c8b-47ace7573e0e,Hexyl Cinnamic Aldehyde,Hexyl Cinnamal,101-86-0
+3fd2d7c2-6055-4d2e-aef6-d8503b24aafc,Amyl Cinnamic Alcohol,AmylCinamyl Alcohol,101-85-9
+26481d9d-553c-4f69-a41f-7405922a0550,Lyral,Hydroxymethylpentylcyclohexane Carboxaldehyde,31906-04-4
+1b69edec-45f4-42a2-a12f-b3e3c7fcf4e3,Lilial,2-(4-tert-Butylbenzyl)Propionaldehyde,80-54-6
+cad02899-e4ca-4230-a86c-9e30baf81445,D-Limonene,D-Limonene,5989-27-5
+8273728e-7023-46a6-b719-753942d00b2c,Folione,Methyl Heptin Carbonate,111-12-6
+205493c5-bbf0-4a6b-951d-47f78bfb5dcc,Alpha Iso Methyl Ionone (Methyl Ionone Gamma),"3-Methyl-4-(2,6,6-tri-methyl-2-cyclohexen-1-yl)-3-buten-2-one",127-51-5
+563d7290-7b1c-4835-8eec-312d2902514b,Oakmoss Extract,Oakmoss Extract,90028-68-5
+9d0dd310-dd07-4c23-9192-c9e56906c059,Treemoss Extract,Treemoss Extract,90028-67-4
+18862492-4387-48db-90ab-f4de2bb16e66,Musk Ketone,Musk Ketone,
+17268357-5ac7-4720-83da-5e1a66083766,Musk Xylol,Musk Xylol,
+c53f8e80-6d55-4766-9f4f-dc267081ec4f,6-Methylcoumarin,6-Methylcoumarin,92-48-8
+62e673db-9377-4c76-a627-36709d11224b,alpha-Isomethyl Ionone,alpha-Isomethyl Ionone,127-51-5
+3533da8e-c94a-46fd-9271-f67790664bb2,Amyl cinnamal,Amyl cinnamal,122-40-7
+2a6e23b4-6bee-4d5a-b899-e69d99483fd5,Amylcinnamyl Alcohol,Amylcinnamyl Alcohol,101-85-9
+9522c7f2-1d9a-42a0-a8d9-ed833f657bfd,Anethole,Anethole,4180-23-8 / 104-46-1
+0d387fe2-4c84-4469-b91e-d49bab344c93,Camphor,Camphor,76-22-2 / 21368-68-3 / 464-49-3 / 464-48-2
+a3fc41f2-2fcb-4e43-89b3-3e8667923f53,Cananga Odorata Oil/Extract,Cananga Odorata Oil/Extract,8006-81-3 / 83863-30-3 / 68606-83-7 / 93686-30-7
+0b1fb6b2-a083-4fed-854c-5c3540c4fd4a,Carvone,Carvone,6485-40-1 / 2244-16-8 / 99-49-0
+feafeb5e-c243-484b-8dec-03523ec4590a,beta-Caryophyllene,beta-Caryophyllene,87-44-5
+edfe262c-75e9-4a1b-b1d2-b9587c2797de,Cedrus Atlantica Oil/ Extract,Cedrus Atlantica Oil/ Extract,8023-85-6 / 92201-55-3
+e2ff6314-4bf3-4543-be88-ac95b999e8ce,Cinnamomum Cassia Leaf Oil,Cinnamomum Cassia Leaf Oil,8007-80-5 / 84961-46-6
+a1bd89d6-6748-4f3e-98fa-06445255752d,Cinnamomum Zeylanicum Bark Oil,Cinnamomum Zeylanicum Bark Oil,8015-91-6 / 84649-98-9
+3dbfe272-7db7-419e-94e7-ff437ae7ea6b,Citral,Citral,5392-40-5 / 106-26-3 / 141-27-5
+ffb30b74-d0bb-4f94-9e6e-27a899e8eb74,Citronellol,Citronellol,106-22-9 / 26489-01-0 / 1117-61-9 / 7540-51-4
+e4991936-4a55-4a52-b015-762656650253,Citrus Aurantium Bergamia Peel Oil,Citrus Aurantium Bergamia Peel Oil,8007-75-8 / 68648-33-9 / 85049-52-1 / 89957-91-5
+ef681708-68d3-439b-9733-dc89d90a54d6,Citrus Aurantium Flower Oil,Citrus Aurantium Flower Oil,8016-38-4 / 72968-50-4 / 8028-48-6
+557935e7-b2c6-4050-9cc3-f1d25d6f0670,Citrus Aurantium Peel Oil,Citrus Aurantium Peel Oil,8008-57-9 / 68916-04-1 / 72968-50-4 / 8028-48-6 / 97766-30-8
+26c2e4c1-ccc0-4d60-9687-e6f2d3b82b00,Citrus Limon Peel Oil,Citrus Limon Peel Oil,84929-31-7 / 8008-56-8
+fe00e287-86b8-490f-9f9b-4d94623f0ed9,Eucalyptus Globulus Oil,Eucalyptus Globulus Oil,8000-48-4 / 97926-40-4
+3866c611-6e2a-4c45-a8ca-8697e12801f7,Eugenia Caryophyllus Oil,Eugenia Caryophyllus Oil,8000-34-8 / 8015-97-2 / 84961-50-2
+1c5b56c7-0c59-4392-8a83-5f6df17340ed,Evernia Furfuraceae (Tree Moss) Extract,Evernia Furfuraceae (Tree Moss) Extract,90028-67-4
+88da1a1c-aeb1-447c-94ac-b378b1b702d4,Evernia Prunastri (Oak Moss) Extract,Evernia Prunastri (Oak Moss) Extract,90028-68-5
+0bda6c30-2c02-4bb8-b118-6545b02cd11d,Hydroxyisohexyl 3-Cyclohexene Carboxaldehyde,Hydroxyisohexyl 3-Cyclohexene Carboxaldehyde,31906-04-4
+565daa93-d57e-4bea-bf37-d0444fbf3eec,Isoeugenol,Isoeugenol,97-54-1 / 5932-68-3 / 5912-86-7
+13c8784a-49a9-40ce-84aa-44c1ddfe5a6f,Jasmine Oil/Extract,Jasmine Oil/Extract,84776-64-7 / 90045-94-6 / 8022-96-6 / 8024-43-9
+1848eb9f-6125-414f-8d93-b1ae698b5d48,Juniperus Virginiana Oil,Juniperus Virginiana Oil,8000-27-9 / 85085-41-2
+6cd7f0d1-b1de-4e30-830c-9303cc51e497,Laurus Nobilis Leaf Oil,Laurus Nobilis Leaf Oil,8002-41-3 / 8007-48-5 / 84603-73-6
+059acdc1-b904-422c-8f9a-1ddf71f3e18e,Lavandula Oil/ Extract,Lavandula Oil/ Extract,8000-28-0 / 8022-15-9 / 84776-65-8 / 90063-37-9 / 91722-69-9 / 92623-76-2 / 93455-96-0 / 93455-97-1
+f951b9d2-8366-45cc-a404-5e8b50d57af6,Lemongrass Oil,Lemongrass Oil,8007-02-1 / 89998-16-3 / 91844-92-7
+4177307e-1124-45d2-b03d-27018b4aee03,Lippia citriodora absolute,Lippia citriodora absolute,8024-12-2 / 85116-63-8
+028fa54e-485e-494d-a217-d2e79f825a7d,Mentha Piperita Oil,Mentha Piperita Oil,8006-90-4 / 84082-70-2
+aeaf5c6d-4401-406a-a89d-e915d99471e3,Mentha Viridis Leaf Oil,Mentha Viridis Leaf Oil,8008-79-5 / 84696-51-5
+31fc3415-4d0e-4deb-bf52-7276afcb6902,Menthol,Menthol,2216-51-5 / 1490-04-6 / 15356-60-2 / 89-78-1
+2f1edbd6-8911-4eb1-a357-e1bdbfebd7a0,Narcissus Extract,Narcissus Extract,68917-12-4 / 90064-25-8 / 90064-26-9 / 90064-27-0
+1fa7c3f8-c17b-4b10-85db-0c7b1243c16c,Pelargonium Graveolens Flower Oil,Pelargonium Graveolens Flower Oil,8000-46-2 / 90082-51-2
+d36e4d4b-a91a-404c-ba88-0bf8f80ca419,Pinene,Pinene,127-91-3 / 80-56-8 / 18172-67-3 / 7785-70-8
+7a2e7019-0fb9-45ac-a512-8168081622ea,Pogostemon Cablin Oil,Pogostemon Cablin Oil,8014-09-3 / 84238-39-1
+99f97c7e-840e-4e6b-8f60-b8cbd9767f42,Rose Flower Oil/Extract,Rose Flower Oil/Extract,8007-01-0 / 84604-12-6/ 84604-13-7 / 84696-47-9 / 90106-38-0 / 92347-25-6 / 93334-48-6
+b69bcddd-053e-469c-9c1d-43278d507d74,Rose Ketones,Rose Ketones,23696-85-7 / 23726-91-2 / 23726-92-3 / 23726-94-5 /24720-09-0 / 43052-87-5 / 57378-68-4 / 71048-82-3
+dd3908b7-b53b-4078-8b01-5df10e95e804,Salicylaldehyde,Salicylaldehyde,69437
+bf8badc3-ac64-4c38-bc67-f20af332a6da,Santalol,Santalol,11031-45-1 / 115-71-9 / 77-42-9
+2eec6ffe-0075-46e6-98ba-70edda90495b,Santalum Album Oil,Santalum Album Oil,8006-87-9 / 84787-70-2
+21511dd1-047d-4193-b234-5aa866d8f852,Terpineol,Terpineol,8000-41-7 / 98-55-5 / 138-87-4 / 586-81-2
+a5ac77d6-e270-46c2-bb85-130454e30f49,Tetramethyl acetyloctahydronaphthalenes,Tetramethyl acetyloctahydronaphthalenes,54464-57-2 / 54464-59-4 / 68155-66-8 / 68155-67-9
+d231f88c-4528-4a1b-bb77-e21779a76c72,Turpentine,Turpentine,8006-64-2 / 8052-14-0 / 9005-90-7
+6f03b31f-37b5-4e8f-8fc7-163fc650af0d,Alpha Iso Methyl Ionone (Methyl Ionone Gamma),Alpha-Isomethyl Ionone,127-51-5
+e62a3411-cbe3-4300-9a7a-c718d877822d,* EACH FIGURE IS ROUNDED OFF TO THE SECOND DECIMAL PLACE,* EACH FIGURE IS ROUNDED OFF TO THE SECOND DECIMAL PLACE,
+bc582c23-0243-42ba-961a-d9e4f8ecfa72,* BLANK MEANS NOT ADDED ARTIFICIALLY,* BLANK MEANS NOT ADDED ARTIFICIALLY,
+edbc0c19-31e3-4108-a0ba-bf6479b2e4e0,LIMONENE,LIMONENE,5989-27-5
+0bff7ce2-5cef-4174-bd27-e7e7c907e7f4,* 함량이 0으로 표기된 경우라도 사용된 원료의 BY-PRODUCT나 IMPURITY로부터 소량의 ALLERGEN 성분이 검출될 수 있습니다.,* 함량이 0으로 표기된 경우라도 사용된 원료의 BY-PRODUCT나 IMPURITY로부터 소량의 ALLERGEN 성분이 검출될 수 있습니다.,
