@@ -59,13 +59,19 @@ export default function FinalProductSpecsPage() {
         setTestSpecs([]);
       } else if (specsData && specsData.length > 0) {
         // eslint-disable-next-line @typescript-eslint/no-explicit-any
-        setTestSpecs(specsData.map((s: any) => ({
-          id: s.id,
-          order: s.sequence_no || 0,
-          test_item: s.test_item || '',
-          specification: s.specification || '',
-          test_method: s.test_method || '',
-        })));
+        const filteredSpecs = specsData
+          // 순번이 0이거나 빈값인 경우 제외
+          // eslint-disable-next-line @typescript-eslint/no-explicit-any
+          .filter((s: any) => s.sequence_no && s.sequence_no > 0)
+          // eslint-disable-next-line @typescript-eslint/no-explicit-any
+          .map((s: any) => ({
+            id: s.id,
+            order: s.sequence_no,
+            test_item: s.test_item || '',
+            specification: s.specification || '',
+            test_method: s.test_method || '',
+          }));
+        setTestSpecs(filteredSpecs);
       } else {
         setTestSpecs([]);
       }

@@ -58,6 +58,7 @@ export default function SemiProductSpecsPage() {
         console.error("Semi product specs fetch error:", specsErr);
         setTestSpecs([]);
       } else if (specsData && specsData.length > 0) {
+        // DB 데이터 그대로 사용 (성상, 향취 포함)
         // eslint-disable-next-line @typescript-eslint/no-explicit-any
         setTestSpecs(specsData.map((s: any) => ({
           id: s.id,

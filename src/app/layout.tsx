@@ -22,7 +22,7 @@ const cormorantGaramond = Cormorant_Garamond({
 
 const navItems = [
   { href: "/", label: "원료관리", icon: Package },
-  { href: "/test-reports", label: "시험성적서", icon: FileText },
+  { href: "/standards", label: "제품표준서", icon: FileText },
   { href: "/products", label: "품목관리", icon: Box },
 ];
 
@@ -103,21 +103,37 @@ export default function RootLayout({
           {/* Main */}
           <div className="flex-1 flex flex-col min-w-0">
             {/* Top bar */}
-            <header className="h-14 bg-white border-b border-slate-200 flex items-center px-6 gap-3 flex-shrink-0 shadow-sm">
-              <span className="text-sm text-slate-400 font-medium tracking-wide">
-                {pathname === "/"
-                  ? "원료관리"
-                  : pathname === "/test-reports"
-                  ? "시험성적서"
-                  : pathname === "/test-reports/new"
-                  ? "새 성적서 생성"
-                  : pathname.startsWith("/ingredients")
-                  ? "원료 상세"
-                  : pathname.startsWith("/test-reports")
-                  ? "성적서 상세"
-                  : ""}
-              </span>
-            </header>
+             <header className="h-14 bg-white border-b border-slate-200 flex items-center px-6 gap-3 flex-shrink-0 shadow-sm">
+               <span className="text-sm text-slate-400 font-medium tracking-wide">
+                 {pathname === "/"
+                   ? "원료관리"
+                   : pathname === "/standards"
+                   ? "제품표준서"
+                   : pathname === "/products"
+                   ? "품목관리"
+                   : pathname.includes("/docs/standard")
+                   ? "제품표준서"
+                   : pathname.includes("/docs/ingredients/ko")
+                   ? "국문 성분표"
+                   : pathname.includes("/docs/ingredients/en")
+                   ? "영문 성분표"
+                   : pathname.includes("/docs/raw-materials/coa")
+                   ? "원료 COA"
+                   : pathname.includes("/docs/msds")
+                   ? "MSDS"
+                   : pathname.includes("/docs")
+                   ? "문서"
+                   : pathname.match(/^\/products\/[^\/]+$/)
+                   ? "품목 상세"
+                   : pathname.startsWith("/ingredients")
+                   ? "원료 상세"
+                   : pathname.startsWith("/test-reports")
+                   ? "성적서 상세"
+                   : pathname.startsWith("/products")
+                   ? "품목 상세"
+                   : ""}
+               </span>
+             </header>
 
             {/* Content */}
             <main className="flex-1 overflow-auto p-6 bg-slate-50">

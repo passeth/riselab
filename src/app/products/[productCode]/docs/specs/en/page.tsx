@@ -8,14 +8,10 @@ import type { Product } from "@/types/database";
 
 interface TestSpec {
   id: string;
+  order: number;
   test_item: string;
   specification: string;
   result: string;
-}
-
-interface EnglishSpecMeta {
-  management_code: string;
-  product_name: string;
 }
 
 export default function TechnicalSpecsEnPage() {
@@ -24,7 +20,6 @@ export default function TechnicalSpecsEnPage() {
 
   const [product, setProduct] = useState<Product | null>(null);
   const [testSpecs, setTestSpecs] = useState<TestSpec[]>([]);
-  const [specMeta, setSpecMeta] = useState<EnglishSpecMeta | null>(null);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);
 
@@ -50,26 +45,26 @@ export default function TechnicalSpecsEnPage() {
 
       setProduct(productData);
 
-      // labdoc_product_english_specs 테이블에서 영문 성적서 데이터 조회
-      const { data: specsData, error: specsErr } = await supabase
-        .from("labdoc_product_english_specs")
+      // labdoc_product_qc_specs 통합 테이블에서 영문 성적서 데이터 조회
+      // eslint-disable-next-line @typescript-eslint/no-explicit-any
+      const { data: specsData, error: specsErr } = await (supabase as any)
+        .from("labdoc_product_qc_specs")
         .select("*")
-        .eq("product_code", decodedProductCode);
+        .eq("product_code", decodedProductCode)
+        .eq("qc_type", "완제품")
+        .not("test_item_en", "is", null)
+        .order("sequence_no", { ascending: true });
 
       if (specsErr) {
         console.error("English specs fetch error:", specsErr);
         setTestSpecs([]);
       } else if (specsData && specsData.length > 0) {
-        // 첫 번째 레코드에서 메타정보 추출
-        setSpecMeta({
-          management_code: specsData[0].management_code || '',
-          product_name: specsData[0].product_name || '',
-        });
-        
-        setTestSpecs(specsData.map((s) => ({
+        // eslint-disable-next-line @typescript-eslint/no-explicit-any
+        setTestSpecs(specsData.map((s: any) => ({
           id: s.id,
-          test_item: s.test_item || '',
-          specification: s.specification || '',
+          order: s.sequence_no || 0,
+          test_item: s.test_item_en || '',
+          specification: s.specification_en || '',
           result: s.result || '',
         })));
       } else {

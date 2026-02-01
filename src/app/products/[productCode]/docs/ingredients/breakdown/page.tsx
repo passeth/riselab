@@ -290,10 +290,7 @@ export default function BreakdownPage() {
                     style={!row.isFirstOfRaw ? { display: 'none' } : undefined}
                   >
                     {row.isFirstOfRaw && (
-                      <div>
-                        <div className="text-slate-800">{row.rawMaterialName}</div>
-                        <div className="text-xs text-slate-400 font-mono">{row.rawMaterialCode}</div>
-                      </div>
+                      <div className="text-slate-800">{row.rawMaterialName}</div>
                     )}
                   </td>
                   

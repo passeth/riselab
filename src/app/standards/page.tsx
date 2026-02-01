@@ -3,7 +3,7 @@
 import { useState, useEffect, useCallback } from "react";
 import Link from "next/link";
 import { supabase } from "@/lib/supabase";
-import { Search, Loader2, Box, ChevronLeft, ChevronRight, FileText, List, Globe, FileBox, AlertTriangle } from "lucide-react";
+import { Search, Loader2, FileText, ChevronLeft, ChevronRight, Printer } from "lucide-react";
 
 const PAGE_SIZE = 50;
 
@@ -13,26 +13,10 @@ interface ProductRow {
   english_name: string | null;
   cosmetic_type: string | null;
   semi_product_code: string | null;
+  created_date: string | null;
 }
 
-// 문서 버튼 정의
-const docButtons = [
-  { href: "docs/standard", label: "표준서", icon: FileText, color: "amber" },
-  { href: "docs/ingredients/ko", label: "국문", icon: List, color: "blue" },
-  { href: "docs/ingredients/en", label: "영문", icon: Globe, color: "purple" },
-  { href: "docs/raw-materials/coa", label: "COA", icon: FileBox, color: "emerald" },
-  { href: "docs/msds", label: "MSDS", icon: AlertTriangle, color: "rose" },
-];
-
-const colorMap: Record<string, string> = {
-  amber: "bg-amber-50 text-amber-600 hover:bg-amber-100",
-  blue: "bg-blue-50 text-blue-600 hover:bg-blue-100",
-  purple: "bg-purple-50 text-purple-600 hover:bg-purple-100",
-  emerald: "bg-emerald-50 text-emerald-600 hover:bg-emerald-100",
-  rose: "bg-rose-50 text-rose-600 hover:bg-rose-100",
-};
-
-export default function ProductsPage() {
+export default function StandardsListPage() {
   const [products, setProducts] = useState<ProductRow[]>([]);
   const [totalCount, setTotalCount] = useState(0);
   const [loading, setLoading] = useState(true);
@@ -59,12 +43,12 @@ export default function ProductsPage() {
 
       let query = supabase
         .from("labdoc_products")
-        .select("product_code, korean_name, english_name, cosmetic_type, semi_product_code", { count: "exact" });
+        .select("product_code, korean_name, english_name, cosmetic_type, semi_product_code, created_date", { count: "exact" });
 
       if (debouncedSearch) {
         const searchTerm = `%${debouncedSearch}%`;
         query = query.or(
-          `product_code.ilike.${searchTerm},korean_name.ilike.${searchTerm},english_name.ilike.${searchTerm},cosmetic_type.ilike.${searchTerm},semi_product_code.ilike.${searchTerm}`
+          `product_code.ilike.${searchTerm},korean_name.ilike.${searchTerm},english_name.ilike.${searchTerm},cosmetic_type.ilike.${searchTerm}`
         );
       }
 
@@ -92,11 +76,11 @@ export default function ProductsPage() {
   const hasPrev = page > 0;
 
   return (
-    <div className="max-w-7xl mx-auto">
+    <div className="max-w-6xl mx-auto">
       {/* Header */}
       <div className="flex items-center justify-between mb-6">
         <div>
-          <h1 className="text-2xl font-bold text-slate-800 tracking-tight">제품 문서 관리</h1>
+          <h1 className="text-2xl font-bold text-slate-800 tracking-tight">제품 표준서</h1>
           <p className="text-sm text-slate-400 mt-1">
             총 <span className="font-semibold text-slate-600">{totalCount.toLocaleString()}</span>개 품목
           </p>
@@ -108,7 +92,7 @@ export default function ProductsPage() {
         <Search size={16} className="absolute left-3 top-1/2 -translate-y-1/2 text-slate-400" />
         <input
           type="text"
-          placeholder="품목코드, 품목명, 품목구분, 반제품코드 검색..."
+          placeholder="품목코드, 품목명, 품목구분 검색..."
           value={search}
           onChange={(e) => setSearch(e.target.value)}
           className="w-full pl-9 pr-4 py-2.5 border border-slate-200 rounded-lg text-sm focus:outline-none focus:ring-2 focus:ring-amber-400/40 focus:border-amber-400 bg-white"
@@ -136,7 +120,7 @@ export default function ProductsPage() {
           </div>
         ) : products.length === 0 ? (
           <div className="py-16 text-center">
-            <Box size={48} className="mx-auto text-slate-200 mb-3" />
+            <FileText size={48} className="mx-auto text-slate-200 mb-3" />
             <p className="text-slate-400 text-sm">
               {debouncedSearch ? "검색 결과가 없습니다" : "등록된 품목이 없습니다"}
             </p>
@@ -147,73 +131,76 @@ export default function ProductsPage() {
               <table className="w-full text-sm">
                 <thead>
                   <tr className="bg-slate-50 border-b border-slate-100">
-                    <th className="text-left px-4 py-3 text-xs font-semibold text-slate-400 uppercase tracking-wider w-32">
+                    <th className="text-left px-4 py-3 text-xs font-semibold text-slate-400 uppercase tracking-wider w-28">
                       품목코드
                     </th>
                     <th className="text-left px-4 py-3 text-xs font-semibold text-slate-400 uppercase tracking-wider">
                       품목명
                     </th>
-                    <th className="text-left px-4 py-3 text-xs font-semibold text-slate-400 uppercase tracking-wider w-28">
+                    <th className="text-left px-4 py-3 text-xs font-semibold text-slate-400 uppercase tracking-wider w-24">
                       품목구분
                     </th>
-                    <th className="text-left px-4 py-3 text-xs font-semibold text-slate-400 uppercase tracking-wider">
+                    <th className="text-left px-4 py-3 text-xs font-semibold text-slate-400 uppercase tracking-wider w-28">
+                      반제품코드
+                    </th>
+                    <th className="text-left px-4 py-3 text-xs font-semibold text-slate-400 uppercase tracking-wider w-24">
+                      작성일
+                    </th>
+                    <th className="text-center px-4 py-3 text-xs font-semibold text-slate-400 uppercase tracking-wider w-20">
                       문서
                     </th>
                   </tr>
                 </thead>
                 <tbody>
-                  {products.map((p) => {
-                    const productPath = `/products/${encodeURIComponent(p.product_code)}`;
-                    return (
-                      <tr
-                        key={p.product_code}
-                        className="border-b border-slate-50 hover:bg-slate-50/50 transition-colors"
-                      >
-                        <td className="px-4 py-3">
-                          <span className="font-mono text-xs text-slate-500">
-                            {p.product_code}
+                  {products.map((p) => (
+                    <tr
+                      key={p.product_code}
+                      className="border-b border-slate-50 hover:bg-amber-50/30 transition-colors"
+                    >
+                      <td className="px-4 py-3">
+                        <span className="font-mono text-xs text-slate-500">
+                          {p.product_code}
+                        </span>
+                      </td>
+                      <td className="px-4 py-3">
+                        <div className="text-slate-800 font-medium truncate max-w-sm">
+                          {p.korean_name || p.english_name || "—"}
+                        </div>
+                        {p.english_name && p.korean_name && (
+                          <div className="text-xs text-slate-400 truncate max-w-sm">
+                            {p.english_name}
+                          </div>
+                        )}
+                      </td>
+                      <td className="px-4 py-3">
+                        {p.cosmetic_type ? (
+                          <span className="inline-block px-2 py-0.5 bg-slate-100 text-slate-600 text-xs rounded">
+                            {p.cosmetic_type}
                           </span>
-                        </td>
-                        <td className="px-4 py-3">
-                          <div className="text-slate-800 font-medium truncate max-w-xs">
-                            {p.korean_name || p.english_name || "—"}
-                          </div>
-                          {p.semi_product_code && (
-                            <span className="text-xs text-slate-400 font-mono">
-                              B: {p.semi_product_code}
-                            </span>
-                          )}
-                        </td>
-                        <td className="px-4 py-3">
-                          {p.cosmetic_type ? (
-                            <span className="inline-block px-2 py-0.5 bg-slate-100 text-slate-600 text-xs rounded">
-                              {p.cosmetic_type}
-                            </span>
-                          ) : (
-                            <span className="text-slate-300">—</span>
-                          )}
-                        </td>
-                        <td className="px-4 py-2">
-                          <div className="flex flex-wrap gap-1">
-                            {docButtons.map((btn) => {
-                              const Icon = btn.icon;
-                              return (
-                                <Link
-                                  key={btn.href}
-                                  href={`${productPath}/${btn.href}`}
-                                  className={`inline-flex items-center gap-1 px-2 py-1 text-xs rounded transition-colors ${colorMap[btn.color]}`}
-                                  title={btn.label}
-                                >
-                                  <Icon size={12} />
-                                  <span className="hidden sm:inline">{btn.label}</span>
-                                </Link>
-                              );
-                            })}
-                          </div>
-                        </td>
-                      </tr>
-                    );
-                  })}
+                        ) : (
+                          <span className="text-slate-300">—</span>
+                        )}
+                      </td>
+                      <td className="px-4 py-3">
+                        <span className="font-mono text-xs text-slate-400">
+                          {p.semi_product_code || "—"}
+                        </span>
+                      </td>
+                      <td className="px-4 py-3 text-xs text-slate-500">
+                        {p.created_date || "—"}
+                      </td>
+                      <td className="px-4 py-3 text-center">
+                        <Link
+                          href={`/products/${encodeURIComponent(p.product_code)}/docs/standard`}
+                          className="inline-flex items-center gap-1 px-2.5 py-1.5 bg-amber-50 text-amber-600 hover:bg-amber-100 text-xs rounded transition-colors"
+                          title="제품표준서 보기"
+                        >
+                          <FileText size={14} />
+                          <span className="hidden sm:inline">표준서</span>
+                        </Link>
+                      </td>
+                    </tr>
+                  ))}
                 </tbody>
               </table>
             </div>
